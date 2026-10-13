@@ -8,6 +8,7 @@ invalidated_by: Removal of asset-level click and conversion reporting; change to
 ---
 ## What this is
 A monthly, impression-budgeted loop for iterating RSA copy. It replaces "pause Low assets, write new ones" — which depended on the Low/Good/Best labels Google deprecated in 2025 — with three rules: decide whether an ad group has enough data to be read at all, judge on conversions per impression rather than CTR, and learn messaging patterns across many ad groups instead of one.
+See also: skill 82 (statistical-significance-ad-tests) — the per-ad minimum-data floors, confidence ladder and stop rule for calling an RSA or landing-page test.
 
 ## Where it comes from
 Brad Geddes / Adalysis (2022 testing method and combinatorial maths; 2026 cross-ad-group pattern method and the Adalysis testing checklist), Frederick Vallaeys / Optmyzr (2021 conversions-per-impression rule and asset-replacement thresholds; 2026 ~20,000-account creative study), Navah Hopkins / Optmyzr (2024 1M-ad study). Platform facts from Google Ads Help and the API docs, labelled.

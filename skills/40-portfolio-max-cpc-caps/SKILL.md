@@ -8,6 +8,8 @@ invalidated_by: Google adding bid limits to standard (non-portfolio) strategies,
 ---
 ## What this is
 A max CPC bid limit only exists on a *portfolio* bid strategy, not on campaign-level tCPA/tROAS (Google Ads Help, 2026), so practitioners wrap a single campaign in a one-campaign portfolio purely to unlock the ceiling (Bharadwaj/Optmyzr, 2025; Carroll/KlientBoost, 2023). The cap matters in one situation: when ROAS is above target and budget is unspent, tROAS keeps raising max CPC by design (Rooijmans, 2021/2024). Since 17 Aug 2026, budget-limited tCPA/tROAS campaigns are no longer bid-suppressed to ration budget — they bid to the stated target — and median CPCs on budget-limited tROAS campaigns rose 15.8% in the first weeks (Ryan/Smarter Ecommerce, 2026). That is now the most common reason this skill gets pulled.
+See also: skill 9 (micro-campaign-consolidation) — the same percentile cap used as part of the low-volume merge-pool-cap repair and its scale gate.
+See also: skill 46 (bid-simulator-target-too-aggressive) — diagnosing whether a volume drop is a target problem at all, the gap taxonomy and the IS signature.
 
 ## Where it comes from
 Hopkins' 14,584-account study (2024) is the only cross-account evidence on caps. Rooijmans (2021/2024; 2026 AMA) gives the mechanism, the single-campaign-portfolio trick and the percentile cap rule; Bharadwaj (2025) portfolio hygiene; Carroll/KlientBoost (2023, added Tier 2) the 25%-over-CPC fallback with five uncontrolled before/afters; Vallaeys (2026) and Ryan (2026) the Aug 2026 change.

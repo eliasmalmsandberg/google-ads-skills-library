@@ -8,6 +8,8 @@ invalidated_by: Further privacy-thresholding of search_term_view; Google applyin
 ---
 ## What this is
 A weekly script that lists search terms from the last 90 days (ending yesterday) with more than 60 clicks, more than 5 in cost and fewer than 0.5 conversions, across enabled campaigns and ad groups including Shopping, skipping any term already blocked by an ad-group, campaign or active shared negative, and emails the list with a sheet link (Rooijmans, 2024). It suggests; it does not add (Rooijmans, 2024). The PMax sibling applies 100 clicks / 90 days / 0.5 conversions to `campaign_search_term_insight` terms (Rooijmans, 2024). Rhodes's keyword-vs-search script supplies the comparison view: 90 days of keyword, search-term and DSA views plus weekly averages, so you can see which keywords the junk terms came from (Rhodes, 2024).
+See also: skill 10 (n-gram-analysis) — the monthly n-gram pass that replaces term-level negatives with root negatives once three terms share a word.
+See also: skill 57 (pmax-search-terms-insights) — the PMax search-terms data model and the monthly mining pass the PMax sibling script feeds.
 
 ## Where it comes from
 Rooijmans's two scripts and their thresholds (2024, maintained 2025), his soft-conversion variant with Neefischer (2023), Brainlabs's phrase-negative rule from n-grams (Gilbert/Brainlabs, 2015), and Vallaeys's automation-layering framing: alert or auto-negative on top of Google's matching, human in charge (Vallaeys, 2020).

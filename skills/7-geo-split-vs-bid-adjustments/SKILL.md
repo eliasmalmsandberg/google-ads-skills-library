@@ -8,6 +8,7 @@ invalidated_by: Google re-enabling location bid adjustments under Smart Bidding;
 ---
 ## What this is
 Under Target CPA, Target ROAS, Maximize Conversions and Maximize Conversion Value, location bid adjustments are not used at all — Google's own help page says they "won't be supported"; only Maximize Clicks and manual bidding use them (Google Ads Help, answer 2732132, 2026). So on any Smart Bidding campaign the geo choice is binary: a geo is either in the campaign at the bidder's discretion, or it has its own campaign with its own budget, target and message. This skill is the rule for which.
+See also: skill 87 (location-options-presence) — the Presence versus Presence-or-interest decision in full, with the user-location CPA test that earns the exception.
 
 ## Where it comes from
 Geddes's two models (campaign per location vs one campaign with ad customizers) and his "new campaign for a different geo or budget control" rule (Adalysis, 2020); Vallaeys/Walker's campaign-split conditions, 30-conversion floor and "target explicitly, don't observe" position (Optmyzr Town Hall, 2025); Optmyzr's 50-conversion finding (Hopkins, 2024); Rooijmans's "Presence" setting (2026).

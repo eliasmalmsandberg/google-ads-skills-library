@@ -8,6 +8,7 @@ invalidated_by: Google removing the "Presence" targeting option (as it removed "
 ---
 ## What this is
 The rule for the one campaign setting Google hides under "Location options": whether ads serve to people *in* the target area (Presence) or also to anyone anywhere who has *shown interest* in it (Presence-or-interest, the default). Epiminds sets Presence on every campaign unless a user-location CPA test earns the exception.
+See also: skill 7 (geo-split-vs-bid-adjustments) — whether a geo gets its own campaign or stays in a shared one, and the 30/50 conversion volume test.
 
 ## Where it comes from
 Nils Rooijmans' takeover checklist and his matched-vs-user-location posts (2024, 2026); Brad Geddes / Adalysis on when interest targeting is right and the CPA test that decides it (2021); Optmyzr's "check value before you exclude" rule (2025); Brainlabs' worldwide-targeting audit script (Gilbert, SEL). Google Help and the Ads API blog for what the options are since April 2023.

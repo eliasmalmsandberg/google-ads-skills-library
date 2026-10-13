@@ -8,6 +8,7 @@ invalidated_by: Google changing the misrepresentation warning windows (7/28 days
 ---
 ## What this is
 A detection-plus-triage routine. Detection runs daily by script and is weighted by clicks, because the loss is not "some products are disapproved" but "the products that were earning are disapproved and nobody noticed" — Rooijmans has seen clients lose more than 10% of Shopping performance to disapprovals unnoticed for weeks or months (Rooijmans, 2022). Triage runs weekly and works from the specific flagged items to the general cause, never the other way round (Williams/ZATO, 2024).
+See also: skill 75 (ad-disapproval-alert-script) — the Disapproved Products script alongside the ad-policy scripts, with the policy-vertical cadence.
 
 ## Where it comes from
 Nils Rooijmans' disapproved-products alert, PMax Shopping spend-drop alert and hourly feed-fetch scripts (Rooijmans, 2022–2024); Kirk Williams' tax-suspension, site-migration and `id` posts (ZATO, 2024–2026); ZATO's PMax audit order and product-diagnostics notes (Talhelm/ZATO, 2026; Vlietstra/ZATO, 2026). Google's automatic item updates, misrepresentation and identifier pages supply only the platform timers and triggers.

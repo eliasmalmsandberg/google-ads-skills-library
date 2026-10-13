@@ -8,6 +8,7 @@ invalidated_by: Google changing the multiplier range (0.5–10×), the two-dimen
 ---
 ## What this is
 A value rule multiplies or adds to the conversion value Google records when a conversion matches a geo, device or audience condition. Under tROAS, bid is proportional to predicted value, so a 2× rule is effectively a 2× bid adjustment — $5 becomes $10 at a 200% target (Vallaeys/Optmyzr, 2021). That makes it the only "bid adjustment" that still works under Smart Bidding, and also the main way it gets misused: encoding a conversion-rate difference Google already learned from your tracking stacks the adjustment and bids wrong (Vallaeys/Optmyzr, 2021). The practitioners who've written on it agree the benefit is limited and the qualifying test is simple — the rule must carry information Google doesn't have (Vallaeys/Optmyzr, 2021; Vlietstra/ZATO, 2026).
+See also: skill 42 (value-based-bidding-lead-gen) — building the proxy value ladder for lead gen and moving to Max Conversion Value / tROAS.
 
 ## Where it comes from
 Vallaeys (2021) is the mechanism and the stacking warning; Vlietstra/ZATO (2026) the current-UI method, the demotion use and the reporting columns; Google API docs (2026) the precedence and limits. No one in the canon has published account results for value rules — this skill is a method, not a study.

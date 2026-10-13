@@ -8,6 +8,7 @@ invalidated_by: Google applying close variants to negative keywords; removal of 
 ---
 ## What this is
 A daily script that lists every enabled keyword in a serving campaign that is blocked by an ad-group negative, a campaign negative or an active shared list, with the level and the blocking negative, written to a sheet and emailed (Rooijmans, 2023). It is Google's solution script with one change that matters: `campaign.serving_status = "SERVING"` added to the keyword query, because Google's original also reports keywords in ended campaigns — a "major drawback" that makes people ignore the alerts (Rooijmans, 2023). The blocking rules it applies: a broad negative blocks when all its tokens appear in the keyword in any order; a phrase negative when its words appear contiguously in order; an exact negative only on identical text; broad positives can only be blocked by broad negatives, phrase positives by broad or phrase, exact positives by any (Rooijmans, 2023).
+See also: skill 21 (negative-keyword-conflict-detection) — the conflict method itself: match-type logic, impact ranking and the which-side-is-wrong triage.
 
 ## Where it comes from
 Rooijmans's fork and settings (2023, maintained 2025). The same matching logic appears in his negative-suggestions script (2024) and in Brainlabs's n-gram `checkNegatives` option (Gilbert/Brainlabs, 2015). The reason the script is not enough on its own is Rhodes's documented case: a "smart" new negative list blocked the brand and most converting terms until someone noticed the conversion drop (Rhodes, 2025).

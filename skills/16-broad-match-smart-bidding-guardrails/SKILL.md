@@ -8,6 +8,7 @@ invalidated_by: Google removing phrase or exact match or folding Search into AI 
 ---
 ## What this is
 A gated rollout for broad match. The gate exists because the only cross-account evidence in the canon says broad is winning budget, not performance: across 30,000 accounts in February 2026, exact match led on efficiency in every non-brand segment, phrase carried the largest non-brand spend share and out-converted it, and broad generated the most volume while overspending on traffic that did not convert; in lead gen broad lost the most ground, which Vallaeys attributes to Smart Bidding having no conversion value to steer by (Vallaeys/Optmyzr, 2026). Across thousands of accounts, CTR and CVR rank exact > phrase > broad outside brand (Geddes/Adalysis, 2024). Broad's rise in spend share — exact down roughly 10 points since 2022 — reflects comfort with automation rather than results (Vallaeys/Optmyzr, 2026).
+See also: skill 76 (search-term-wasted-spend-script) — the weekly negative-candidate script named in the guardrails, with its install and classification rules.
 
 ## Where it comes from
 Vallaeys' 30k-account match-type study and his 14k-account Smart Bidding threshold (Optmyzr, 2026 ×2); Geddes' pre-broad checklist and CTR/impression-share mechanics (Adalysis, 2024, 2019); Hopkins' isolated-ad-group test design (SEJ, 2020, 2024); Rooijmans' negative automation (2024); McNair's broad-by-default dissent (PPC Mastery, 2026).

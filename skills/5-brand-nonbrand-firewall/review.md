@@ -1,18 +1,18 @@
 # Review — 5 brand-nonbrand-firewall
 **Verdict: PASS**
 **Reviewed:** 2026-10-13 (blind: rubric.md + canon.md + SKILL.md only)
-Pass 2
+Pass 3 (post-overlap edits)
 
 | Line | Holds? | Note |
 |---|---|---|
-| 1 Not default knowledge | yes | Low-priority brand Shopping with three leak conditions, typo leakage past PMax brand exclusions, CONTAINS match logic, impression-share bidding on brand. |
-| 2 Takes a position | yes | Three disagreements resolved. |
-| 3 Contradicts Google | yes | Brand lists demoted under negatives; tROAS on brand rejected. |
-| 4 Concrete | yes | Pass-1 gaps fixed: the leakage cadence is now labelled an Epiminds operating cadence with its reasoning anchored to Rooijmans (2025); the "zero" target is labelled and justified as definitional. |
-| 5 Failure modes | yes | Six, specific to verticals and setups. |
-| 6 Operator-ready | yes | Numbered steps with conditions and output. |
-| 7 Dated | yes | Years given; undated sources flagged. |
-| 8 Dossier-bound (attributed) | yes | Generic-word-brand and reseller rules are now explicitly labelled Epiminds-derived with the reasoning and the Rooijmans method they derive from; no unlabelled material claims remain. |
+| 1 Not default knowledge | yes | Rooijmans Shopping priority conditions, cross-campaign rotation, smec CONTAINS logic, Humphrey case numbers |
+| 2 Takes a position | yes | Negatives first, brand lists second; Rooijmans's side for Shopping negatives; tIS on brand with a CPC cap |
+| 3 Contradicts Google | yes | Treats brand exclusions/inclusions as a leaky second layer; rejects tROAS on brand |
+| 4 Concrete | yes | 20%/30%/10% thresholds via skill 55, 100-negative cap (SEL), >90% blank non-brand (smec); Epiminds cadence/rules labelled with reasons |
+| 5 Failure modes | yes | Generic-word brands, budget-capped non-brand, mixed product sets, blended-ROAS clients, resellers |
+| 6 Operator-ready | yes | Eight numbered steps with the three Shopping conditions explicit; output defined |
+| 7 Dated | yes | last_verified, invalidated_by, source years |
+| 8 Dossier-bound (attributed) | yes | Non-canon JumpFly/Humphrey flagged; Epiminds-derived rules labelled |
 
 ## Failing lines (if FAIL)
-- none
+- None.

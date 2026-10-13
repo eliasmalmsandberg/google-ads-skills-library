@@ -8,6 +8,8 @@ invalidated_by: Changes to Google's brand list / brand exclusion features; trade
 ---
 ## What this is
 Two decisions. First, competitor intent is excluded from every generic campaign by default, with phrase negatives in a shared list updated from search terms, because competitor clicks show deceptively low CPCs and convert worse, and because they distort the generic campaign's data (Hopkins/SEJ, 2025; Hopkins/SEJ, 2019). Second, conquesting is a deliberate, isolated test with its own budget, goal and kill rule — not a bolt-on ad group. The canon is honest about what it lacks: no Tier 1 source has published account data on conquesting CPA versus generic CPA; the "converts worse" claim is practitioner assertion (Hopkins/SEJ, 2025). The method therefore treats conquesting as an experiment that must prove itself.
+See also: skill 5 (brand-nonbrand-firewall) — the shared competitor negative list as one layer of the account-wide brand/non-brand firewall.
+See also: skill 45 (target-impression-share-brand-defence) — defending your own brand against conquesting competitors: capped tIS, the competitor-overlap test and the incrementality check.
 
 ## Where it comes from
 Navah Hopkins' competitor-term and bid-cap columns (SEJ, 2025, 2022, 2019) and her PMax brand-exclusion note (Optmyzr, 2026); Brad Geddes' Auction Insights method for reading rivals (Adalysis, 2019) and his brand-defence numbers (Adalysis, 2024); Vallaeys' Smart Bidding data threshold and manual-CPC note (Optmyzr, 2026).

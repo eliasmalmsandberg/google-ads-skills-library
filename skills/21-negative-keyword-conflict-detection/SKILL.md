@@ -8,6 +8,7 @@ invalidated_by: Negatives starting to match close variants or synonyms (changes 
 ---
 ## What this is
 A conflict is a negative keyword blocking an active keyword you want to run (Geddes/Adalysis, 2017). They are common in any account with more than one negative list — Geddes has never seen an account with two lists that had none (Adalysis, 2019) — and Google's own conflict recommendation misses many because it ignores shared lists and match types (Geddes/Adalysis, 2017, 2022). The check is a literal-text comparison of every enabled keyword against every negative at ad-group, campaign and shared-list level, applying the negative's match-type logic (Rooijmans, 2023), followed by a triage of which side to fix.
+See also: skill 74 (negative-keyword-conflict-script) — installing and triaging Rooijmans's v2.1.1 fork of the conflict script and pairing it with the conversion watchdog.
 
 ## Where it comes from
 Nils Rooijmans' fork of Google's Negative Keyword Conflicts script, with its matching logic and the fix for false alerts from ended campaigns (2023, maintained 2025); Brad Geddes' conflict diagnosis and common-cause posts (Adalysis, 2017 ×2, 2019, 2022); Navah Hopkins on negatives and close variants (SEJ, 2020).

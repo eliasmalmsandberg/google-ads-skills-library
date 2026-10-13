@@ -8,6 +8,8 @@ invalidated_by: Removal of match types (AI Max replacing keywords); budgets/targ
 ---
 ## What this is
 A gate, then a wiring diagram. The gate: match types get their own campaigns only when you need a different budget or a different bid method per match type (Geddes/Adalysis, 2020); any other reason is a reason to keep them in one ad group. The wiring: the exact campaign takes the maximum budget, the phrase campaign carries the exact keywords as exact negatives, broad carries both exact and phrase keywords as negatives and is the budget lever you throttle to hit targets (Geddes, 2020).
+See also: skill 1 (alpha-beta-structure) — the harvesting flow that moves converting beta terms into the exact tier.
+See also: skill 13 (keyword-funnelling-tiered-negatives) — Hopkins's case against three parallel match-type campaigns and the two-tier alternative.
 
 ## Where it comes from
 Geddes's campaign-level match-type approach and his observation of cross-campaign rotation (Adalysis, 2020); the Optmyzr 2,637-account study that exact still outperforms broad on CPA/ROAS in most accounts (Hopkins, 2023); Vallaeys/Walker's split rule and 30-conversion floor (Optmyzr Town Hall, 2025); Bacchini/Lolk on what close variants did to phrase (Optmyzr Town Hall, 2025).

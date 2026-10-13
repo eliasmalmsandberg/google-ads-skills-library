@@ -8,6 +8,7 @@ invalidated_by: Custom experiments extended to Shopping/PMax and shared budgets;
 ---
 ## What this is
 There is no universally best bidding strategy — across 14,584 accounts the winner depended on execution and conversion volume, and 48% of advertisers already run more than one strategy in an account (Hopkins/Optmyzr, 2024). So strategy choice is tested, not assumed. The question is the vehicle. Google's custom experiment is the default; a mirror campaign is the fallback only where the tool cannot run; a scoped before/after inside one campaign is the canon's preferred way to test campaign-level automation when neither fits (Geddes/Adalysis, 2026).
+See also: skill 79 (custom-experiments) — custom-experiment mechanics in detail: duration from conversion lag, split, freeze, the 95% read and the directional-apply rule.
 
 ## Where it comes from
 Optmyzr's bidding study for the volume floor, stabilisation window and "no best strategy" finding (Hopkins, 2024, reported in Search Engine Land 2024); Geddes's scoped-test design for AI Max and his "combine across units" testing principle (Adalysis, 2026, two posts); Vallaeys/Walker's 30-per-campaign floor (Optmyzr Town Hall, 2025); Google's experiment mechanics (answer 6261395); Lolk's warning on split-campaign data loss (Optmyzr Town Hall, 2025, not canon) and Adchieve's note that structure changes cannot be tested in the tool (2021, vendor).

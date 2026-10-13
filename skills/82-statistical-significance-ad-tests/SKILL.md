@@ -8,6 +8,8 @@ invalidated_by: Google removing "Do not optimize" rotation entirely; changes to 
 ---
 ## What this is
 The decision rules Epiminds uses to declare an ad or landing-page test won, lost, or abandoned. Position: conversions per impression (CPI) is the winner metric, CPA/ROAS are filters, per-ad minimum data must be met before confidence is even read, and no test is called below 90%. An RSA test is a test between pinned designs; "let Google pick" is not a test that can be called in a normal ad group.
+See also: skill 22 (rsa-iteration-loop) — the monthly RSA iteration loop and the combination data budget that decides whether an ad group can be read at all.
+See also: skill 89 (ad-rotation-smart-bidding) — the rotation setting itself and how Optimize serving under Smart Bidding skews ad tests.
 
 ## Where it comes from
 Adalysis' Ad Testing Guide (minimum data per ad by traffic tier, confidence ladder by keyword type, 10×/3-month stop rule, CPI over CTR) (Adalysis, 2026); Geddes on RSA combination arithmetic and the five RSA test designs (Geddes/Adalysis, 2022); Geddes' evidence that Optimize rotation starves the best-CPI ad (Geddes/Adalysis, 2018); Geddes' 5,900-account pinning study (Geddes/Adalysis, 2026); Hopkins' 22k-account Ad Strength study (Hopkins/Optmyzr, 2024).
@@ -27,7 +29,7 @@ Do not use to compare ads that were not live in the same window (serving and auc
 ## Method
 1. **Design the test so it can be called.**
    - Two to three RSAs per ad group, never five or more (serving becomes effectively random; Adalysis, 2026; Geddes/Adalysis, 2018).
-   - Pin. An unpinned 15-headline RSA has 2,940 headline pairs, ×12 with four descriptions; at even 100 impressions per combination — "not enough most of the time" — that is >294,000 impressions before one ad is readable (Geddes/Adalysis, 2022). Epiminds default: all three headline positions pinned with 1–2 assets each, so the test is between pinned designs. Pinning all three raises data density and, in the 5,900-account study, the 3-pin group had a markedly higher conversion rate (Geddes/Adalysis, 2026).
+   - Pin. An unpinned 15-headline RSA has 2,940 headline pairs, ×12 with four descriptions; at even 100 impressions per combination — "not enough most of the time" — that is >294,000 impressions before one ad is readable (Geddes/Adalysis, 2022). Epiminds default: all three headline positions pinned with 2–3 assets each, never one — a single pinned text had the biggest negative impact on CTR, CPC and CPA (Vallaeys/Optmyzr, 2021; skill 24) — so the test is between pinned designs. Pinning all three raises data density and, in the 5,900-account study, the 3-pin group had a markedly higher conversion rate (Geddes/Adalysis, 2026).
    - Landing-page tests: identical ads, different final URLs; metric is conversion rate (Adalysis, 2026).
 2. **Set rotation.** Manual CPC / Maximize Clicks / script-managed bids → "Do not optimize" (Adalysis, 2026). Under Smart Bidding, Optimize is forced; expect the highest-CTR ad to be served ~3× as often as the best-converting ad and a worse ad to collect up to ~20× the impressions of the best-CPI ad (Geddes/Adalysis, 2018). Compensate by (a) running only two ads and (b) reading per-ad minimums, not test totals.
 3. **Do not read until every ad clears the floor** (impressions / clicks / conversions, per ad):

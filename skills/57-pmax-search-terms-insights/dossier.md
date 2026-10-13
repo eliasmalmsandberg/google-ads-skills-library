@@ -42,3 +42,5 @@ Read `google-ads-keyword-cannibalization` (mentions "Search Insights in PMax" on
 
 ## Invalidated by
 Google adding cost to term-level PMax reporting, removing the search terms report or the `campaign_search_term_insight` resource, allowing asset-group-level negatives, or changing the privacy threshold that creates the Blank bucket.
+
+- Review fix (pass 3, 2026-10-13): the +14-day launch check and the 30-day CVR read window are Epiminds operating cadences with no canon source; labelled as such in SKILL.md.

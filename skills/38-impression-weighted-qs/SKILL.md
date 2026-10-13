@@ -8,6 +8,7 @@ invalidated_by: Google publishing a native weighted account-level quality metric
 ---
 ## What this is
 The rule that the only account-level QS number Epiminds reports is the impression-weighted one, with a defined weighting basis, a null rule, a noise band and a work-queue rule. The simple average of keyword QS is misleading: a QS 1 keyword with one impression next to a QS 10 keyword with 10,000 impressions averages 5.5 but the traffic experiences a 10 (Geddes/Adalysis, 2017). Weighting by impressions shows "which QS levels actually receive traffic, since low-QS keywords with few impressions matter less" (Vallaeys/Optmyzr, 2015).
+See also: skill 37 (qs-tracker-script) — the daily script that produces the series this skill reads.
 
 ## Where it comes from
 Geddes's impression-weighted aggregation and spend-ranked ad-group priority (Adalysis, 2017). Vallaeys's diagnostic sequence and the ±0.2 normal-movement band observed across accounts (Optmyzr, 2015) and his case for ad-group aggregation (Optmyzr, 2017). Optmyzr's published tracker formula — weighted by Google Search impressions on all devices, null = 6, components 2/6/10, ad groups QS < 6 with cost > 0 (Optmyzr help, current). Parker's dual-line (weighted vs keyword-count) chart (SEL, c.2019). Levy's trend-not-snapshot rule (Optmyzr, 2026). Hopkins's noise bands (SEL, 2023).

@@ -8,6 +8,7 @@ invalidated_by: Removal or quota reduction of UrlFetchApp in Scripts; Google mak
 ---
 ## What this is
 Two scripts on one schedule. Google's Link Checker solution (reference) fetches every final URL on enabled ads, keywords and sitelinks, treats HTTP ≥400 and exceptions as broken, keeps its progress in a spreadsheet so it can resume across 30-minute runs, and emails a summary [Google docs, unverified]. Rooijmans's Check-for-Redirects script fetches the same URL set with redirect-following switched off so the first status code is captured, flags 301/302/303/307/308 and any fetch exception, requests each unique URL once per run, writes a "Redirect Report" tab with 30-day clicks per ad and keyword, and emails when at least one is found (Rooijmans, undated script page). Google's checker does not catch redirects (Rooijmans, undated).
+See also: skill 61 (pmax-url-expansion) — the Final URL expansion setting that creates the expanded landing pages this checker must cover.
 
 ## Where it comes from
 Rooijmans's redirect script and his two method posts: why redirects matter (dropped tracking parameters, slower pages, cross-domain analytics breaks — Rooijmans, 2023) and why link checkers lie with 403s (User-Agent, IP allow-lists, auth, rate limits — Rooijmans, 2023). Rhodes's free landing-page script shows where PMax sends traffic (`landing_page_view.unexpanded_final_url`, PMax, 30 days, >30 impressions), which is the URL set a checker must cover when final URL expansion is on (Rhodes, 2024).

@@ -8,6 +8,7 @@ invalidated_by: Google changing the 5-label or 1,000-value caps, removing custom
 ---
 ## What this is
 A decision procedure for assigning the five `custom_label` slots and turning them into bidding tiers. The point is to give Smart Bidding information it does not have — margin, stock depth, season — because, as Optmyzr puts it, Smart Bidding "has no idea" whether a conversion was profitable and ROAS "hides profit" (Optmyzr/Tran-Van & Vallaeys, 2025). Kirk Williams' position is that after Google stripped most manual Shopping levers, labels are "one of the main remaining ways to direct budget and aggression" in PMax (Williams/ZATO, 2026).
+See also: skill 69 (pmax-insights-script) — the six-bucket product matrix and its supplemental-feed export.
 
 ## Where it comes from
 Fred Vallaeys' original label method (coarse, equal-sized margin tiers; report first, restructure second) (Vallaeys/PPC Hero, 2015); Optmyzr's "truth data" play with named labels and budget rules (Optmyzr, 2025); Kirk Williams' feed-first and feed-optimisation posts (ZATO, 2026); Mike Rhodes' cost×ROAS six-bucket product matrix and its supplemental-feed export (Rhodes, 2026); Nils Rooijmans on the low-volume-SKU script (Rooijmans, 2022); Reinhard Einwagner on labels as experiments and label historicisation (smec/PPC Hero, 2017).

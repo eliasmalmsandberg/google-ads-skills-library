@@ -8,6 +8,7 @@ invalidated_by: Google changing the simulator data window or availability rules,
 ---
 ## What this is
 "Target too aggressive" is the default diagnosis for any volume drop, and the default fix is "raise it 10–15%". Half the time the target is fine and the drop is a stockout, a tracking break or lag (Williams/ZATO, 2026; Vallaeys/Optmyzr, 2026). The other half, the usual fix is also wrong since 17 Aug 2026: budget-limited campaigns now bid to the stated target instead of rationing, so a target moved to "current actual" buys more expensive clicks, not more volume — one documented account went from 20–30 leads a month to 6 in two weeks at full spend (Rooijmans, 2026). The simulator, meanwhile, is unavailable on exactly the campaigns in question: it uses the last 7 days and won't show for a campaign that hit its daily budget even once in that window (Google Ads Help, 2026).
+See also: skill 84 (impression-share-decomposition) — the lost-impression-share decomposition and its post-Aug-2026 artefact check.
 
 ## Where it comes from
 Vallaeys (2026) supplies the gap taxonomy and the date-matched baseline; Williams (2026) the six non-bidding checks; Rooijmans (2026) the post-change counterexample and the cap-plus-target fix; Geddes (2026) the underspend causes; Hopkins (2024) the ±10% and settle-time rules; Ryan (2026) the post-change IS signature; Google docs for the simulator's limits.

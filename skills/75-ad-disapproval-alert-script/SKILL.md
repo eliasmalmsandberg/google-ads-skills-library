@@ -8,6 +8,7 @@ invalidated_by: Changes to ad_group_ad.policy_summary fields or policy topic nam
 ---
 ## What this is
 Three scripts. (1) Disapproved Ads: GAQL on `ad_group_ad` where `policy_summary.approval_status = DISAPPROVED`, campaign enabled and not ended, ad group and ad enabled, date TODAY; writes campaign, ad group, ad ID, ad type, status and the policy topics as a "Disapproval Reason"; emails only when at least one is found (Rooijmans, 2020; v2.0 2022). (2) Past Violations: same query, keeps ads whose policy topic contains "STALE" — ads Google leaves disapproved after the policy no longer applies, a status that "generates no notification" and yields zero impressions until appealed (Rooijmans, 2022). (3) Disapproved Products: products with clicks in the last 30 days whose Merchant Center "Shopping" destination status is disapproved, with the first issue, fix and documentation link, sorted by clicks (Rooijmans, 2022).
+See also: skill 67 (merchant-center-diagnostics) — mapping disapproval patterns to causes, the suspension timers and migration pre-emption.
 
 ## Where it comes from
 Rooijmans's three scripts (2020–2022, maintained 2025) and his own cases: a 2019 wave of "Malicious or unwanted software" disapprovals across accounts with no malware, three weeks and many support contacts to clear (Rooijmans, 2020); product disapprovals that "go unnoticed for weeks or even months" (Rooijmans, 2022). The change-history script (Rooijmans, 2023) is the companion for finding what triggered a wave.

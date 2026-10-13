@@ -8,6 +8,7 @@ invalidated_by: A change to the 540-day auto-detection window; removal of the Or
 ---
 ## What this is
 The customer acquisition goal has a definition problem and a reporting problem. Definition: "new" means a purchaser with no tracked conversion in the last 540 days, not a new visitor and not someone outside your remarketing lists (Williams/ZATO, 2021/2026) [Google docs]. Reporting: in the default "bid higher" mode the premium you assign is added to Conv. value — a $100 sale with a $50 premium reports $150 — so ROAS rises on invented revenue (Williams/ZATO, 2021/2026). This skill is the rule for using the goal without either problem reaching the client's numbers.
+See also: skill 51 (customer-match-signal-vs-target) — building and refreshing the existing-customer Customer Match list that defines "new".
 
 ## Where it comes from
 Kirk Williams (ZATO, 2021 updated 2026; 2026 settings post; 2023 structures) for the mechanics and the position; PPC Mastery (McNair, 2026) for the nCAC/LTV frame that justifies paying more for new customers; Fred Vallaeys (Optmyzr, 2026) for value-integrity rules; Google's lifecycle docs for current behaviour.

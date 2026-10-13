@@ -8,6 +8,8 @@ invalidated_by: Google removing the account-level "Use all Customer Match lists 
 ---
 ## What this is
 A monthly decision procedure for accounts that already hold first-party lists. Since Q2 2022 (Search since Q3 2023, Shopping since Q1 2024) every Customer Match list in the account is a Smart Bidding signal whether or not you apply it [Google docs]. "Applying" a list therefore means one of two deliberate things: an exclusion, or a reach restriction. This skill decides which lists get which job and how often each is rebuilt.
+See also: skill 50 (rlsa-layering-smart-bidding) — remarketing lists on Search: observe, target or exclude, and the one legitimate value-rule use.
+See also: skill 52 (b2b-audience-exclusions) — B2B demographic and in-market exclusions beyond first-party lists.
 
 ## Where it comes from
 Andrea Cruz (Search Engine Land, 2026) on first-party data outranking the query and on the B2B match-rate problem; Fred Vallaeys (Optmyzr PPC Town Hall, 2026) on the 90-day GCLID limit and the two-week proxy-signal rule; Navah Hopkins (Search Engine Land, 2022 and 2023) on match rates, CRM sync and the exclude-or-go-manual rule; Miles McNair (PPC Mastery, 2026) on bid adjustments being ignored under Smart Bidding; ZATO (Vlietstra 2026, Williams 2026) on which lists to exclude and when not to. Platform limits from Google Ads Help, labelled.

@@ -8,6 +8,8 @@ invalidated_by: Further cuts to search terms report visibility; negative keyword
 ---
 ## What this is
 Aggregate every search term into its 1-, 2- and 3-word fragments and read performance at the fragment level. An account with ~1M search terms collapses to 30–50k n-grams (Geddes/Adalysis, 2025), and patterns that never clear a term-level threshold become obvious: "wine" sat inside 99 different queries with one conversion at a very high CPA, no single query above 60 clicks, and could be fixed with one negative instead of 99 (Geddes/Adalysis, 2017). The output is a short list of root negatives, a short list of new ad group themes, and a list of intent words that change CPA enough to deserve their own keywords.
+See also: skill 70 (n-gram-script) — installing and configuring the Brainlabs/Rooijmans n-gram script and Rhodes's PMax nGram variant.
+See also: skill 76 (search-term-wasted-spend-script) — the weekly term-level review this skill delegates to: Rooijmans's Negative Keyword Suggestions script and its 60-click/5-cost/0.5-conversion floor.
 
 ## Where it comes from
 Brad Geddes' n-gram posts (Adalysis, 2016, 2017, 2021, 2025) supply the thresholds and the decision rules; the Brainlabs Search Query Mining script as republished by Nils Rooijmans (2022, maintained 2025) supplies the free implementation and its defaults; Rooijmans' Negative Keyword Suggestions script (2024) supplies the term-level review thresholds; Navah Hopkins (SEJ, 2022) supplies the negative match-type rule; Optmyzr (2026) supplies the warning about the cost of a wrong negative.

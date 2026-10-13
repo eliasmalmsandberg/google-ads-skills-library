@@ -1,19 +1,21 @@
 ---
 name: keyword-funnelling-tiered-negatives
 id: 13
-description: How to run a managed/discovery (alpha/beta) two-tier structure where exact keywords live in a managed campaign and phrase/broad discovery is funnelled by exact negatives, including the promotion rule and the low-volume trap. Use when building a new Search structure with discovery. Not for fixing ad-hoc overlap in an existing account (skill 12) and not a three-tier exact/phrase/broad campaign split, which Epiminds does not build.
+description: How to run a managed/discovery (alpha/beta) two-tier structure where exact keywords live in a managed campaign and phrase/broad discovery is funnelled by exact negatives, including the promotion rule and the low-volume trap. Use when building a new Search structure with discovery. Not for fixing ad-hoc overlap in an existing account (skill 12) and not a three-tier exact/phrase/broad campaign split, which Epiminds builds only when skill 4's budget/bid-method gate passes.
 tags: Technique / Search / Setup / Established / One-off
 last_verified: 2026-10-13
 invalidated_by: Keyword prioritisation changes removing identical-exact priority; negatives matching close variants; retirement of exact or phrase match; changes to the low-search-volume threshold or the 13-month zero-impression auto-pause.
 ---
 ## What this is
 A two-campaign structure: a managed campaign holding exact keywords with their own budget and bids, and a discovery campaign on phrase (or gated broad) that funnels proven queries upward. Deterministic routing comes from two things working together: an identical exact keyword in the managed campaign, which Google sets aside before phrase/broad/PMax get the query (Google docs, 2026), and an exact negative for the same query in the discovery campaign so the query cannot stay there (Geddes/Adalysis, 2016). The promotion rule, not the structure, is what makes it work: a query moves up only when it has ≥ 35 impressions and ≥ 2 conversions a month for 3 consecutive months, because anything below ~35 impressions/month goes "low search volume" in the managed campaign and is then blocked in both (Geddes/Adalysis, 2016).
+See also: skill 1 (alpha-beta-structure) — the same two-tier alpha/beta structure with Rooijmans's CPC-percentile screen, the budget and bid-method split and the scale gate.
+See also: skill 4 (match-type-split-campaigns) — when a budget or bid-method reason justifies separate match-type campaigns despite the maintenance cost.
 
 ## Where it comes from
 Brad Geddes' alpha/beta workflow and his later keyword-serving observations (Adalysis, 2016, 2021, 2024); Navah Hopkins' argument against match-type-split campaigns (SEJ, 2020); Vallaeys' 30k-account evidence that exact is the efficiency tier and phrase the workhorse (Optmyzr, 2026).
 
 ## When to use it / when not to
-Use for small and mid-size accounts (Geddes/Adalysis, 2016) building a Search structure where discovery is needed and the top terms deserve their own budget. Do not use at enterprise scale with potentially millions of keywords — the promotion workflow does not scale (Geddes/Adalysis, 2016). Do not build three parallel match-type campaigns: close variants apply to every match type, negatives do not follow variants, each campaign is another budget and rarely supports more than 5–7 ad groups, and the negative count eats the 10,000-per-campaign limit (Hopkins/SEJ, 2020). Do not use if the account cannot sustain a monthly promotion routine; an unmaintained tier structure is worse than one campaign.
+Use for small and mid-size accounts (Geddes/Adalysis, 2016) building a Search structure where discovery is needed and the top terms deserve their own budget. Do not use at enterprise scale with potentially millions of keywords — the promotion workflow does not scale (Geddes/Adalysis, 2016). Do not build three parallel match-type campaigns by default — only when skill 4's gate (a budget or bid-method reason per match type, and ≥30 conversions/30 days per campaign; Geddes/Adalysis, 2020; Vallaeys/Walker, 2025) passes — because close variants apply to every match type, negatives do not follow variants, each campaign is another budget and rarely supports more than 5–7 ad groups, and the negative count eats the 10,000-per-campaign limit (Hopkins/SEJ, 2020). Do not use if the account cannot sustain a monthly promotion routine; an unmaintained tier structure is worse than one campaign.
 
 ## Inputs
 - Current keyword list with match types and 90-day performance.

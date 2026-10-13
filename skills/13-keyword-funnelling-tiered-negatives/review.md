@@ -1,18 +1,18 @@
 # Review — 13 keyword-funnelling-tiered-negatives
 **Verdict: PASS**
 **Reviewed:** 2026-10-13 (blind: rubric.md + canon.md + SKILL.md only)
-**Pass 2** — re-read fresh after author revision; pass 1 was FAIL on lines 4 and 8.
+Pass 3 (post-overlap edits)
 
 | Line | Holds? | Note |
 |---|---|---|
-| 1 Not default knowledge | yes | 35-impression/2-conversion/3-month promotion rule, LSV double-block trap, restriction check, demotion rule, Hopkins' merge trigger. |
-| 2 Takes a position | yes | Two tiers not three; phrase for discovery; merge when duplicates stop falling. |
-| 3 Contradicts Google | yes | Keeps "redundant" exact keywords; broad gated, not default. |
-| 4 Concrete | yes | Quarterly review and two-cycle merge trigger now labelled Epiminds thresholds with reasons tied to the 3-month promotion window. |
-| 5 Failure modes | yes | Six, including PMax and portfolio bidding. |
-| 6 Operator-ready | yes | Numbered, each rule has a condition and an action. |
-| 7 Dated | yes | All present. |
-| 8 Dossier-bound (attributed) | yes | Portfolio-bidding failure mode labelled Epiminds position with Vallaeys 2026 as basis; enterprise-scale figure now consistent ("millions", Geddes 2016) in both places. |
+| 1 Not default knowledge | yes | Low-search-volume trap mechanism, 35 imp/2 conv x3 promotion rule, demotion rule, 13-month auto-pause |
+| 2 Takes a position | yes | Two tiers not three; phrase as discovery default; Hopkins merge trigger |
+| 3 Contradicts Google | yes | Rejects remove-redundant-keywords and broad-as-default |
+| 4 Concrete | yes | Thresholds attributed; quarterly review and two-cycle trigger labelled Epiminds with reasons; 'near zero after month 2' in measures is soft and not decision-bearing |
+| 5 Failure modes | yes | Enterprise scale, low-volume niches, variant leakage, budget-limited managed, PMax, portfolios |
+| 6 Operator-ready | yes | Eight numbered rules with explicit conditions |
+| 7 Dated | yes | last_verified, invalidated_by, source years |
+| 8 Dossier-bound (attributed) | yes | Attributed throughout; Epiminds positions labelled |
 
 ## Failing lines (if FAIL)
 - None.

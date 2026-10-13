@@ -8,12 +8,14 @@ invalidated_by: Google adding cost to term-level PMax reporting; removal of the 
 ---
 ## What this is
 PMax exposes two layers of query data: **search categories** (Google's groupings) and, since the 2025 rollout, **search terms** with conversions, clicks and impressions — but no cost at either level (Rooijmans, 2024; Vallaeys/Optmyzr, 2025) [Google docs]. A share of traffic is withheld as a Blank bucket. This skill is the operating procedure for turning that into decisions: which terms become campaign negatives, which become exact-match Search keywords, which themes to swap, and what to stop trying to read.
+See also: skill 62 (pmax-campaign-negatives) — the negative-keyword mechanics for the terms this skill flags: routes, limits, impact preview, keyword-first rule.
+See also: skill 69 (pmax-insights-script) — the Rhodes PMax Insights script that produces the S.Cat buckets this skill reads, plus channel, product and placement tabs.
 
 ## Where it comes from
 Nils Rooijmans' two published scripts against `campaign_search_term_insight` (2023, 2024) supply the data model and thresholds. Brad Geddes/Adalysis (2024) and Fred Vallaeys/Optmyzr (2025) supply the cross-account evidence on what PMax terms look like and how they compare to Search. Mike Rhodes' S.Cat tab (2026) supplies the brand bucketing; Navah Hopkins (2026) the audit sequence; Kirk Williams (2025) the platform timeline.
 
 ## When to use it / when not to
-Use monthly on any PMax campaign spending enough to produce 100-click terms, and on launch (+14 days) to catch irrelevant themes early. Do not use it to judge channel mix (categories do not carry over to placements — Hopkins/Optmyzr, 2026) or to compute term-level CPA or ROAS: the cost field does not exist, and Optmyzr dropped CPC/CPA/ROAS from its own study for that reason (Vallaeys/Optmyzr, 2025).
+Use monthly on any PMax campaign spending enough to produce 100-click terms, and on launch (+14 days — Epiminds operating cadence, no canon source; reason: the first fortnight is when irrelevant themes surface before spend compounds) to catch irrelevant themes early; Rooijmans's scripts run weekly as alerts (skills 62, 76), and this monthly pass is where the flagged terms are classified and acted on. Do not use it to judge channel mix (categories do not carry over to placements — Hopkins/Optmyzr, 2026) or to compute term-level CPA or ROAS: the cost field does not exist, and Optmyzr dropped CPC/CPA/ROAS from its own study for that reason (Vallaeys/Optmyzr, 2025).
 
 ## Inputs
 - Per-campaign export: PMax campaign → Insights and reports → search terms insight → "view detailed data" → download (slow; one campaign at a time) (Geddes/Adalysis, 2024). Or the API resource `campaign_search_term_insight`, fields category_label, impressions, clicks, conversions, conversion value (Rooijmans, 2024).
@@ -42,7 +44,7 @@ Google's help positions PMax negatives as a brand-suitability control and frames
 - **Reading term CVR as ROAS**: no cost, so a 10% CVR on a term you cannot price is not a scaling signal (Vallaeys/Optmyzr, 2025).
 
 ## What to measure
-Count of terms flagged per month under step 2 and the spend they represented (via clicks × campaign average CPC, as an estimate only). Number of terms promoted to Search and their Search CVR after 30 days. Brand share of conversions. Blank-bucket share of clicks (if it grows, the term-level view is degrading). Category drift alerts per week.
+Count of terms flagged per month under step 2 and the spend they represented (via clicks × campaign average CPC, as an estimate only). Number of terms promoted to Search and their Search CVR after 30 days (30 days is an Epiminds operating window, no canon source; reason: one full monthly pass of Search data before judging). Brand share of conversions. Blank-bucket share of clicks (if it grows, the term-level view is degrading). Category drift alerts per week.
 
 ## Open disagreements in the canon
 Hopkins (2026) is comfortable comparing PMax "auction prices" by category to Search and acting on the gap; Vallaeys (2025) and Rooijmans (2024) treat cost as unavailable at the term level and stay with clicks and conversions. Epiminds follows Vallaeys and Rooijmans: no cost field, no cost conclusions — category-level cost comparisons wait until Google exposes the field.

@@ -8,6 +8,8 @@ invalidated_by: Google documenting that Smart Bidding honours audience bid adjus
 ---
 ## What this is
 RLSA was a bid-adjustment technique. Under Smart Bidding the adjustments are mostly ignored (McNair, PPC Mastery, 2026), observed first-party lists are already bidding signals [Google docs], and since Q3 2023 Customer Match lists are used on Search whether or not you apply them [Google docs]. What remains is a three-way choice per list — observe, target, exclude — and a narrow set of cases where a bid adjustment or a value rule still carries information Google lacks. This skill makes that choice.
+See also: skill 51 (customer-match-signal-vs-target) — the Customer Match list decision (signal, exclude, target) and the refresh cadence.
+See also: skill 52 (b2b-audience-exclusions) — which Google audiences and demographics earn a -100% exclusion in B2B, and the Unknown and HHI traps.
 
 ## Where it comes from
 Miles McNair (PPC Mastery, 2026) on which adjustments survive Smart Bidding and on value-rule hierarchy and inflation; Navah Hopkins (Search Engine Land, 2023) on exclude-or-go-manual; ZATO (Vlietstra 2026 on value rules and exclusions; Williams 2026 on past converters); Andrea Cruz (Search Engine Land, 2022) as the pre-change position. Platform behaviour from Google Ads Help, labelled.

@@ -8,6 +8,9 @@ invalidated_by: PMax negatives extending to Display, Video or Discover inventory
 ---
 ## What this is
 Campaign-level negatives in PMax arrived in beta in January 2025 and generally with the April 2025 search-terms rollout (Rooijmans, 2025; Williams/ZATO, 2025). They block Search and Shopping inventory only — nothing on Display, YouTube, Gmail or Discover (Bhandari/Optmyzr, 2026) [Google docs]. The campaign limit is 10,000, the account-level list 1,000 (Bhandari/Optmyzr, 2026; Hopkins/Optmyzr, 2026). Asset groups cannot take negatives (Hopkins/Optmyzr, 2026). This skill is the rule set for what goes in.
+See also: skill 12 (negative-keyword-sculpting) — routing the same term between Search campaigns and ad groups, and the Search-vs-DSA fence.
+See also: skill 90 (account-level-negatives-brand-restrictions) — the account-level list versus the PMax-scoped list and the cap budget.
+See also: skill 57 (pmax-search-terms-insights) — the search-terms data model, the Blank bucket, category drift and the monthly mining pass.
 
 ## Where it comes from
 Nils Rooijmans (2024, 2025) on the three routes, the list convention and the click/conversion thresholds; Brad Geddes/Adalysis (2024) and Fred Vallaeys/Optmyzr (2025) on when a Search keyword beats a negative; Hopkins and Bhandari (Optmyzr, 2026) on limits and the impact preview; Kirk Williams (ZATO, 2023, 2025) on the account-level trap and the rollout.

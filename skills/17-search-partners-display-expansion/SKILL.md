@@ -7,7 +7,8 @@ last_verified: 2026-10-13
 invalidated_by: Google adding per-partner reporting or exclusions; removal of the campaign-level partner toggle; another change to the partner auction like the November 2021 position-first move; Google documenting Display Expansion behaviour differently from the assumption stated below.
 ---
 ## What this is
-Two settings, two different answers. Search partners are decided per campaign, on cost per conversion or ROAS against the campaign's goal, and never on CTR or conversion rate — lower CTR and CVR on partners is normal and is not a reason to exclude them (Geddes/Adalysis, 2023). The spread is wide enough to justify the work: in one account partner CPA was $185 against $11 on Google Search; in another, partner CPA was lower than Google's; under Smart Bidding some campaigns ran partner CPA at 17× Google Search while others were fine (Geddes/Adalysis, 2023). Display Expansion for Search campaigns has no canon source; the Epiminds default is off, for the reason given in the method.
+Two settings, two different answers. Search partners are decided per campaign, on cost per conversion or ROAS against the campaign's goal, and never on CTR or conversion rate — lower CTR and CVR on partners is normal and is not a reason to exclude them (Geddes/Adalysis, 2023). The spread is wide enough to justify the work: in one account partner CPA was $185 against $11 on Google Search; in another, partner CPA was lower than Google's; under Smart Bidding some campaigns ran partner CPA at 17× Google Search while others were fine (Geddes/Adalysis, 2023). Display Expansion for Search campaigns has one controlled test (Seer Interactive, 2021, Tier 2 for this topic — see skill 88); the Epiminds default is off, for the reasons given in the method.
+See also: skill 88 (standard-off-list) — the four-default off-list including Final URL expansion and auto-apply, and Seer Interactive's Display Expansion test.
 
 ## Where it comes from
 Brad Geddes' evaluation method and account numbers (Adalysis, 2023); Nils Rooijmans' Search Partner Alerts script with its thresholds (2019, maintained 2025) and his note on the November 2021 partner auction change (2022); Vallaeys' Smart Bidding data threshold (Optmyzr, 2026) for the minimum data under automated bidding.
@@ -25,7 +26,7 @@ Use at every Search campaign build and in every inherited-account audit, then mo
 1. **Default at creation.**
    - Established accounts with budget headroom: leave search partners on and measure (Geddes/Adalysis, 2023: do not block by default).
    - New campaigns, small budgets, or campaigns already losing impression share to budget: switch partners off at creation — the one exception Geddes allows (Adalysis, 2023). Turn on later as a test when budget is unconstrained.
-   - Display Expansion: off. Epiminds position, no canon source: the campaign's keywords, negatives, search-term review and CPA target are Search instruments that do not audit Display placements, so spend there cannot be judged by the campaign's own method. Revisit if a canon source publishes evidence.
+   - Display Expansion: off. The one controlled test in the canon is Seer Interactive's (2021, Tier 2 for this topic; skill 88): on under-budget tCPA campaigns cost roughly doubled with CPL +51% (US) and +184% with conversions −33% (UK). The Epiminds reason stands alongside it: the campaign's keywords, negatives, search-term review and CPA target are Search instruments that do not audit Display placements, so spend there cannot be judged by the campaign's own method.
 2. **Measure per campaign.** Segment by network. Compute partner vs Google Search cost per conversion (or ROAS) with the Diff columns Rooijmans' script writes: clicks, avg CPC, cost, conversions, cost per conversion (Rooijmans, 2019).
 3. **Data floor.** Ignore campaigns with fewer than 50 partner clicks in the period (Rooijmans, 2019). Under Smart Bidding, also require the campaign to have ~50 conversions in 30 days before trusting the split, because below that the bidder itself is unreliable (Vallaeys/Optmyzr, 2026).
 4. **Exclusion rule.** If partner cost per conversion is more than 20% worse than Google Search for the campaign (Rooijmans, 2019: CPA_DIFF_THRESHOLD 0.2) and the campaign is otherwise meeting target, opt the campaign out of partners. If the campaign misses target on both networks, fix the campaign first; partners are not the problem.
@@ -44,7 +45,7 @@ Google switches both networks on at creation and provides no per-partner reporti
 - **Judging on CTR/CVR.** The most common error; partners always look worse on those (Geddes/Adalysis, 2023).
 - **Account-level decisions.** Partners that fail in one campaign may succeed in another (Geddes/Adalysis, 2023).
 - **Microsoft imports.** Microsoft has publisher reports and website exclusion lists Google lacks (Geddes/Adalysis, 2023); do not copy a Google-side toggle decision across.
-- **Display Expansion assumption.** The off default is unsourced; a campaign where Display Expansion demonstrably converts at target is a reason to keep it on, documented as an exception.
+- **Display Expansion assumption.** The off default rests on one Tier 2 test (Seer, 2021); a campaign where Display Expansion demonstrably converts at target is a reason to keep it on, documented as an exception (skill 88's test case).
 
 ## What to measure
 - Partner share of clicks, cost and conversions per campaign, monthly.
@@ -55,4 +56,4 @@ Google switches both networks on at creation and provides no per-partner reporti
 
 ## Open disagreements in the canon
 - **Default on or off.** Geddes (2023): measure first; Rooijmans (2019, 2022): exclude where underperforming, with a presumption that Smart pricing is hurting. Epiminds: on-and-measure for established, unconstrained campaigns; off for new or budget-limited ones (Geddes' own exception), then the 20% rule decides.
-- **Display Expansion.** No canon source; Epiminds default off is a judgment call flagged for a future dossier.
+- **Display Expansion.** No Tier 1 source; Seer's 2021 test (Tier 2) is the only evidence and points the same way as the Epiminds default. Flagged for a future dossier.

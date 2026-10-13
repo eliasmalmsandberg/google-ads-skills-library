@@ -8,6 +8,8 @@ invalidated_by: Removal or change of PMax brand exclusions / Search brand lists;
 ---
 ## What this is
 A two-stage procedure. Stage 1 measures how much of the account's "performance" is brand traffic hiding inside PMax and makes brand visible as its own line. Stage 2 decides whether a holdout is worth running — using competitor presence on the brand SERP as the prior — and, if so, how to run it. Position: brand spend is assumed non-incremental until the SERP says otherwise, but the test is skipped when conquesting competitors are present because the holdout then measures something the client will not accept losing.
+See also: skill 5 (brand-nonbrand-firewall) — the negative mesh that keeps brand out of non-brand campaigns once brand is measured.
+See also: skill 55 (pmax-brand-exclusions) — the brand-share threshold, handover prerequisites and leak check for taking brand out of PMax.
 
 ## Where it comes from
 Rooijmans on brand contamination of PMax data and the exclusion method (close-variant negatives auto-populated from the brand campaign's search terms) (Rooijmans, 2022; 2024). Haus's three-cell PMax geo tests: excluding brand more CAC-efficient for new customers in 100% of tests, +27% incremental revenue with brand included for high-AOV brands, Google overstating PMax-with-brand by ~33% (Haus, 2024 — vendor, cited for method and data). The eBay field experiments showing brand search ads with no measurable short-term benefit (Blake, Nosko & Tadelis, 2015). Vallaeys on reading small-budget Google lift results (Vallaeys/SEL, 2025).

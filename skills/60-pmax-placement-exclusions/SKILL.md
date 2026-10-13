@@ -8,6 +8,8 @@ invalidated_by: Campaign-level placement exclusions or channel-level budget/bid 
 ---
 ## What this is
 PMax gives a placement report with impressions only, which Google says not to use for performance [Google docs], and — since June 2025 — a channel report with cost and conversions but no channel ROAS column and no channel controls (Williams/ZATO, 2025) [Google docs]. Placement exclusions apply only at account level (Rooijmans, 2024). This skill is the monthly routine that turns those three facts into exclusions and a channel decision.
+See also: skill 69 (pmax-insights-script) — the script that attributes spend to placements and produces the channel split this skill reads.
+See also: skill 56 (feed-only-pmax) — the structural alternative when there is no creative to show: a feed-only build.
 
 ## Where it comes from
 Nils Rooijmans' three placement posts and exclusion-suggestion script (2024–25); Mike Rhodes' PMax Insights placements and channel tabs (2026); Optmyzr's channel data from 4,200 accounts (2026), its API-exclusion experiment (Bhandari, 2026) and the Pooler/Williams heuristics in its guide (2026); Navah Hopkins (2023) on forced video spend; Kirk Williams (2025) on reading the channel report.

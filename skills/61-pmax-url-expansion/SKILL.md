@@ -8,6 +8,7 @@ invalidated_by: A change to the default-on setting; the ability to exclude the c
 ---
 ## What this is
 Final URL expansion is on by default and lets PMax swap your final URL for any same-domain page it judges more relevant, and generate text and images from that page [Google docs]. Kirk Williams has watched it send PMax traffic to /photos/ and /login/ pages (Williams/ZATO, 2023); half of 84 audited campaigns had served at least one expanded URL (Dunlop/PPC.io, 2026). Off, traffic goes only to page-feed and asset-group URLs [Google docs]. This skill sets the switch by account type and closes the gaps the exclusions leave.
+See also: skill 88 (standard-off-list) — Final URL expansion as one of four defaults switched off at build, with the earn-back conditions.
 
 ## Where it comes from
 Kirk Williams (ZATO, 2023 page-feeds post; 2023 Ghostbusters; 2023 feed-only) for the leak evidence, page-feed method and when to switch off; Diana Talhelm (ZATO, 2026) for the audit step; PPC.io (Dunlop, 2026) for prevalence and the lead-gen rule; Navah Hopkins (Optmyzr, 2023) on page feeds as DSA-style targeting; Mike Rhodes' Pages tab (2026) for monitoring. Optmyzr (Bhandari, 2026) supplies the dissent.

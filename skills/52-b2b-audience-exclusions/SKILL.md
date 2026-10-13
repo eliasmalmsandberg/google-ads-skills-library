@@ -8,6 +8,8 @@ invalidated_by: Google adding parental status, life events or custom segments to
 ---
 ## What this is
 A procedure for turning "the sales team says the leads are consumers" into a short list of exclusions that actually change delivery. Under Smart Bidding the only audience lever that still works is -100% (McNair, PPC Mastery, 2026), so the whole skill is about choosing which segments earn that, with what evidence, and without the two traps that make B2B exclusions backfire: excluding "Unknown" and assuming HHI exists in your market.
+See also: skill 50 (rlsa-layering-smart-bidding) — the observe/target/exclude rule for remarketing lists and the dead bid-adjustment lever.
+See also: skill 51 (customer-match-signal-vs-target) — first-party Customer Match lists as exclusions and the match-rate fix.
 
 ## Where it comes from
 Andrea Cruz (Search Engine Land, 2022 and 2026) on finding real segments from cross-channel GA data instead of Google's suggestions and on negative intent themes; Navah Hopkins (Search Engine Land, 2023) on observation-then-exclude; Miles McNair (PPC Mastery, 2026) on bid adjustments being ignored under Smart Bidding; ZATO (Vlietstra, 2026) on first-party exclusion candidates. Platform availability from Google Ads Help, labelled.

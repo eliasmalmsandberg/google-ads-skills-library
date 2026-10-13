@@ -8,6 +8,7 @@ invalidated_by: A change to the per-ad-group RSA limit; removal of per-ad report
 ---
 ## What this is
 The ad-count rule. The only cross-account evidence finds two RSAs per ad group gave a conversion-rate lift that one or three did not; the practitioner case for one RSA is unsupported opinion; Google also says two, for its own reasons. Epiminds' default is two, with one allowed below a volume floor and three only as a short-lived test arm — and with a rule for the documented failure of two: Google over-serving the worse ad.
+See also: skill 89 (ad-rotation-smart-bidding) — the rotation setting and why Optimize under Smart Bidding over-serves the CTR leader.
 
 ## Where it comes from
 Optmyzr's 2022 RSA study (13,671 accounts), Frederick Vallaeys (SEJ 2021; SMX Advanced 2022 via Search Engine Land), Brad Geddes / Adalysis (2022 testing method with account examples), Nils Rooijmans' missing-RSA script (2022). The one-RSA position is from Morten Kristoffersen (SavvyRevenue on Optmyzr's blog, 2025), cited as opinion.

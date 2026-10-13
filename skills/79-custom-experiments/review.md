@@ -1,18 +1,18 @@
 # Review — 79 custom-experiments-split-duration-valid-win
 **Verdict: PASS**
 **Reviewed:** 2026-10-13 (blind: rubric.md + canon.md + SKILL.md only)
-**Pass 2** — re-read fresh after author revision; pass-1 verdict was FAIL on line 4.
+Pass 3 (post-overlap edits)
 
 | Line | Holds? | Note |
 |---|---|---|
-| 1 Not default knowledge | yes | Lag-derived window, served-vs-billed cost check, control-arm contamination check, directional-apply rule. |
-| 2 Takes a position | yes | 30-day floor, 95% once, one extension max, flagged directional apply; each with a reason. |
-| 3 Contradicts Google | yes | 80% scorecard, auto-apply, "2–3 more weeks", MaxConv "bids will stabilise". |
-| 4 Concrete | yes | The ≥20% (8d) and >10-point (step 9) rules are now explicitly labelled Epiminds operating thresholds with derivation (Bowman's 23% floor; Google's IS-noise note); all other numbers trace to named sources. |
-| 5 Failure modes | yes | Low volume, long-cycle B2B, portfolio/shared budget, seasonal, VBB, lead-gen broad match. |
-| 6 Operator-ready | yes | Numbered steps 0–12 with explicit conditions and an ordered call rule. |
-| 7 Dated | yes | last_verified, source dates inline, invalidated_by present. |
-| 8 Dossier-bound (attributed) | yes | Every material claim carries a source tag or an explicit own-judgment label. |
+| 1 Not default knowledge | yes | 6x median lag rule, 80% default confidence, budget-not-traffic split, served vs billed cost, Bowman/Meyerson series |
+| 2 Takes a position | yes | Pre-registered window, 95% once, flagged directional apply at >=20%, 30-day floor |
+| 3 Contradicts Google | yes | Rejects 80% scorecard, auto-apply, open-ended extension, 'bids will stabilise' |
+| 4 Concrete | yes | >=60 conv, 14 days, 7/14-day ramp, 2x, 23–29% attributed; 20% and 10-point lines labelled Epiminds with reasons |
+| 5 Failure modes | yes | Low volume, long-cycle B2B, portfolios, seasonal, few values, broad/AI Max lead gen |
+| 6 Operator-ready | yes | Steps 0–12 with an ordered call procedure |
+| 7 Dated | yes | last_verified, invalidated_by, source years |
+| 8 Dossier-bound (attributed) | yes | Google mechanics bracketed [Google docs]; Tier 2 series named |
 
 ## Failing lines (if FAIL)
 - None.

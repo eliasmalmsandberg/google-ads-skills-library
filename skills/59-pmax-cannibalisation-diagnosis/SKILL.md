@@ -8,6 +8,7 @@ invalidated_by: A change to the rule that an identical Search keyword takes prec
 ---
 ## What this is
 A diagnosis that separates three things people call "cannibalisation": (a) PMax entering auctions Search was eligible for and winning them, (b) PMax entering auctions Search had become ineligible for (budget, bid floor, geography), and (c) overlap that costs nothing because the two convert the same. Overlap itself is near-universal — 91% of 503 accounts at keyword level, 97% at term level (Vallaeys/Optmyzr, 2025) — so the question is never "is there overlap" but "is Search losing auctions it would have won, and does it convert better when it wins".
+See also: skill 12 (negative-keyword-sculpting) — the negative and exact-keyword mechanics for routing a query family to the campaign that should own it.
 
 ## Where it comes from
 Optmyzr's 503/511-account study (Vallaeys, 2025) and Adalysis' 3,300-campaign study (Geddes, 2024) for overlap and win rates; Kirk Williams (ZATO, 2023) on auction eligibility; Nils Rooijmans (2022) on the priority rule; Mike Rhodes' PMax Insights tabs (2026) for brand buckets and change dating; PPC.io (Dunlop, 2026) for the verdict rule; Optmyzr's BFCM data (2026) for mixed-account benchmarks.

@@ -8,14 +8,15 @@ invalidated_by: Changes to the 7-day ramp-up exclusion, the 80% default confiden
 ---
 ## What this is
 A decision procedure for custom experiments: what to test in one, how to split, how long to pre-commit, what to freeze during the run, and the rule for calling a winner. The core position: the experiment window is set from conversion lag before launch and the readout metric is pre-registered; the UI's "significant" / "inconclusive" label is an input, not the verdict.
+See also: skill 8 (mirror-campaigns-bid-strategy-ab) — choosing the test vehicle when the experiment tool is unavailable: scoped in-campaign test, mirror campaign or before/after.
 
 ## Where it comes from
 Rooijmans' duration rule (≥6× median conversion lag and ≥14 days, synced, untouched) (Rooijmans, 2024); Vallaeys' three experiment pitfalls — the control arm reacts to the trial, broken tracking masquerades as a losing strategy, aggregate results hide query-level wins (Vallaeys/SEL, 2019); Optmyzr on base-campaign edits polluting a running trial and how per-metric confidence is computed (Optmyzr, 2021/2026); Meyerson's 54-experiment lead-gen series on run length and bid-strategy outcomes (Meyerson/SEL, c.2024); Bowman's six-account 50/50 broad-match series on Google's "inconclusive" labels (Bowman, 2026); Stemen on back-end readout and interface incompatibilities (Stemen/SEJ, 2026). Platform mechanics from Google Ads Help, labelled.
 
 ## When to use it / when not to
-Use for any change that alters bidding, targeting breadth, structure or landing page in a Search campaign with ≥30–50 conversions in the last 30 days (Stemen/SEJ, 2026; Google VBB guidance says ≥50 for value tests [Google docs]). Use when the change is reversible and the client needs evidence before rollout.
+Use for any change that alters bidding, targeting breadth, structure or landing page in a Search campaign with ≥60 conversions in the last 30 days, so each 50% arm clears the 30-per-campaign floor (Vallaeys/Walker, 2025; skill 8); Stemen's 30–50 is the campaign-level figure before the split (Stemen/SEJ, 2026), and Google's VBB guidance says ≥50 for value tests [Google docs]. Use when the change is reversible and the client needs evidence before rollout.
 
-Do not use for: campaigns on a portfolio bid strategy or shared budget (the experiment interface does not handle them cleanly; move the campaign to its own strategy and budget first) (Stemen/SEJ, 2026); campaigns under ~30 conversions/30 days, where a 50/50 split starves both arms (Stemen/SEJ, 2026); testing more than one variable at a time; anything you would not actually roll out if it won.
+Do not use for: campaigns on a portfolio bid strategy or shared budget (the experiment interface does not handle them cleanly; move the campaign to its own strategy and budget first) (Stemen/SEJ, 2026); campaigns under ~60 conversions/30 days, where a 50/50 split leaves both arms under the 30 floor (Vallaeys/Walker, 2025; skill 8) and starves them (Stemen/SEJ, 2026); testing more than one variable at a time; anything you would not actually roll out if it won.
 
 ## Inputs
 - Median conversion lag for the campaign (Report Editor, conversions by days-to-conversion) (Rooijmans, 2024).
@@ -51,7 +52,7 @@ Do not use for: campaigns on a portfolio bid strategy or shared budget (the expe
 - Google's recommended experiments (preconfigured, one-click) [SEL, 2026] default to Google's hypotheses (final URL expansion, broad match, AI Max). Run them through the same pre-registration; Bowman's series shows the same broad-match test winning in 3 accounts and losing ROAS by 60% in another (Bowman, 2026).
 
 ## Failure modes
-- **Low-volume campaigns (<30 conv/30 days).** A 50/50 split halves the data each arm's bid strategy sees (Stemen/SEJ, 2026); both arms underperform the pre-test campaign and the comparison is meaningless. Use a before/after with a holdout period instead.
+- **Low-volume campaigns (<60 conv/30 days, i.e. under 30 per arm).** A 50/50 split halves the data each arm's bid strategy sees (Stemen/SEJ, 2026); both arms underperform the pre-test campaign and the comparison is meaningless. Use a before/after with a holdout period instead.
 - **Long-cycle B2B (60–90 day lag).** 6× median lag can be a year. Use the lag of the earliest counted stage (e.g. MQL) for the window and validate closed-won later (Stemen/SEJ, 2026).
 - **Portfolio strategies / shared budgets.** The experiment interface does not handle them (Stemen/SEJ, 2026); splitting one campaign out of a portfolio changes its bidding before the test starts.
 - **Seasonal retail.** A window that straddles a peak measures the peak, not the variable. Do not launch an experiment that will end inside a known demand spike.

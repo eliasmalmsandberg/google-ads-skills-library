@@ -1,18 +1,18 @@
 # Review — 12 negative-keyword-sculpting
 **Verdict: PASS**
 **Reviewed:** 2026-10-13 (blind: rubric.md + canon.md + SKILL.md only)
-**Pass 2** — re-read fresh after author revision; pass 1 was FAIL on line 4.
+Pass 3 (post-overlap edits)
 
 | Line | Holds? | Note |
 |---|---|---|
-| 1 Not default knowledge | yes | Restriction trap, make-owner-eligible-first, PMax overlap study numbers, "+" hygiene, list naming by owner. |
-| 2 Takes a position | yes | Belt-and-braces on exact + negative; split campaigns only for ad/page/budget. |
-| 3 Contradicts Google | yes | Flat refusal of "remove redundant keywords"; fences DSA; distrusts PMax priority. |
-| 4 Concrete | yes | Step 9's 2–4 week window now labelled Epiminds cadence with a reason; the 10,000-click floor stated as an Epiminds adaptation of Geddes 2022 with his original meaning given. |
-| 5 Failure modes | yes | Five, including retail PMax exclusion and limits. |
-| 6 Operator-ready | yes | Ten numbered steps with explicit level rules. |
-| 7 Dated | yes | All present. |
-| 8 Dossier-bound (attributed) | yes | All material claims attributed. |
+| 1 Not default knowledge | yes | Geddes 12-ad-group CPA spread, 3,300-campaign PMax overlap stats, restriction trap, Hopkins single-word pattern |
+| 2 Takes a position | yes | Belt-and-braces exact keyword plus negative; ad-group routing over campaign splits |
+| 3 Contradicts Google | yes | Flat 'no' to remove-redundant-keywords; disputes PMax respecting keyword targeting and DSA non-competition |
+| 4 Concrete | yes | 45%/61%/84%, 10,000 and 1,000 caps, 10–50 click floor attributed; 2–4 week verify and 10,000-click floor labelled as Epiminds adaptations with reasons |
+| 5 Failure modes | yes | Small accounts, over-sculpted match types, retail PMax, limits, budget-limited owners |
+| 6 Operator-ready | yes | Ten numbered steps with level-selection sub-rules |
+| 7 Dated | yes | last_verified, invalidated_by incl. Feb 2027 DSA note, source years |
+| 8 Dossier-bound (attributed) | yes | Every claim named to Geddes/Hopkins/Rooijmans/Google docs |
 
 ## Failing lines (if FAIL)
 - None.

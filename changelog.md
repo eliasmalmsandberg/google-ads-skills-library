@@ -108,3 +108,10 @@
 - 2026-10-13 — #88 Standard off-list (partners, display expansion, URL expansion, auto-apply) (Defaults to override, P1): canon Strong; review PASS; status Done; folder skills/88-standard-off-list/
 - 2026-10-13 — #89 Ad rotation settings under Smart Bidding (Defaults to override, P3): canon Adequate; review PASS; status Done; folder skills/89-ad-rotation-smart-bidding/
 - 2026-10-13 — #90 Account-level negatives & brand restrictions (Defaults to override, P1): canon Adequate; review PASS; status Done; folder skills/90-account-level-negatives-brand-restrictions/
+
+## Phase 2 — library-level checks (2026-10-13)
+- Overlap pass: 36 overlaps found, 97 "See also" cross-references added to 56 skills; 18 contradictions resolved against canon.md (promotion threshold unified on Geddes 35 imp/2 conv/3 months + Rooijmans CPC screen; PMax conversion floor 60/30d; Max Clicks first when no history; value rules one-per-conversion; n-gram 150-click block / 60-click review; PMax negatives never account-level; search-partner gate per skill 17; auto-apply per-account only; brand tIS always capped; experiment floor 60 total / 30 per arm; pin 2–3 headlines never 1; third RSA only as a dated test arm). Details and merge candidates in overlap-report.md. The 19 edited skills were blind re-reviewed (pass 3): 18 PASS, #57 failed on two newly unlabelled cadences, fixed and passed on pass 4.
+- Judgment call: merge candidates (1+13, 21+74, 78+88 step 1, 37+38, 57+62+76 PMax part) are NOT merged — left as cross-referenced, distinct-scope skills for Elias to decide.
+- Coverage pass: 23 methods treated as core by Tier 1 sources or exposed on PPC OS's public structure have no skill; added as rows 91–113 with Status "Proposed", not written. Report: coverage-report.md.
+- Judgment call: the Status dropdown was extended with "Proposed" (Phase 2) and "Re-check" (Phase 3) so the GOAL's statuses validate; the Summary tab's COUNTIF ranges and all dropdown ranges were extended from row 91 to row 114 so the new rows count. No other column or tab touched.
+- Thin-canon report written: thin-canon-report.md (5 stubs + secondary gaps + unreachable sources).

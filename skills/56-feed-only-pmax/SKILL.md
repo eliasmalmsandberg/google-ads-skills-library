@@ -8,6 +8,7 @@ invalidated_by: Google removing the opt-out from auto-generated assets; a change
 ---
 ## What this is
 A PMax campaign stripped of every static asset so it serves from the Merchant Center feed — Smart Shopping without the DSA layer (Williams/ZATO, 2023). It is not purely feed-only any more: Google generates assets from the feed, and in one of Williams' feed-only campaigns 1.7% of traffic came from non-feed ads (Williams/ZATO, 2025). The point is control over where the budget goes: non-feed channels carry measurably weaker value — YouTube drew ~10% of PMax impressions but ~2% of conversion value across 4,200 accounts in the 2025 peak (Optmyzr, 2026).
+See also: skill 60 (pmax-placement-exclusions) — fencing video and Display on an existing full-asset PMax by channel ROAS and placement patterns.
 
 ## Where it comes from
 Kirk Williams (ZATO, 2023 walkthrough; 2023 structures; 2025 channel report) for setup, entry/exit rules and the feed-vs-non-feed reading; PPC Mastery (McNair, 2026) for where feed-only sits in the funnel; Navah Hopkins (Optmyzr, 2023) on forced video spend; Optmyzr's BFCM data (2026) for channel value shares; smec (Baudisch, 2026) for the rationale.

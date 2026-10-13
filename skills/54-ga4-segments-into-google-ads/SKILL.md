@@ -8,6 +8,7 @@ invalidated_by: GA4 removing the 30-day backfill or changing the 100-audience ca
 ---
 ## What this is
 A one-off setup rule for accounts with GA4 linked that want behavioural segments feeding Smart Bidding. The decision is not "which audiences to create" (the baseline covers funnel lists) but where each list is built. GA4 is the only place you can express engagement and sequence conditions, but its audiences arrive late, are capped, and — on Kirk Williams' account — have gaps that a Google Ads tag list does not. The skill splits the work between the two sources and sets the checks that prove the lists are alive before anyone relies on them.
+See also: skill 50 (rlsa-layering-smart-bidding) — what to do with the exported lists on Search campaigns: observe, target or exclude.
 
 ## Where it comes from
 Kirk Williams (ZATO, 2026) on building lists from the Google Tag rather than GA4 and on category-level non-converter lists; Andrea Cruz (Search Engine Land, 2026) on remarketing lists as "verified intent state" and their lower value next to customer lists; Fred Vallaeys' PPC Town Hall (Optmyzr, 2026) on engagement-scored proxy signals for long cycles; Navah Hopkins (Search Engine Land, 2023) on consent as the precondition. Platform mechanics from GA4 and Google Ads Help, labelled.

@@ -8,6 +8,8 @@ invalidated_by: Google changing the GCLID upload/restatement windows, the 90-day
 ---
 ## What this is
 The decision of *which* CRM stage to make the primary conversion, how to stage the import so the bidder isn't triple-counting one journey, and how fast the signal has to come back to be worth bidding on. The mechanics (GCLID, hashed email, Data Manager) are the easy part. Projects fail on plumbing and timing: CRMs with no open API, feeds that stop silently after the June 2026 API migration, and stages that arrive too late to be inside the click window (Vallaeys/Optmyzr, 2026; Newson/Vallaeys, 2026).
+See also: skill 43 (micro-conversion-ladder) — the shallow end of the ladder and Max Clicks before any rung qualifies.
+See also: skill 42 (value-based-bidding-lead-gen) — proxy values for the early stages that the CRM cannot supply.
 
 ## Where it comes from
 Gray/WebMechanix (2024, added Tier 2) supplies the stage ladder and the 45-in-30-days-inside-the-window rule. Vallaeys (Optmyzr 2026; SEL 2026; Town Hall 2026) supplies the lag, cadence and failure patterns. Cruz (SEL 2026) and Hopkins (SEL 2026) set the "source of truth first, verify it flows back" bar.

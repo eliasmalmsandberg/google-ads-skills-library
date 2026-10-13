@@ -8,6 +8,7 @@ invalidated_by: Removal of quality_info from the Google Ads API/Scripts reports,
 ---
 ## What this is
 A build spec for a daily QS snapshot script. Google keeps end-of-day keyword history in the "(hist.)" columns since 2017, back to 22 January 2016 [Google docs; SEL/Marvin, 2017], so the script's job is not "history Google doesn't keep". Its job is what Google still does not give you: an impression-weighted aggregate you can chart, the distribution of impressions by QS level, a per-component index, retention for removed keywords, and a drop alert that can tell a reporting bug from a real decline (Vallaeys/Optmyzr, 2017; Vallaeys/Optmyzr, 2015).
+See also: skill 38 (impression-weighted-qs) — the reporting rule: weighting basis, null handling, noise band and the work-queue cut-off.
 
 ## Where it comes from
 Brainlabs's Low-QS Keyword Alert script and its threshold/pause warnings (Gilbert/SEL, c.2018). Wesley Parker's daily tracker design — component distribution, impression-weighted QS and 1–3 component index (Parker/SEL, c.2019; Tier 2 for this topic). Optmyzr's tracker method — Search-impression weighting, null = 6, component mapping 2/6/10, ad groups QS < 6 with cost > 0 (Optmyzr help, fetched 2026). Vallaeys's ±0.2 normal-movement band and the 2015 reporting bug (Optmyzr, 2015). Rooijmans's review of a QS dashboard script, recommending a daily run (Rooijmans, 2024).

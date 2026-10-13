@@ -8,6 +8,7 @@ invalidated_by: Google removing campaign priority from Standard Shopping, forcin
 ---
 ## What this is
 Shopping has no keywords, so the only way to pay differently for "running shoes", "nike running shoes" and "nike pegasus 41 black 10.5" is to put the same products in three campaigns and use priority plus negatives to push each query to the campaign meant for it (Williams/ZATO, 2015/2026, crediting Roettgerding 2014). The direction is counter-intuitive and the baseline gets it backwards: the *generic* campaign is High priority with the *lowest* bids, the *SKU* campaign is Low priority with the highest (Williams/ZATO, 2026). Rooijmans' audits find the structure fails not because Google ignores priority but because of four setup errors (Rooijmans, 2026).
+See also: skill 5 (brand-nonbrand-firewall) — the brand/non-brand negative lists and the low-priority brand Shopping campaign as part of an account-wide firewall.
 
 ## Where it comes from
 Kirk Williams' query-sculpting walkthrough (Search Engine Land 2015, maintained on ZATO to 2026), his SMX 2016 "four pillars", the 2026 large-catalogue two-lane variant and his 2026 account theory on PMax and brand (Williams/ZATO); Nils Rooijmans' audit of why priorities "don't work" (Rooijmans, 2026); Fred Vallaeys on priority campaigns for labelled products (Vallaeys/PPC Hero, 2015).

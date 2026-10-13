@@ -8,6 +8,8 @@ invalidated_by: Google removing the bid limit from Target Impression Share, chan
 ---
 ## What this is
 Brand defence is buying your own high-intent clicks so a competitor can't. It used to be cheap insurance — Williams cites a brand term that cost ~$0.07 to guard and now costs ~$1, a 10–20× rise he attributes to Ad Rank reserve-price changes rather than competition (Williams/ZATO, 2024). That makes the *how* matter: Target Impression Share raises CTR and conversion rate via top placement but does not improve CPA or ROAS, and in a 14,584-account study it was only usable with a bid cap — the uncapped sample wasn't even statistically significant (Hopkins/Optmyzr, 2024). In the one published controlled test, capped tIS and manual CPC were a wash (Williams/ZATO, 2024).
+See also: skill 5 (brand-nonbrand-firewall) — the negative mesh that keeps brand queries inside the brand campaign so its numbers are clean.
+See also: skill 15 (competitor-conquesting) — the other side of the auction: whether and how to bid on competitor brands.
 
 ## Where it comes from
 Williams' Experiment on a ten-year client (2024) is the only controlled brand tIS-vs-manual test in the canon; his 2023–2026 posts supply the reserve-price mechanics, the funnel-spanning view of brand queries and the "kill if not incremental" rule. Hopkins (2024) supplies the cross-account tIS finding; Vallaeys (2026) the case for manual CPC as a hard ceiling.

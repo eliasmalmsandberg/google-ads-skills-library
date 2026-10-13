@@ -8,6 +8,8 @@ invalidated_by: Google removing the primary/secondary conversion distinction, ch
 ---
 ## What this is
 A ladder of conversion actions, from shallow (form fill) to deep (closed deal), where exactly one rung is primary at a time and you move the primary rung deeper as volume allows (Gray/WebMechanix, 2024). It exists because Smart Bidding is unpredictable below 50 conversions in 30 days and moving from under 25 to 25–50 does not reliably help (Hopkins/Optmyzr, 2024), so a new account has to earn its way to macro-conversion bidding. The trap is bidding to any action that has volume: in Gray's accounts, optimising to engagement micro-conversions raised engagement and produced "no corresponding increase in downstream conversion actions" (Gray/WebMechanix, 2024).
+See also: skill 42 (value-based-bidding-lead-gen) — valuing the rungs and switching to value-based bidding once the ladder has volume.
+See also: skill 48 (offline-conversion-import-lead-stages) — importing CRM lead stages as the deeper rungs, with the 45-in-30-days-inside-the-window rule.
 
 ## Where it comes from
 Hopkins' 14,584-account study (2024) sets the volume thresholds and shows Max Clicks is the efficient low-volume strategy. Vallaeys (2026) gives the 30–50 practitioner floor and the no-stacking rule. Gray/WebMechanix (2024, added Tier 2) gives the ladder, the ~45/30-day graduation rule and the negative result. Mullarky (2021, added Tier 2) gives rung valuation by ratio. Stemen/SEL (2024) and Newson/Vallaeys (2026) carry the pro-micro-signal case.
