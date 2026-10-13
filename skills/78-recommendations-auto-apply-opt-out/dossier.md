@@ -30,6 +30,8 @@ Read `google-ads-account-audit` and `google-ads-scripts`. The baseline mentions 
 - Treated the row's "Setting" type literally: the skill is an opt-out procedure plus a standing dismiss list plus the monitoring script that proves the opt-out held.
 - No Google Help page could be fetched; the UI path is from Cooney (2024).
 
+- Review fix: manager-level auto-apply for sub-accounts is labelled "[Google docs — unverified in this build]" (recorded above as unverified prior knowledge); the inheritance wording was cut.
+
 ## Canon strength: Strong
 Rooijmans (five posts incl. one case with numbers and one published script) plus an evidence-bearing added Tier 2.
 

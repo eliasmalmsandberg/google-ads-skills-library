@@ -26,6 +26,8 @@ Read `google-ads-scripts` (generic script templates, no PMax) and `google-ads-an
 - Product-bucket thresholds have no documented defaults; the skill tells the operator to set cost and ROAS thresholds from the account's break-even ROAS and the fixed 10c/day placement threshold is quoted as the only documented default.
 - Nils's scripts are treated as the free alternative set; the paid Rhodes script is the canonical tool because the canon names it so.
 
+- Review fix: the feed-only-PMax remedy in step 2 is labelled an Epiminds operating rule (no fetched source on what a feed-only build does to the channel split); the step now escalates to the structure skill.
+
 ## Canon strength: Strong
 Three Tier 1 practitioners (Rhodes, Rooijmans, Vallaeys/Hopkins) with published scripts and thresholds.
 

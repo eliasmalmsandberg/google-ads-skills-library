@@ -26,6 +26,8 @@ Read `google-ads-keywords` (status table: "Low search volume: <10 searches/month
 - "Rarely shown due to low Quality Score" is out of scope here (Google page not fetched; QS category owns it); the skill says so.
 - The baseline's "<10 searches/month" figure is not in any canon source; the skill uses Geddes' ~35 impressions/month with its date and the caveat that it is 2016 practitioner observation.
 
+- Review fix (2026-10-13): the 30-day zero-impression window (four weekly Google rechecks), the 3-month persistence window (mirrors Geddes' 3-consecutive-month volume test) and the monthly revisit are Epiminds operating thresholds/cadence, labelled as unsourced in SKILL.md.
+
 ## Canon strength: Adequate
 Geddes (2016) and two Hopkins pieces (2024) with method; Geddes 2024 supporting; evidence is practitioner observation, not data.
 

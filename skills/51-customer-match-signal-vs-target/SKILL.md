@@ -33,7 +33,7 @@ Do not use under manual CPC or Maximize Clicks: Customer Match lists are not use
    - CRM or Data Manager sync: append at least daily [Google docs]; Google now recommends Data Manager / Data Manager API over the Ads API for new integrations [Google docs].
    - Manual upload: weekly, same day and time [Google docs]. Hopkins (Search Engine Land, 2022) rules out downloaded CSVs on personal machines; if you must download, use MFA and delete after upload.
    - Long sales cycles: Vallaeys (Optmyzr, 2026) notes GCLID offline import only reaches back ~90 days from the click, so feed a proxy signal (qualified lead, scored engagement) within two weeks rather than waiting for the close. Same for lists: a "closed-won" list on a 24-month cycle refreshes too slowly to be a signal; build the list from the proxy stage.
-7. **Run the 540-day audit monthly.** Memberships expire at 540 days and a list goes ineligible with fewer than 100 members added or updated in that window [Google docs]; enforced from 7 April 2025 (Adegbola, Search Engine Land, 2025). Any list not uploaded in 60 days goes on the "refresh or delete" row; a list you cannot refresh is removed so it stops polluting the signal pool.
+7. **Run the 540-day audit monthly.** Memberships expire at 540 days and a list goes ineligible with fewer than 100 members added or updated in that window [Google docs]; enforced from 7 April 2025 (Adegbola, Search Engine Land, 2025). Any list not uploaded in 60 days — eight missed weekly uploads against Google's weekly manual-upload guidance [Google docs] (Epiminds operating threshold — no canon source; reason: long enough to be a broken pipeline rather than a holiday, far enough from the 540-day cap to fix) — goes on the "refresh or delete" row; a list you cannot refresh is removed so it stops polluting the signal pool.
 8. **Do not use conversion value rules as a substitute for list bid adjustments.** McNair (PPC Mastery, 2026) advises against them because reported values inflate (a 50% rule on a €100 sale reports €150); Vlietstra (ZATO, 2026) limits them to information Smart Bidding cannot already see. A Customer Match membership is exactly what it already sees.
 
 Output: a table of lists with one of {signal, exclude from <campaigns>, target in <campaign>, refresh-or-delete}, match rate, last upload, cadence, owner.
@@ -51,7 +51,7 @@ Google's UI nudges you to add lists to campaigns in observation. We don't, becau
 
 ## What to measure
 - Match rate per list monthly; alarm under 30% (floor of Google's 29–62% range) and target 70% (Hopkins, Search Engine Land, 2022).
-- Days since last upload per list; alarm at 60 days against the 540-day cap.
+- Days since last upload per list; alarm at 60 days, the step 7 threshold (Epiminds operating threshold — no canon source), against the 540-day cap [Google docs].
 - Share of acquisition-campaign conversions from excluded lists after exclusion is applied (should go to ~0; if not, the exclusion is not applied at campaign level).
 - For targeted lists: impression share lost to budget vs list size, to catch the serving stop at the 100-member floor.
 

@@ -39,7 +39,7 @@ Google's framing is that daily budgets are averages and the month is protected b
 
 ## Failure modes
 - **Shared budgets**: the pause script breaks and the per-campaign overdelivery arithmetic is wrong (Rooijmans, 2022); alert at account level only.
-- **Smart Bidding campaigns paused by the overspend script**: frequent pause/enable cycles disrupt learning; prefer budget reshaping (Breilin/Optmyzr, 2026) and keep the pause script for manual-CPC or truly capped campaigns.
+- **Smart Bidding campaigns paused by the overspend script**: Epiminds operating rule — no canon source; reason: the script's author built it for budget-limited clients and notes it needs a separate re-enable (Rooijmans, 2022), so on Smart Bidding we prefer budget reshaping (Breilin/Optmyzr, 2026) and keep the pause script for manual-CPC or contractually capped campaigns.
 - **Accounts with PMax/Demand Gen** and a legacy iterator-based script: spend under-counted; the alert never fires (Rooijmans, 2022).
 - **Strong weekday/weekend skew**: the 80/120% bands fire on Mondays; weight by day-of-week first (Breilin/Optmyzr, 2026).
 - **Mid-month budget raises**: the cap moves with the raise; a pacing script that compares against the original monthly figure under-reports headroom (Rooijmans, 2024).

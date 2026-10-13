@@ -29,6 +29,8 @@ Read `google-ads-keywords` (broad "ONLY with Smart Bidding and 50+ conversions/m
 - The 50 conversions/30 days figure is from Vallaeys' Smart Bidding piece (2026) and is applied here as the entry gate for broad, since both Vallaeys (2026) and Geddes (2024) condition broad on Smart Bidding having enough signal.
 - Position taken: Epiminds follows Optmyzr/Adalysis (gated rollout) over PPC Mastery (broad by default), because the only cross-account evidence in the canon favours exact/phrase on efficiency.
 
+- Review fix (2026-10-13): the 6-week read/rollback window is an Epiminds operating cadence (≈ one Smart Bidding learning period plus a full cycle of the weekly Rooijmans negative script); the 'rising query count with flat conversions' signal is an Epiminds diagnostic rule, labelled as such.
+
 ## Canon strength: Strong
 One 30k-account study, one 14k-account Smart Bidding finding, two Geddes method posts, Rooijmans script, PPC Mastery dissent, Hopkins structure rules.
 

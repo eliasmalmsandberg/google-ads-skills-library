@@ -35,6 +35,8 @@ Read `google-ads-account-audit` (Layer 4 benchmarks: lost-to-budget <20%, lost-t
 - The baseline's "<20% / <30%" lines are not carried over; no canon source states them.
 - Audit-level IS benchmarks (80% non-brand, 90–95% brand) are Geddes' opinion and are labelled as such in the skill.
 
+- Review fix (2026-10-13): the <1,000 impressions/month floor and 90-day aggregation are labelled Epiminds operating thresholds; no canon source (90 days mirrors the Adalysis lost-IS history window).
+
 ## Canon strength: Strong
 Three Tier 1 Adalysis posts plus tool rule, one added Tier 2 with cross-account data, one Tier 2 for arithmetic.
 

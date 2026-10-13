@@ -28,6 +28,8 @@ Read `google-ads-scripts` (a scheduling table of hourly/daily/weekly tasks) and 
 - Google's own automation (auto-apply, Smart Bidding) is placed as "layer 0" to be monitored, per Vallaeys 2020; this placement is ours.
 - "Preview before acting" for rules is stated from platform knowledge, unverified.
 
+- Review fix: the claim that a daily pause/enable rule disrupts Smart Bidding learning was cut; the failure mode is now an Epiminds operating rule referencing Rooijmans (2022).
+
 ## Canon strength: Strong
 Two Tier 1 practitioners with published frameworks, one cross-account study, two published scripts illustrating the boundary.
 

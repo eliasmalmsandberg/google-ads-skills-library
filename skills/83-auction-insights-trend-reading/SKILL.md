@@ -13,7 +13,7 @@ A fixed order of checks that puts auction insights third, after targeting and bi
 Geddes' Adalysis series: the CPC-change diagnostic order (Adalysis, 2020), the search-volume-vs-impressions split (Adalysis, 2019), the auction-insights reading rules and segmentation (Adalysis, 2021), the weekly-trend template and budget-cycle signatures (Adalysis, 2019), and the true-vs-impression competitor classification (Adalysis, 2019). Metric definitions and limits from Google Ads Help, labelled. All practitioner method is one author; see the open disagreements.
 
 ## When to use it / when not to
-Use when CPC, IS, CTR or conversions moved more than ~15% month on month and change history shows no edit that explains it; use monthly as a standing check on the top-spend campaigns. Use before any conversation with a client about "competitors are bidding us up".
+Use when CPC, IS, CTR or conversions moved more than ~15% month on month (Epiminds operating threshold — no canon source; reason: Geddes' worked examples start at 25–34% moves (Adalysis, 2020) and 15% is the smallest move we have found worth a diagnostic) and change history shows no edit that explains it; use monthly as a standing check on the top-spend campaigns. Use before any conversation with a client about "competitors are bidding us up".
 
 Do not use on campaigns whose IS is under 10% — Google shows no auction-insights rows [Google docs]. Do not use on search-partner traffic (excluded) [Google docs]. Do not use Shopping position metrics; Shopping has only IS, overlap and outranking share [Google docs]. Do not use it to justify bid increases outside a conquest objective (Adalysis, 2021).
 
@@ -31,13 +31,13 @@ Do not use on campaigns whose IS is under 10% — Google shows no auction-insigh
    - Volume moved, impressions moved with it, IS flat → demand shift. Check whether a peak period was entered or left and compare year on year; competitors are not the story.
    - Volume flat, impressions down, lost IS (rank) up → go to step 3.
    - Volume flat, impressions down, lost IS (budget) up → CPC rose; go to step 3 to see whether a competitor caused it.
-3. **Read auction insights as a series, not a snapshot.** For each competitor with overlap rate ≥10% in any week:
+3. **Read auction insights as a series, not a snapshot.** For each competitor with overlap rate ≥10% in any week (the 10% overlap floor, the 13-week window in Inputs, and the ">20% overlap for 4+ weeks" new-entrant rule below are Epiminds operating thresholds — no canon source; reason: 10% mirrors Google's own IS display floor [Google docs], 13 weeks gives three monthly budget cycles for the signature in Adalysis (2019; 2021), and 4 weeks is the shortest run Geddes' 3-week rule plus one week of confirmation allows):
    - Competitor top-of-page rate and outranking share rising across 3+ consecutive weeks while yours fall → they raised ad rank (bid or QS); this is the competitor-pressure signature (Adalysis, 2020).
    - Competitor IS low but position-above rate high → an aggressive bidder taking few, expensive impressions; likely high CPA on their side; do not match (Adalysis, 2021).
    - Competitor IS well above yours, overlap high → more budget or better QS than you; a structural competitor, not an event (Adalysis, 2021).
    - Competitor overlap collapses in the last week of each month, or tapers through a quarter → budget-cycle advertiser; expect cheaper clicks in that window and shift budget there (Adalysis, 2019; 2021). Confirm on at least two cycles before acting.
    - A new domain appears and holds >20% overlap for 4+ weeks → new entrant; classify in step 5.
-4. **Check QS before blaming anyone.** A falling QS raises your CPC and lowers your top-of-page rate with no competitor change at all (Adalysis, 2020). If impression-weighted QS dropped ≥1 point in the window, treat QS as the primary cause and competitor movement as secondary.
+4. **Check QS before blaming anyone.** A falling QS raises your CPC and lowers your top-of-page rate with no competitor change at all (Adalysis, 2020). If impression-weighted QS dropped ≥1 point in the window (Epiminds operating threshold — no canon source; reason: QS is an integer and one point is the smallest real move), treat QS as the primary cause and competitor movement as secondary.
 5. **Classify competitors.** True competitor (sells what you sell to the same buyer) vs impression competitor (shares the SERP, not the customer) (Adalysis, 2019). Only true competitors go into the client narrative and the ad-messaging backlog; impression competitors are noise even at high overlap.
 6. **Decide.**
    - Cause = demand → no bidding action; adjust budget pacing and forecasts.

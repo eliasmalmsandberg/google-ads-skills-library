@@ -43,7 +43,7 @@ Google's Recommendations push "add conversion actions" and "switch to Maximize C
 - **Tiny addressable markets** (a few hundred named accounts): volume will never arrive; manual control beats any ladder (Cruz/SEL, 2026).
 
 ## What to measure
-Per rung, monthly: volume, rung-to-next-rung rate, median time-to-complete. Macro CPA alongside primary-rung CPA — if primary-rung CPA falls and macro CPA doesn't within two cycles, the rung is a correlate, not a cause (Gray's failure signature). Max Clicks phase: CPC, landing-page CVR. Graduation check monthly.
+Per rung, monthly: volume, rung-to-next-rung rate, median time-to-complete. Macro CPA alongside primary-rung CPA — if primary-rung CPA falls and macro CPA doesn't within one to two full conversion cycles — Vallaeys' wait-before-judging window (Vallaeys/Optmyzr, 2026) — the rung is a correlate, not a cause (Gray's failure signature — Gray/WebMechanix, 2024). Max Clicks phase: CPC, landing-page CVR. Graduation check monthly.
 
 ## Open disagreements in the canon
 - **Do micro-conversions work as bidding signals at all?** Gray says no in his accounts (2024); Stemen/McNair (2024), Geddes (2025) and Newson (2026) say yes when well-chosen. Epiminds goes with the qualification rule: a rung needs a known path-to-sale rate; otherwise Max Clicks.

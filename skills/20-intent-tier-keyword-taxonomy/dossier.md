@@ -29,6 +29,8 @@ Read `google-ads-keywords` (intent table: transactional/commercial/informational
 - "Per-tier bidding" under Smart Bidding is implemented through separate campaigns with separate targets or through conversion values, not bid adjustments; this is the synthesis of Hopkins (2024) and Vallaeys (2026) and is labelled as such.
 - Unit of tier: Epiminds follows Geddes for ad-group splits inside a campaign and Hopkins for campaign splits only where auction price or budget must differ.
 
+- Review fix (2026-10-13): quarterly re-tier is an Epiminds operating cadence (three monthly n-gram passes before a CPA shift counts as a trend); Geddes 2025 (n-gram classification rules, 'today' example) added to 'Where it comes from'.
+
 ## Canon strength: Adequate
 Geddes supplies the only numbers (intent-word CPA); Hopkins and McNair supply method without data; Vallaeys supplies supporting cross-account evidence on exact/brand.
 

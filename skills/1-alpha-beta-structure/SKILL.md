@@ -24,12 +24,12 @@ Do not use when: the account is new (nothing to harvest); total conversions are 
 - Negative lists currently applied.
 
 ## Method
-1. **Qualify the account.** Projected alpha conversions ≥30/30 days (Vallaeys/Walker, 2025). If not, stop at ad-group-level separation (Geddes, 2020) and revisit quarterly.
+1. **Qualify the account.** Projected alpha conversions ≥30/30 days (Vallaeys/Walker, 2025). If not, stop at ad-group-level separation (Geddes, 2020) and revisit once 90 days of data exist — the minimum history the Optmyzr study required (Hopkins/Optmyzr, 2024).
 2. **Harvest list.** From 90-day search terms, promote a term to alpha when it has ≥1 conversion and its CPC is at or below the 90th–95th percentile of converting-term CPCs (the CPC filter is Rooijmans's outlier screen, 2026); or, with no conversion yet, when it has reached 50–100 clicks/month and the account's CVR implies a conversion is overdue (Lolk's DSA-promotion bar, 2025, not canon — his old bar was 5 clicks; it rose because close variants made small-click terms noisy). Re-run the harvest against the 12-month view before launch so seasonal converters are not missed (Wenner/SEL on keyword harvest, undated — see skill 2).
 3. **Build alpha.** One exact keyword per harvested term, grouped into ad groups by landing page and ad relevance — new ad group only when the keyword is not reflected in both ad and landing page (Geddes, 2020). Do not pause the existing keyword that generated the term; "if you remove a keyword, you can't get it back" (Hopkins/Optmyzr, 2023).
 4. **Build beta.** Broad match (phrase optional) on the theme keywords. Add every alpha exact keyword as an exact negative in beta (Geddes, 2020). This is mandatory: across campaigns Google prefers the most restrictive match but rotates over time, which is how the same search term ends up served by both campaigns (Geddes, 2020).
 5. **Bidding and budget.** Alpha takes the maximum budget; beta's budget is the lever you use to steer the account to target (Geddes, 2020). Alpha on tCPA/tROAS with bid limits via portfolio; beta on tCPA with a tighter target or Max Clicks with a CPC cap while it has fewer than 30 conversions (Rooijmans, 2026; Vallaeys/Walker, 2025). Expect no CPC discount in beta for being broad — the 2023 study killed that assumption (Hopkins/Optmyzr, 2023).
-6. **Promotion cadence.** Weekly for the first month, then fortnightly: apply rule 2 to beta's search terms; add promoted terms to alpha and as exact negatives to beta in the same change set. Terms that reach 100 clicks with zero conversions get a phrase negative in beta.
+6. **Promotion cadence.** Epiminds operating cadence — no canon source; reason: weekly through the 2–3-week stabilisation window after launch (Hopkins/Optmyzr, 2024), then fortnightly so each pass has enough new clicks to clear the 50–100 click bar (Lolk, 2025, not canon). Apply rule 2 to beta's search terms; add promoted terms to alpha and as exact negatives to beta in the same change set. Terms that pass the upper promotion bar (100 clicks; Lolk, 2025, not canon) with zero conversions get a phrase negative in beta — Epiminds derived rule; reason: a term with more clicks than the promotion bar and no conversion has already had its chance.
 7. **Scale gate.** Only raise alpha budgets or loosen bid limits after the tier shows ~30 conversions in a 2-week window; then remove the lower bid limit and cap the upper at 50% of tCPA (Rooijmans, 2026).
 8. **Output.** Alpha keyword list with source term, conversions and CPC at promotion; beta negative list (exact) mirroring alpha; budget split; the promotion log.
 
@@ -48,7 +48,7 @@ Do not use when: the account is new (nothing to harvest); total conversions are 
 
 ## What to measure
 - Alpha vs beta: CPA/ROAS, CPC, share of conversions (expect the study pattern — exact better on CPA/ROAS, broad on impressions; Hopkins/Optmyzr, 2023).
-- Promotion rate: terms promoted per fortnight; a zero rate for two cycles means beta is too narrow or negatives too aggressive.
+- Promotion rate: terms promoted per fortnight; a zero rate across the stabilisation window (2–3 weeks; Hopkins/Optmyzr, 2024) means beta is too narrow or negatives too aggressive.
 - Duplicate search terms across alpha and beta (target zero; Geddes, 2020).
 - Conversions per campaign per 30 days against the 30 floor (Vallaeys/Walker, 2025).
 - Outlier CPCs in beta vs the 90th–95th percentile screen (Rooijmans, 2026).

@@ -26,6 +26,8 @@ Read `google-ads-keywords` (match type migration: start exact+phrase, add broad 
 - Epiminds position: two tiers (managed exact + discovery phrase/broad in a separate campaign), not three parallel match-type campaigns — Hopkins' maintenance argument (2020) against three tiers is accepted; Geddes' promotion discipline (2016) is kept for two.
 - Geddes' 2016 rule references modified broad for discovery; the skill substitutes phrase (post-2021 phrase ≈ old BMM per Geddes 2021) or gated broad (skill 16).
 
+- Review fix (2026-10-13): quarterly review cadence and the two-cycle merge trigger are Epiminds operating choices (no canon source; tied to the 3-month promotion window); the portfolio-bidding failure mode is an Epiminds position resting on Vallaeys 2026; enterprise-scale wording aligned to Geddes 2016 ('potentially millions of keywords').
+
 ## Canon strength: Strong
 Three Geddes posts (two with data), Hopkins' structural counter-argument, Vallaeys' 30k-account match-type evidence.
 

@@ -24,6 +24,8 @@ Read `google-ads-scripts` (a disapproval monitor using the legacy `PolicySummary
 - "Eligible (limited)" is named as a gap from platform knowledge, labelled unverified.
 - Cadence position (daily, hourly at launch) is ours; both options are the author's.
 
+- Review fix: the causal claim that unfounded appeals attract scrutiny was cut; the failure mode is now an Epiminds operating rule tied to the appeal path Rooijmans (2022) documents.
+
 ## Canon strength: Adequate
 One Tier 1 practitioner with three published scripts and own-account cases; no cross-account evidence.
 

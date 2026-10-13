@@ -41,6 +41,8 @@ Read `google-ads-negative-keywords` (Source 2: brand variations as negatives in 
 - "Negative mesh" in the row name is read as the full set of cross-campaign negatives/exclusions across Search, Shopping and PMax, not only Search.
 - Web search budget was exhausted mid-research; Optmyzr/Adalysis index pages were fetched but showed no brand-specific posts in their current listings.
 
+- Post-review: the leakage-review cadence (weekly until clean, then monthly), the zero-leak target, the generic-word-brand rule (exact negative on the full phrase) and the reseller rule (manufacturer brands stay off List A) are Epiminds derived rules with no canon source, labelled as such in the skill.
+
 ## Canon strength: Adequate
 Three Tier 1 sources (Nils ×4 posts, Vallaeys/Walker, Geddes) with method; evidence is single-account and anecdotal.
 

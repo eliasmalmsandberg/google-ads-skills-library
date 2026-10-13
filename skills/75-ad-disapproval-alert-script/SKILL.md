@@ -41,7 +41,7 @@ Google's route is notification emails and the Policy Manager [Google docs, unver
 - **Large Shopping catalogs**: the products script pages the Content API 250 at a time and can time out; raise `MIN_CLICKS` so only clicked products are checked (Rooijmans, 2022).
 - **Hourly schedule with no state**: the same disapproval emails every hour because the sheet is cleared each run (Rooijmans, 2020); keep hourly for launches only.
 - **MCC**: single-account scripts; the MCC version is by request (Rooijmans, 2020).
-- **Appeals filed reflexively**: repeated unfounded appeals in restricted verticals attract scrutiny; classify first (step 2).
+- **Appeals filed reflexively**: Epiminds operating rule — no canon source; classify first (step 2) and appeal only class (d); reason: the appeal form asks what changed to comply (Rooijmans's appeal path, 2022), and a blanket appeal cannot answer it.
 - **Code fragility**: the products script's error handling reads an undefined response after a failed API call and can stop the run (noted on fetch of Rooijmans, 2022); check logs after any Merchant Center outage.
 
 ## What to measure

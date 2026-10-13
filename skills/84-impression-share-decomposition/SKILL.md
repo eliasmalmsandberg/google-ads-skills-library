@@ -52,7 +52,7 @@ Do not use on Search Partners traffic (excluded from IS) [Google docs], on daily
 - "Limited by budget" and Google's budget recommendations assume the current CPC is right. Geddes' point is that lowering CPC stretches the same budget into more clicks ($1→$0.75 CPC turns 100 clicks into 133) (Adalysis, 2019); we test the bid target before accepting the budget recommendation.
 
 ## Failure modes
-- **Low-volume campaigns (<1,000 impressions/month).** IS is estimated and daily values swing [Google docs]; monthly decomposition on tiny bases produces false causes. Aggregate to 90 days.
+- **Low-volume campaigns (<1,000 impressions/month).** IS is estimated and daily values swing [Google docs]; monthly decomposition on tiny bases produces false causes. Aggregate to 90 days. The 1,000-impression floor and the 90-day aggregation are Epiminds operating thresholds — no canon source; reason: Google's own note that small IS fluctuations are estimation noise [Google docs] gives no number, and 90 days matches the trend window Adalysis uses in its lost-IS history view (Adalysis docs, 2026).
 - **Brand campaigns.** Benchmarks differ: Geddes treats >90% (>95% for large brands) as the target and anything lower as a rank or budget problem to fix immediately (Adalysis, 2024). The reallocation logic of step 3b does not apply — brand is the donor, never the recipient, unless brand IS itself is below 90%.
 - **Shopping.** Only the first impression per search counts and only Search Network traffic [Google docs]; rank loss in Shopping is mostly feed/price-driven and the asset/QS route in step 4 does not apply.
 - **PMax.** Blended Search + Shopping IS [Google docs] with no keyword-level rank diagnosis; use only the budget route.

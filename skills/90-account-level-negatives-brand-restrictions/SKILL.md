@@ -37,7 +37,7 @@ Use when an exclusion is needed across many campaigns at once, when PMax is live
 Output: account-level list ≤ 800 entries of whole-account terms; per-PMax campaign: brand exclusions on, `*PMax` list attached; brand campaign holds exact-match misspellings; a monthly 15-minute pass on the PMax search-category report.
 
 ## What Google will tell you instead, and why we don't
-Google's PMax guidance calls negatives "a highly restrictive control" that can block valuable traffic and says to use brand exclusions instead (Google Help). Brand exclusions are necessary but not sufficient: the only cross-account measurement in the canon shows fuzzy brand matches still served with them on (Vallaeys/Optmyzr, 2025). Google also defaults negatives to broad (Google Help); multi-word broad negatives block any word order and are the commonest self-inflicted reach loss, so phrase is the default here.
+Google's PMax guidance calls negatives "a highly restrictive control" that can block valuable traffic and says to use brand exclusions instead (Google Help). Brand exclusions are necessary but not sufficient: the only cross-account measurement in the canon shows fuzzy brand matches still served with them on (Vallaeys/Optmyzr, 2025). Google also defaults negatives to broad (Google Help); a multi-word broad negative blocks the query whenever all its terms appear in any order (Google Help), so phrase is the Epiminds default for multi-word entries — the operating preference stated in rule 5, not a measured finding.
 
 ## Failure modes
 - **Single-campaign accounts.** Account-level and campaign-level are the same scope; the three-instrument split is overhead. Use a campaign list.
@@ -45,7 +45,7 @@ Google's PMax guidance calls negatives "a highly restrictive control" that can b
 - **Marketplaces and resellers** that legitimately sell competitor brands: competitor terms cannot go account-level; they belong in the specific campaigns.
 - **App and Local campaigns** inherit the account-level list (Google Help); a term that is waste for Search may be the whole point of an App install campaign.
 - **Accounts near the 1,000 cap** that rely on the list as their only hygiene: the cap forces migration mid-crisis; budget it in advance (step 3).
-- **Low-volume PMax (< 60 conversions/30 days)**: the search-category report is too thin to show leaks; rely on brand exclusions plus Search exact keywords and skip the monthly list feed.
+- **Low-volume PMax (< 60 conversions/30 days — Google's stated PMax minimum as cited by Hopkins/Optmyzr, 2026; used here as an Epiminds operating cut-off)**: the search-category report is too thin to show leaks; rely on brand exclusions plus Search exact keywords and skip the monthly list feed.
 
 ## What to measure
 - Brand share of PMax spend and conversions, monthly, from the script's four buckets (Rhodes, 2026); target is a falling close-to-brand bucket after step 4.

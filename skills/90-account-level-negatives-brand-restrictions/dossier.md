@@ -33,6 +33,7 @@ Read `google-ads-negative-keywords` (shared-list architecture, starter universal
 - Cap budgeting (reserve ~200 of 1,000 for emergency blocks) is an Epiminds operating rule, flagged as such.
 - Phrase as default for account-level entries (not Google's broad default) is taken from the baseline's convention and the close-variant behaviour in Google docs — flagged as Epiminds' choice since no canon source states it for account-level specifically.
 - Hopkins 2026 post used only to corroborate Google docs because its dates are inconsistent.
+- Post-review: the "commonest self-inflicted reach loss" prevalence claim was unsourced and is cut; the phrase default is stated only as an operating preference. The < 60 conversions/30 days low-volume cut-off is Google's PMax minimum as relayed by Hopkins (2026), adopted as an Epiminds operating threshold.
 
 ## Canon strength: Adequate
 Vallaeys (2025) brings cross-account evidence; Rooijmans (2025) and Rhodes (script) bring method; the rest is Google docs. No practitioner test of account-level negatives' effect on performance exists in the canon.

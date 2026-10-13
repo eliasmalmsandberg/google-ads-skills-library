@@ -37,6 +37,7 @@ Read `google-ads-keyword-cannibalization` (covers Search-vs-Search overlap, a ge
 - Verdict thresholds: canon gives only PPC.io's "non-brand ROAS below Search baseline for two months" rule (Tier 2). Adopted, with the Optmyzr 10%-difference significance floor.
 - The baseline's CPC-gap cost formula is not usable (no PMax term cost); the skill estimates displaced clicks instead.
 - Search ineligibility is treated as the first hypothesis, per Vallaeys' caveat, before blaming PMax.
+- Windows: 8-week pre/post dating = two of Dunlop's 4-week re-audit windows each side; 4-week re-measure = Dunlop's window; "under a month old" = Optmyzr's one-month study window as minimum. 95% brand Search IS trigger = Epiminds rule tied to the near-100% handover prerequisite in skill 55 (Beltman/Rooijmans budget-limit failure).
 
 ## Canon strength: Strong
 

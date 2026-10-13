@@ -33,6 +33,9 @@ Read `google-ads-conversion-tracking` (offline import section: GCLID capture sni
 - Treated EC-for-leads as a parallel identifier path, not a replacement for stage import: it changes matching, not which stage you bid on.
 - Took the position that SQL (or "qualified lead") is the usual primary stage for B2B, because closed-won rarely clears 45/30 days inside 90 days; closed-won stays imported as secondary with value.
 - Gray/WebMechanix added as topic Tier 2 (as in dossier 43).
+- Post-review: the "to verify" GCLID windows were resolved against dossier sources — 90-day GCLID expiry from the Town Hall (source 4, editorial summary) and the 55-day value-restatement window from Vallaeys, Optmyzr, "3 ways to improve Smart Bidding performance" (2021-07-08, https://www.optmyzr.com/blog/improve-google-ads-smart-bidding-performance, added as source 8 below). The 2-day zero-import and >20% match-rate alert thresholds and the quarterly pipeline re-verify are Epiminds operating rules, labelled as such.
+
+8. **Source**: Frederick Vallaeys, Optmyzr — "3 ways to improve Smart Bidding performance on Google Ads", https://www.optmyzr.com/blog/improve-google-ads-smart-bidding-performance · **Tier** 1 · **Date** 2021-07-08 · **Claim**: Advertisers have 55 days after the initial conversion to restate its value using the original transaction ID (e.g. $100 sale with $40 returned → $60). · **Evidence**: Google docs as read by the author.
 
 ## Canon strength: Strong
 Four Tier 1 sources (Vallaeys ×3 pieces, Cruz, Hopkins) plus one added Tier 2 with the operational thresholds; evidence is practitioner method rather than a cross-account study.

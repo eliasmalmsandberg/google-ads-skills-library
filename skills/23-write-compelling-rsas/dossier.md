@@ -25,6 +25,7 @@ Read `google-ads-ad-copy`. It gives headline frameworks by slot category and a 1
 ## Judgment calls
 - Treated the 2026 sentence-case headline finding as a hypothesis to test (its common-account sample was 31 accounts, which the author calls too small), not a rule; the length findings are stronger and are written as defaults.
 - "Compelling" is defined as conversions per impression, per Vallaeys (2021) and Geddes (2026), not CTR.
+- Review fix (rubric 4): the opening line count is now derived from Geddes' 100-impressions-per-combination rule; the fallback "9 headlines / 3 descriptions" is labelled an Epiminds operating threshold (3 per third from Geddes' 2022 example; 2–3 per slot from the pinning sources), not a canon figure.
 - Google's ~15% Poor→Excellent claim is recorded as a platform claim and contradicted via skill 25.
 
 ## Canon strength: Strong

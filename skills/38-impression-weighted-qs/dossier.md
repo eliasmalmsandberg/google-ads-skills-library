@@ -34,6 +34,8 @@ Read `google-ads-quality-score`. The baseline mentions "account-level weighted a
 - The ±0.2 band is from one Vallaeys observation in 2015, across his accounts; it is the only published noise band and is labelled as such.
 - Cost-weighting as an alternative appears in Vallaeys 2015 (spend × low QS for ad groups) — adopted for the work queue, not for the headline metric.
 
+- Post-review: the 0.5 wQS pivot in the noise band and the 80%-of-cost queue cap are Epiminds operating thresholds with no canon source, now labelled in the skill alongside the already-labelled 20% null flag.
+
 ## Canon strength: Strong
 Geddes (worked method), Vallaeys (two posts, one with multi-account data), Optmyzr help (formula), Parker (script), Levy, Hopkins.
 

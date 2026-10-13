@@ -31,6 +31,8 @@ Read `google-ads-experiments` (PMax vs Search experiment section) and `google-ad
 - Vallaeys' piece was found after the first pass (via his SEL author page) and lifts the topic from Thin to Adequate; the skill is written around Google Conversion Lift read with Vallaeys' prior-awareness, and the self-run geo design is kept to the power rules Haus publishes.
 - The skill positions Google Conversion Lift as the default for Epiminds clients under ~1,000 weekly conversions (self-run geo tests lack power there per Haus), with explicit discounting of results where the prior does the work.
 
+- Review fix (2026-10-13): the ~5,000 monthly-conversion ceiling and the 50%-spend / 6-month re-test cadence are labelled Epiminds operating thresholds; no canon source. Haus should be recorded in canon.md under "Dossier-added Tier 2" (geo/incrementality testing, method and data only, vendor caveat).
+
 ## Canon strength: Adequate
 One Tier 1 (Vallaeys, method with arithmetic) and one added Tier 2 (Haus, vendor, aggregated data), plus Google docs.
 

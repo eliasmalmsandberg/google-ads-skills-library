@@ -28,6 +28,8 @@ Read `google-ads-keywords` (DSA section: "discovery toolâ€¦ mine search terms â†
 - The Feb 2027 AI Max auto-upgrade means this skill has a known end date; the skill says so and frames DSA as a harvesting tool to run and harvest from before that date.
 - Harvest thresholds (impressions/conversions) are borrowed from the alpha/beta promotion rule (Geddes 2016, skill 13) rather than invented.
 
+- Review fix (2026-10-13): monthly harvest cadence, the 'one target CPA of spend' early-promotion floor, the small-site rule (no page count in canon) and the conversion-lag caution are all Epiminds operating choices, labelled as unsourced in SKILL.md.
+
 ## Canon strength: Adequate
 Two Tier 1 practitioners with method; limited numeric evidence; Google docs for platform state.
 

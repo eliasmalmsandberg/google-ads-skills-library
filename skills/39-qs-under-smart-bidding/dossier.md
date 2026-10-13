@@ -36,6 +36,8 @@ Read `google-ads-quality-score` and `google-ads-bidding`-adjacent sections of th
 - Gales is used only to corroborate the proxy framing Vallaeys fact-checked.
 - No cross-account study linking QS work to Smart Bidding outcomes was found in any canon source; the skill says so rather than inventing a CPC curve.
 
+- Post-review: the impression-share cut-points (≤ 10% / > 30% at QS ≤ 4) and the 10%-of-time cap in rule 3 are Epiminds operating thresholds with no canon source (the time cap loosely echoes Irvine's ~10% framing); now labelled in the skill alongside the wQS cut-points.
+
 ## Canon strength: Adequate
 Five Tier 1/2 practitioners with positions (Vallaeys, Hopkins, Tyagi, Geddes, Levy, Irvine); evidence limited to Geddes's aggregated analysis and Vallaeys's 2015 incident data. Not Thin, because the positions and their reasoning are published; not Strong, because no one brings a study.
 

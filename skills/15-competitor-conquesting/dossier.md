@@ -26,6 +26,8 @@ Read `google-ads-keywords` (competitor section: separate campaign, one ad group 
 - Canon strength is Adequate by the letter (3+ Tier 1 sources) but the evidence is near-zero; the skill says this plainly and treats conquesting as a gated test with a kill rule, not a strategy with known returns.
 - Trademark policy specifics are omitted because the Google page was not fetched; the skill keeps Hopkins' conservative copy rule.
 
+- Review fix (2026-10-13): 30-day review is an Epiminds cadence; the 50-conversion review point and the manual-CPC fallback for small accounts are now attributed to Vallaeys/Optmyzr 2026 (Smart Bidding threshold; manual CPC as the safest per-keyword ceiling); the comparison-shopping-vertical failure mode is labelled an Epiminds observation with no canon source naming verticals.
+
 ## Canon strength: Adequate
 Three Tier 1 sources with method; no published performance data on conquesting.
 

@@ -32,6 +32,8 @@ Read `google-ads-quality-score`. Baseline gives the generic list (keyword on pag
 - The 39% / 3.5-point weight is Geddes's estimate; used only to explain why an above-average LP rarely shows below QS 7, flagged as estimate.
 - Google's "exact wording need not appear" is accepted — Geddes's "supporting words" framing agrees; the baseline's "keyword in H1" rule is dropped.
 
+- Post-review: the 1.5× mobile/desktop bounce ratio (rule 2) and the top-80%-of-spend gate are Epiminds operating thresholds with no canon source, now labelled in the skill; Geddes supplies the device-split diagnostic and spend-weighted prioritisation but no numbers.
+
 ## Canon strength: Adequate
 Geddes (data on CPC/impression share; two further pages), Hopkins (thresholds), Hebdon, Levy — 2+ Tier 1/2 with some evidence, but only Geddes brings account data.
 

@@ -39,9 +39,9 @@ Google ships expansion on, recommends keeping text customization on for performa
 ## Failure modes
 - **Multi-category stores with unstructured URLs**: rules cannot describe what to exclude; switch off instead (Williams/ZATO, 2023).
 - **Marketplaces, multi-brand or multi-domain sites**: Google itself warns of mismatched generated headlines; use generic descriptions or a page feed [Google docs].
-- **Expansion off with a thin page feed**: the campaign has few eligible pages and under-delivers on Search inventory.
+- **Expansion off with a thin page feed**: with expansion off, only page-feed and asset-group URLs can serve [Google docs], so a feed of a handful of pages is the whole eligible site.
 - **Store-goal campaigns**: setting unsupported [Google docs].
-- **Switching off after months on**: the campaign loses the text and image assets Google generated from expanded pages; replace them before switching.
+- **Switching settings and judging too soon**: changes to either toggle take 24–48 hours to apply [Google docs]; a landing-page read inside that window reflects the old setting.
 
 ## What to measure
 Share of PMax clicks on URLs not in the asset group or page feed (target zero when off; falling when on). Conversion rate of expanded vs chosen pages. Count of excluded URLs/rules. Time since last landing-page review.

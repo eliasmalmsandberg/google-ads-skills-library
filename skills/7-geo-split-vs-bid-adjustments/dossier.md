@@ -29,6 +29,8 @@ Read `google-ads-segmentation` (geo tiering by CPA ratio, modifiers −20–35%,
 - The decision rule is built around the Google doc fact (adjustments ignored under Smart Bidding) plus canon volume thresholds; no canon source gives a geo-specific CPA-ratio threshold, so the skill does not invent one — it uses the campaign-existence rule instead.
 - Campaign type "All" in the row: the skill is written for Search and Shopping campaign-level geo settings; PMax geo is settings-only and the same rule applies.
 
+- Post-review: the review cadence is set at 90 days, derived from the Optmyzr study's 90-day inclusion requirement (Hopkins/Optmyzr, 2024).
+
 ## Canon strength: Adequate
 Geddes (method), Vallaeys/Walker (opinion), Hopkins/Optmyzr (volume evidence), Rooijmans (practice); Google docs supply the mechanism.
 

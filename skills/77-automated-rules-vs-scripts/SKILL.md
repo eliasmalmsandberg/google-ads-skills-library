@@ -40,7 +40,7 @@ Google's automation offer is Smart Bidding plus auto-applied recommendations, wi
 
 ## Failure modes
 - **Agencies that script everything**: rules are cheaper to audit and cannot overspend from a bug; using a script for "pause at $100" is the error Rooijmans names (2026).
-- **Rules on Smart Bidding campaigns**: a daily pause/enable rule disrupts learning; prefer budget reshaping (skill 71).
+- **Rules on Smart Bidding campaigns**: Epiminds operating rule — no canon source; reason: a pause/enable rule is the re-enable half of Rooijmans's overspend design, built for budget-capped accounts (Rooijmans, 2022); on Smart Bidding we prefer budget reshaping (skill 71) rather than switching the campaign off and on daily.
 - **Scripts with hard-coded account values** in an MCC: silent wrong actions in other accounts (Vallaeys, 2025).
 - **Agents on accounts with shared budgets, PMax or imported conversions**: an agent that cannot see cost for PMax in the campaign iterator (Rooijmans, 2022) will reason on partial data; keep it read-only.
 - **Clients who distrust automation** (40% of practitioners do — Vallaeys/Optmyzr, 2026): start with alert-only scripts and rule previews; acting automation without a preview loses the account.

@@ -15,7 +15,7 @@ Rooijmans on brand contamination of PMax data and the exclusion method (close-va
 ## When to use it / when not to
 Use when a client questions brand spend, when PMax reports ROAS far above the non-brand Search campaigns, or before any PMax-vs-Search budget decision. Use Stage 1 on every account at onboarding.
 
-Do not run Stage 2 when the brand campaign spends under ~5% of the account — the test cannot move a decision; when a competitor is actively bidding on the brand name and the client will not tolerate lost brand clicks for 14+ days; or when in-scope conversions are below the ~300/month signal threshold (Haus, 2024).
+Do not run Stage 2 when the brand campaign spends under ~5% of the account (Epiminds operating threshold — no canon source; reason: at that share even a factor of zero reallocates less than the test's holdout opportunity cost) — the test cannot move a decision; when a competitor is actively bidding on the brand name and the client will not tolerate lost brand clicks for 14+ days; or when in-scope conversions are below the ~300/month signal threshold (Haus, 2024).
 
 ## Inputs
 - Brand term list with close variants and misspellings, taken from the brand campaign's search-term report (Rooijmans, 2024).
@@ -28,17 +28,17 @@ Do not run Stage 2 when the brand campaign spends under ~5% of the account — t
 ## Method
 **Stage 1 — make brand visible (always)**
 1. Run the PMax brand-traffic split (script or search-category insights) and record brand share of PMax conversions and conversion value (Rooijmans, 2024).
-2. If brand share of PMax conversions > ~20%, restate PMax ROAS with brand removed before any other analysis; Google overstated PMax-with-brand performance by ~33% in Haus's Caraway case (Haus, 2024).
+2. If brand share of PMax conversions > ~20% (Epiminds operating threshold — no canon source; reason: below that share the restated ROAS moves less than month-to-month noise), restate PMax ROAS with brand removed before any other analysis; Google overstated PMax-with-brand performance by ~33% in Haus's Caraway case (Haus, 2024).
 3. Exclude brand from PMax: shared negative list auto-populated with every close variant found in the brand campaign's search terms (Rooijmans, 2024), plus the platform brand exclusion. Confirm the brand Search campaign is not budget-limited, otherwise PMax takes the overflow and the exclusion is cosmetic (Rooijmans, 2022).
 4. Re-read PMax after 30 days. The non-brand PMax number is the one that goes into the client report from now on.
 
 **Stage 2 — decide whether brand Search itself is incremental**
-5. **Set the prior from the SERP, not from the ad platform.** Pull Auction Insights on brand terms.
+5. **Set the prior from the SERP, not from the ad platform.** Pull Auction Insights on brand terms. The >10% overlap line below is an Epiminds operating threshold — no canon source; reason: it is the floor at which Google shows an auction-insights row at all [Google docs], so a competitor under it is not measurably present.
    - No competitor with >10% overlap on brand terms, organic #1 with sitelinks → prior is "non-incremental": this is the eBay condition, where paid brand clicks substituted for organic clicks with no measurable short-term benefit (Blake, Nosko & Tadelis, 2015).
    - One or more competitors with >10% overlap or regularly above you → prior is "incremental enough": the holdout would measure lost clicks to a conquestor, and Haus's data shows brand-inclusive setups winning on blended revenue in half of tests and by +27% for high-AOV brands (Haus, 2024). Skip the holdout; test bid-down instead (step 8).
 6. **Run the holdout only under the first prior.** Design: geo split, brand Search paused in treatment geos, control geos unchanged; outcome = total conversions/revenue in the geo across all channels, not the brand campaign's conversions (Haus, 2024 design). Duration ≥14 days plus median conversion lag. If the client has ≥1,000 observed conversions and ≥$5k budget in scope, a Google Conversion Lift study on the brand campaign is an acceptable substitute [Google docs], read with step 7.
 7. **Read.** Incremental conversions = treatment total − scaled control total. Incrementality factor = incremental ÷ brand-campaign-reported conversions (Haus, 2024). For a Google study, discount probability-of-lift below 90% and any result under ~300 in-scope conversions as a hypothesis; priors from similar campaigns are doing the work at that size (Vallaeys/SEL, 2025).
-8. **Act.**
+8. **Act.** The factor bands (0.3 / 0.7) and the 20–30% reduction for 30 days are Epiminds operating thresholds — no canon source; reason: 0.3 is roughly the ~33% overstatement Haus found on PMax-with-brand (Haus, 2024) read as a floor, 0.7 is where the discount stops changing the budget decision, and 30 days is the shortest window that clears one conversion cycle for most clients.
    - Factor < 0.3 → cut brand spend to a defensive floor: exact-match only, Target IS or manual CPC at the minimum that holds abs-top IS, no broad/phrase brand.
    - Factor 0.3–0.7 → keep brand, but report brand conversions × factor to the client and remove brand from any blended ROAS used to justify budget.
    - Factor > 0.7, or prior was "incremental enough" → keep brand at full coverage; test a 20–30% CPC/target reduction for 30 days and watch abs-top IS and the competitor's top-of-page rate instead of running a holdout.

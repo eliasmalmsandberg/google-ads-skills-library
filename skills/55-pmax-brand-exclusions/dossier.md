@@ -41,6 +41,7 @@ Read `google-ads-audit-ecommerce` (brand campaign health: brand IS >90%, brand l
 
 ## Judgment calls
 - Threshold for acting: canon gives no single number. PPC.io's distribution (median 14%, top third >20%) and Pooler's 30%-of-conversions flag bracket the range. Skill uses 20% of PMax clicks or 30% of PMax conversions as the "act" line, below 10% as "leave it", and the band between as "test".
+- Lower band 10%: Epiminds rule derived from PPC.io's 14% median (below-median campaigns are where Williams' low-share argument applies). Residual-leak trigger 5%: half the leave-in line. 14-day verification: Google's 1–2 week stabilisation note (channel report doc). 4-week pre/post window: Dunlop's post-fix re-audit window.
 - Shopping checkbox: canon is silent. Skill follows Kirk's prerequisite (a brand Standard Shopping campaign must exist before brand Shopping traffic is cut from PMax).
 - PPC.io and smec added as Tier 2 for this topic; Haus figures are secondhand and flagged as such.
 

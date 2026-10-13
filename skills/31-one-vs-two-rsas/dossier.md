@@ -24,6 +24,7 @@ Read `google-ads-ad-copy` (does not address RSA count) and `google-ads-experimen
 
 ## Judgment calls
 - Smart Bidding is in the row title; none of the sources segment by bid strategy. The skill says so and treats the over-serving behaviour as the Smart-Bidding-era default rather than claiming a bid-strategy-specific finding.
+- Review fix (rubric 4): the "8 weeks" cap was unsourced; the end condition is now the sourced data-budget test, with the time-box left as a launch-time Epiminds operating threshold and labelled as such.
 - Google's +6.6% is cited as a platform claim consistent in direction with Optmyzr's finding, not as the reason.
 
 ## Canon strength: Strong

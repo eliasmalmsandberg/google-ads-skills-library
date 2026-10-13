@@ -27,6 +27,8 @@ Read `google-ads-segmentation` and `google-ads-account-audit` (Layer 3c: ads out
 - No canon source publishes the heatmap *construction*; the skill describes the analysis at the level the canon supports (hour × day table of cost, conversions, CPA with a conversion floor per cell) and cites the conversion floor from Geddes' 80-conversion audience test as the only analogous practitioner threshold, labelled as borrowed.
 - Took McNair's stricter position over Geddes' directional one for schedule adjustments (both agree on that case), and Geddes' for device/audience (he has test data).
 
+- Review fix (2026-10-13): the ~10-conversion cell mark, 20% outside-staffed-hours trigger and ±30%/±50% adjustment caps are labelled Epiminds operating thresholds alongside the 2×/10% rule; no canon source.
+
 ## Canon strength: Adequate
 Two Tier 1 practitioners with method; one single-account test; no cross-account evidence on dayparting.
 

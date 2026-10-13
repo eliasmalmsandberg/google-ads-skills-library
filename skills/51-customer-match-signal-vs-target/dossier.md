@@ -44,6 +44,8 @@ Read `google-ads-audiences` and `google-ads-audit-leadgen`. The baseline says "a
 - The baseline's "1,000 minimum" is not in current Google docs; the only documented threshold is 100 active members per 540 days. The skill uses the documented one.
 - Finn (SEL news) and Adegbola (SEL news) are cited as reporting of platform changes, not as practitioner authority.
 
+- The 60-day "refresh or delete" threshold (step 7, What to measure) is an Epiminds operating threshold with no canon source; derived as eight missed uploads against Google's weekly manual-upload guidance and labelled as such after blind review.
+
 ## Canon strength: Adequate
 Five Tier 1 sources with method and positions; evidence is practitioner experience and Google's own match-rate range, not a cross-account study.
 

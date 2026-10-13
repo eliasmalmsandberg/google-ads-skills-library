@@ -34,6 +34,8 @@ Read `google-ads-audit-leadgen` (Layer 6 audience checklist: "+20–40% for pric
 - Spend-without-conversion thresholds for exclusion: no canon source states one. The skill uses a threshold expressed in multiples of the campaign's target CPA and labels it as Epiminds' operating rule, not a sourced figure.
 - Sophie Fell could not be read; flagged for the refresh.
 
+- After blind review, four further operating numbers were labelled as Epiminds thresholds with no canon source: the 60-day window for reaching the step 4 threshold, the 30/90-day review cadence, the ~20 qualified-leads-a-quarter low-volume floor, and the ~20% week-on-week volume-drop alarm. Each carries its reason inline in the skill.
+
 ## Canon strength: Adequate
 Four Tier 1 sources with positions and method; evidence is practitioner experience, no cross-account study.
 

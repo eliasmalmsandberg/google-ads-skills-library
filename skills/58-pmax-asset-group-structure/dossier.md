@@ -33,6 +33,8 @@ Read `google-ads-audit-ecommerce` (checklist: "separate asset groups per product
 - No canon number for asset groups per campaign; the skill gives a rule (one per creative+landing-page+product set that differs) rather than a count.
 - Hopkins' "signals can hurt after learning" is recorded, not adopted.
 
+- Unit rule ("differs on at least two of product subset / landing page / creative") is an Epiminds rule derived from Optmyzr's "when messaging, audience intent or product focus differs" plus the Saskin Gales redundancy rule. 60-day signal review = two 30-day dead-weight cycles (Epiminds rule). The 80%-catalogue-fit wording and the "two or three" lead-gen count were cut as unsourced.
+
 ## Canon strength: Adequate
 
 ## Invalidated by

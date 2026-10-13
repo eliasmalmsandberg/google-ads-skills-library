@@ -14,7 +14,7 @@ Andrea Cruz (Search Engine Land, 2022 and 2026) on finding real segments from cr
 
 ## When to use it / when not to
 Use when a B2B account shows one of: lead-quality complaints with a consumer pattern (personal email domains, students, job seekers), a brand or Shopping campaign being clicked by existing users heading for a login page (Vlietstra, ZATO, 2026), or in-market/affinity observation rows spending with zero qualified leads.
-Do not use for low-volume accounts where the observation rows cannot reach the threshold in step 4 within 60 days; do not use as a substitute for fixing the form or the offer — Cruz (Search Engine Land, 2026) and McNair (PPC Mastery, 2026) both say fix the cause and treat the exclusion as temporary.
+Do not use for low-volume accounts where the observation rows cannot reach the threshold in step 4 within 60 days (Epiminds operating threshold — no canon source; reason: two monthly reviews with no row clearing 3× cost per qualified lead); do not use as a substitute for fixing the form or the offer — Cruz (Search Engine Land, 2026) and McNair (PPC Mastery, 2026) both say fix the cause and treat the exclusion as temporary.
 
 ## Inputs
 1. Audience report, segmented by in-market, affinity, detailed demographics and your-data, 90 days, per campaign, with cost, conversions and (if imported) qualified-lead conversions.
@@ -35,7 +35,7 @@ Do not use for low-volume accounts where the observation rows cannot reach the t
 5. **Demographic exclusions on Search are limited to age, gender and HHI** [Google docs]. Age: exclude 18–24 only when the CRM disqualification reasons show students or juniors as a named pattern, and never exclude "Unknown" — it is on by default, is the largest bucket, and Google's own warning is that excluding it blocks people you want [Google docs]; for B2B, work-profile users are heavily "Unknown". Gender: no B2B case. HHI: only usable in the 20 listed countries (US, CA, AU, IN, JP, BR, MX, SG and others) [Google docs]; for Nordic and EU campaigns the control does not exist on Search, so an "exclude lower 50% HHI" recommendation is not implementable — say so rather than leaving a ghost task. If HHI appears in your PMax settings (seen in a European campaign in July 2026 per Search Engine Land reporting), treat it as a rollout test, not a dependable control.
 6. **Apply first-party exclusions regardless of performance data** (Vlietstra, ZATO, 2026): existing customers and lead-form submitters from acquisition campaigns; employees; churned users where the CRM tags them; login-portal brand searchers from brand and Shopping. These are campaign-level exclusions. Optimized targeting respects customer-data exclusions [Google docs].
 7. **Pair every exclusion with an intent negative.** Cruz (Search Engine Land, 2026) manages "negative intent themes" rather than individual search terms; a consumer-shaped audience usually arrives through consumer-shaped queries (free, salary, jobs, DIY). Exclusion without the negatives moves the consumer traffic to another segment.
-8. **Review at 30 and 90 days.** Exclusions may not apply to users opted out of ads personalization [Google docs], so expect leakage. If qualified-lead share did not improve by the 90-day review, the consumer traffic was not audience-shaped; remove the exclusion and look at the offer, the form and the landing page (McNair, PPC Mastery, 2026; Cruz, Search Engine Land, 2026).
+8. **Review at 30 and 90 days** (Epiminds operating cadence — no canon source; reason: 30 days to catch volume loss, 90 days to match the observation window in Inputs). Exclusions may not apply to users opted out of ads personalization [Google docs], so expect leakage. If qualified-lead share did not improve by the 90-day review, the consumer traffic was not audience-shaped; remove the exclusion and look at the offer, the form and the landing page (McNair, PPC Mastery, 2026; Cruz, Search Engine Land, 2026).
 
 Output: an exclusion sheet per campaign — segment, level (campaign/ad group), evidence (spend, qualified leads, CRM pattern), paired negatives, review date — plus a "not implementable in this market" line for HHI where applicable.
 
@@ -43,7 +43,7 @@ Output: an exclusion sheet per campaign — segment, level (campaign/ad group), 
 Google's audience UI offers bid adjustments on observed segments as the primary control and keeps "Unknown" selected with a warning. We ignore the bid adjustments because McNair (PPC Mastery, 2026) and Hopkins (Search Engine Land, 2023) both treat them as dead under Smart Bidding; we agree with Google on "Unknown" and say so, because excluding it is the most common way a B2B exclusion pass halves volume without raising quality. Google's in-market suggestions are not a candidate source (Cruz, Search Engine Land, 2022).
 
 ## Failure modes
-- Low-volume B2B accounts (under ~20 qualified leads a quarter): no segment reaches the threshold in step 4; exclusions become guesses.
+- Low-volume B2B accounts (under ~20 qualified leads a quarter — Epiminds operating threshold, no canon source; reason: below this no single segment can show 3× cost per qualified lead with zero leads in 90 days): no segment reaches the threshold in step 4; exclusions become guesses.
 - Accounts on Manual CPC: step 1 inverts; bid-downs are the tool, not exclusions.
 - European accounts asked for HHI exclusions: the control is absent on Search [Google docs].
 - Products with a prosumer or SMB-owner buyer: "consumer-shaped" in-market segments (home office, small business software) are the buyer; step 4's third test fails and the exclusion cuts pipeline.
@@ -53,7 +53,7 @@ Google's audience UI offers bid adjustments on observed segments as the primary 
 ## What to measure
 - Qualified-lead share (CRM) per campaign before and 90 days after the exclusion set.
 - Spend on excluded segments after application (should be zero at campaign level; if not, the exclusion sits at the wrong level).
-- Volume: impressions and conversions week-on-week; a drop over ~20% with no quality gain means a segment that mattered was removed — the "Unknown" or prosumer traps above.
+- Volume: impressions and conversions week-on-week; a drop over ~20% (Epiminds operating threshold — no canon source; reason: beyond normal week-on-week noise in a B2B account) with no quality gain means a segment that mattered was removed — the "Unknown" or prosumer traps above.
 - Share of leads from personal email domains, as the proxy when the CRM has no quality stage.
 
 ## Open disagreements in the canon

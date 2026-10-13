@@ -32,6 +32,7 @@ Read `google-ads-bidding` ("0–10 conv/month → Manual CPC; 10–30 → Max Co
 - Gray/WebMechanix added as topic-scoped Tier 2 (method + threshold + a published negative result).
 - Took the position that only one rung is primary at a time and that a micro-action qualifies only if the client's own data shows it precedes a sale at a known rate; otherwise Max Clicks + landing-page work is the honest option (Hopkins).
 - The index row says "Setup / New" but the useful evidence comes from lead-gen accounts; the skill is written for lead gen and low-volume ecommerce alike, with the ecommerce note that add-to-cart is the only micro-action with a known ratio.
+- Post-review: the "two cycles" read window for the correlate-vs-cause test is attributed to Vallaeys' 1–2 full conversion cycle rule (Vallaeys/Optmyzr 2026, "Smart Bidding more obedient" — also listed in dossier 46).
 
 ## Canon strength: Adequate
 Two Tier 1 (Hopkins with cross-account data; Vallaeys method) plus two added Tier 2 with account results, one of them negative.

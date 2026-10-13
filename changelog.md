@@ -6,3 +6,105 @@
 - 2026-10-13 — Judgment call: rubric line 8 ("dossier-bound") is checked by the blind reviewer through inline attribution, since the reviewer cannot see the dossier.
 - 2026-10-13 — Judgment call: build order. Categories run in parallel by separate research agents; inside each category the order is strictly P1 → P2 → P3. Across categories this means P2 work may start in one category before P1 finishes in another; accepted so that research carries over within a category.
 - 2026-10-13 — Judgment call: one blind reviewer per category, reviewing each SKILL.md independently and writing one review.md per skill; the reviewer never sees dossiers or the build conversation.
+
+- 2026-10-13 — Build constraint: the shared web-search budget ran out part-way through every category; later skills were researched by direct fetch of practitioner sites, sitemaps and known URLs. searchengineland.com rate-limited (429), brainlabsdigital.com, edleake.com, adalysis.com (via curl) and many Google Ads Help pages were unreachable from the build environment. Each dossier records what could not be fetched; platform facts taken from prior knowledge are labelled "[Google docs — unverified in this build]". These are the first targets for the quarterly refresh.
+- 2026-10-13 — Review pass 1: 34 PASS, 51 FAIL, almost all on rubric line 4 (operating thresholds/cadences chosen by the author but not labelled as Epiminds decisions) or line 8 (unattributed platform claims). Fix applied library-wide: every such number is now either attributed inline to a dossier source or labelled "Epiminds operating threshold — no canon source; reason: …". Review pass 2: 85/85 PASS. No skill hit the two-fail limit.
+- 2026-10-13 — Thin canon (stub + NEEDS ELIAS): #6 tiered Shopping priorities, #18 DKI case variants, #30 campaign-name-as-headline trick, #33 Nordic localisation, #53 combined segments. Questions for Elias are in each SKILL.md and collected in thin-canon-report.md.
+- 2026-10-13 — Judgment call: #37 QS tracker — row premise corrected in the skill (Google does keep keyword-level QS history since 2017); the script's value is weighted aggregates and component indices.
+- 2026-10-13 — Judgment call: #86 attribution — re-scoped from model selection (default knowledge now that DDA is the default) to reconciling the Google Ads vs GA4/CRM delta.
+- 2026-10-13 — Judgment call: #14 DSA — written with a known expiry (Feb 2027 automatic upgrade to AI Max per Google docs) and framed as harvest-before-then.
+- 2026-10-13 — Judgment call: #68 Shopping sculpting — the baseline public skill has the priority tiers inverted; the new skill says so.
+- 2026-10-13 — Judgment call: #7 geo — the baseline segmentation skill assumes location bid adjustments work under Smart Bidding; Google docs say they are not used under tCPA/tROAS; skill built on that.
+- 2026-10-13 — Judgment call: #80 geo experiments — initially stubbed Thin, upgraded to Adequate after Vallaeys' Bayesian-incrementality piece was found; Haus admitted as Tier 2 for method only.
+- 2026-10-13 — canon.md Dossier-added Tier 2 list populated from the dossiers (topic-scoped); vendor title-CTR studies rejected.
+## Per-skill log
+- 2026-10-13 — #1 Alpha/Beta campaign structure (Account structure, P2): canon Adequate; review PASS; status Done; folder skills/1-alpha-beta-structure/
+- 2026-10-13 — #2 Hagakure consolidated structure (Account structure, P1): canon Strong; review PASS; status Done; folder skills/2-hagakure-consolidated-structure/
+- 2026-10-13 — #3 SKAG vs STAG vs intent-themed ad groups (Account structure, P2): canon Strong; review PASS; status Done; folder skills/3-skag-stag-intent-ad-groups/
+- 2026-10-13 — #4 Match-type-split campaigns with cross-negatives (Account structure, P2): canon Adequate; review PASS; status Done; folder skills/4-match-type-split-campaigns/
+- 2026-10-13 — #5 Brand/non-brand firewalling (negative mesh) (Account structure, P1): canon Adequate; review PASS; status Done; folder skills/5-brand-nonbrand-firewall/
+- 2026-10-13 — #6 Tiered campaign priorities for Shopping (Account structure, P2): canon Thin; review NEEDS ELIAS; status Drafting; folder skills/6-tiered-shopping-priorities/
+- 2026-10-13 — #7 Geo-split campaigns vs. bid adjustments (Account structure, P3): canon Adequate; review PASS; status Done; folder skills/7-geo-split-vs-bid-adjustments/
+- 2026-10-13 — #8 Mirror campaigns for Smart Bidding A/B (Account structure, P3): canon Adequate; review PASS; status Done; folder skills/8-mirror-campaigns-bid-strategy-ab/
+- 2026-10-13 — #9 Micro-campaign consolidation for low-volume accounts (Account structure, P2): canon Strong; review PASS; status Done; folder skills/9-micro-campaign-consolidation/
+- 2026-10-13 — #10 N-gram analysis of search terms (Keyword & query, P1): canon Strong; review PASS; status Done; folder skills/10-n-gram-analysis/
+- 2026-10-13 — #11 Close-variant leakage audit (Keyword & query, P1): canon Strong; review PASS; status Done; folder skills/11-close-variant-leakage-audit/
+- 2026-10-13 — #12 Negative keyword sculpting across campaigns (Keyword & query, P1): canon Strong; review PASS; status Done; folder skills/12-negative-keyword-sculpting/
+- 2026-10-13 — #13 Keyword funnelling via tiered negatives (Keyword & query, P2): canon Strong; review PASS; status Done; folder skills/13-keyword-funnelling-tiered-negatives/
+- 2026-10-13 — #14 DSA as a long-tail harvesting engine (Keyword & query, P2): canon Adequate; review PASS; status Done; folder skills/14-dsa-long-tail-harvesting/
+- 2026-10-13 — #15 Competitor conquesting (Keyword & query, P3): canon Adequate; review PASS; status Done; folder skills/15-competitor-conquesting/
+- 2026-10-13 — #16 Broad match + Smart Bidding guardrails (Keyword & query, P1): canon Strong; review PASS; status Done; folder skills/16-broad-match-smart-bidding-guardrails/
+- 2026-10-13 — #17 Search partners & Display expansion exclusion test (Keyword & query, P2): canon Adequate; review PASS; status Done; folder skills/17-search-partners-display-expansion/
+- 2026-10-13 — #18 Keyword insertion case variants and DKI risks (Keyword & query, P3): canon Thin; review NEEDS ELIAS; status Drafting; folder skills/18-dki-case-variants-risks/
+- 2026-10-13 — #19 Low search volume / rarely shown keyword handling (Keyword & query, P3): canon Adequate; review PASS; status Done; folder skills/19-low-search-volume-handling/
+- 2026-10-13 — #20 Intent-tier keyword taxonomy with per-tier bidding (Keyword & query, P2): canon Adequate; review PASS; status Done; folder skills/20-intent-tier-keyword-taxonomy/
+- 2026-10-13 — #21 Negative keyword conflict detection (Keyword & query, P2): canon Adequate; review PASS; status Done; folder skills/21-negative-keyword-conflict-detection/
+- 2026-10-13 — #22 RSA iteration loop (RSA & ad copy, P1): canon Strong; review PASS; status Done; folder skills/22-rsa-iteration-loop/
+- 2026-10-13 — #23 Write compelling RSAs (RSA & ad copy, P1): canon Strong; review PASS; status Done; folder skills/23-write-compelling-rsas/
+- 2026-10-13 — #24 Pinning strategies (RSA & ad copy, P1): canon Strong; review PASS; status Done; folder skills/24-pinning-strategies/
+- 2026-10-13 — #25 Ad Strength doesn't predict performance (RSA & ad copy, P2): canon Strong; review PASS; status Done; folder skills/25-ad-strength-not-performance/
+- 2026-10-13 — #26 Combinations report & asset ratings — what they hide (RSA & ad copy, P2): canon Strong; review PASS; status Done; folder skills/26-combinations-and-asset-stats/
+- 2026-10-13 — #27 Ad variations tool for account-wide copy tests (RSA & ad copy, P3): canon Adequate; review PASS; status Done; folder skills/27-ad-variations-account-wide-tests/
+- 2026-10-13 — #28 Keyword-level ad customizers (RSA & ad copy, P2): canon Adequate; review PASS; status Done; folder skills/28-keyword-level-ad-customizers/
+- 2026-10-13 — #29 Dynamic ad customizers (countdown, location, business data) (RSA & ad copy, P2): canon Adequate; review PASS; status Done; folder skills/29-dynamic-ad-customizers/
+- 2026-10-13 — #30 Campaign-name-as-headline diagnostic trick (RSA & ad copy, P3): canon Thin; review NEEDS ELIAS; status Drafting; folder skills/30-campaign-name-headline-diagnostic/
+- 2026-10-13 — #31 One vs. two RSAs per ad group under Smart Bidding (RSA & ad copy, P3): canon Strong; review PASS; status Done; folder skills/31-one-vs-two-rsas/
+- 2026-10-13 — #32 Headline count & pinning for compliance-heavy verticals (RSA & ad copy, P3): canon Strong; review PASS; status Done; folder skills/32-compliance-pinning/
+- 2026-10-13 — #33 Ad copy localisation vs. translation (Nordic patterns) (RSA & ad copy, P2): canon Thin; review NEEDS ELIAS; status Drafting; folder skills/33-nordic-localisation/
+- 2026-10-13 — #34 Improve Expected CTR (Quality Score, P1): canon Strong; review PASS; status Done; folder skills/34-improve-expected-ctr/
+- 2026-10-13 — #35 Improve Ad Relevance (Quality Score, P1): canon Adequate; review PASS; status Done; folder skills/35-improve-ad-relevance/
+- 2026-10-13 — #36 Improve Landing Page Experience (Quality Score, P1): canon Adequate; review PASS; status Done; folder skills/36-improve-landing-page-experience/
+- 2026-10-13 — #37 QS tracker script (daily snapshot) (Quality Score, P2): canon Strong; review PASS; status Done; folder skills/37-qs-tracker-script/
+- 2026-10-13 — #38 Impression-weighted QS as the account metric (Quality Score, P2): canon Strong; review PASS; status Done; folder skills/38-impression-weighted-qs/
+- 2026-10-13 — #39 Does QS matter under Smart Bidding — the evidence (Quality Score, P3): canon Adequate; review PASS; status Done; folder skills/39-qs-under-smart-bidding/
+- 2026-10-13 — #40 Portfolio bid strategies with max CPC caps (Bidding, P1): canon Strong; review PASS; status Done; folder skills/40-portfolio-max-cpc-caps/
+- 2026-10-13 — #41 Conversion value rules (Bidding, P2): canon Adequate; review PASS; status Done; folder skills/41-conversion-value-rules/
+- 2026-10-13 — #42 Value-based bidding for lead gen (proxy values) (Bidding, P1): canon Strong; review PASS; status Done; folder skills/42-value-based-bidding-lead-gen/
+- 2026-10-13 — #43 Micro-conversion ladder for new accounts (Bidding, P1): canon Adequate; review PASS; status Done; folder skills/43-micro-conversion-ladder/
+- 2026-10-13 — #44 Seasonality adjustments vs. data exclusions (Bidding, P2): canon Strong; review PASS; status Done; folder skills/44-seasonality-adjustments-vs-data-exclusions/
+- 2026-10-13 — #45 Target impression share for brand defence (Bidding, P2): canon Strong; review PASS; status Done; folder skills/45-target-impression-share-brand-defence/
+- 2026-10-13 — #46 Bid simulator & 'target too aggressive' diagnosis (Bidding, P2): canon Strong; review PASS; status Done; folder skills/46-bid-simulator-target-too-aggressive/
+- 2026-10-13 — #47 Enhanced conversions — measurement uplift & when it pays (Bidding, P2): canon Adequate; review PASS; status Done; folder skills/47-enhanced-conversions-uplift/
+- 2026-10-13 — #48 Offline conversion import with lead stages (Bidding, P1): canon Strong; review PASS; status Done; folder skills/48-offline-conversion-import-lead-stages/
+- 2026-10-13 — #49 Conversion lag modelling (Bidding, P2): canon Adequate; review PASS; status Done; folder skills/49-conversion-lag-modelling/
+- 2026-10-13 — #50 RLSA layering under Smart Bidding (Audiences, P3): canon Adequate; review PASS; status Done; folder skills/50-rlsa-layering-smart-bidding/
+- 2026-10-13 — #51 Customer Match as signal vs. target (Audiences, P2): canon Adequate; review PASS; status Done; folder skills/51-customer-match-signal-vs-target/
+- 2026-10-13 — #52 B2B audience exclusions (demographic, in-market, HHI) (Audiences, P2): canon Adequate; review PASS; status Done; folder skills/52-b2b-audience-exclusions/
+- 2026-10-13 — #53 Combined segments for intent stacking (Audiences, P3): canon Thin; review NEEDS ELIAS; status Drafting; folder skills/53-combined-segments-intent-stacking/
+- 2026-10-13 — #54 GA4 first-party segments into Google Ads (Audiences, P2): canon Adequate; review PASS; status Done; folder skills/54-ga4-segments-into-google-ads/
+- 2026-10-13 — #55 PMax brand exclusions — full method (Performance Max, P1): canon Strong; review PASS; status Done; folder skills/55-pmax-brand-exclusions/
+- 2026-10-13 — #56 Feed-only PMax (Performance Max, P2): canon Adequate; review PASS; status Done; folder skills/56-feed-only-pmax/
+- 2026-10-13 — #57 PMax search terms insights — what you can see and mine (Performance Max, P1): canon Strong; review PASS; status Done; folder skills/57-pmax-search-terms-insights/
+- 2026-10-13 — #58 Asset groups by product vs. by audience (Performance Max, P2): canon Adequate; review PASS; status Done; folder skills/58-pmax-asset-group-structure/
+- 2026-10-13 — #59 PMax cannibalising brand/Search — diagnosis (Performance Max, P1): canon Strong; review PASS; status Done; folder skills/59-pmax-cannibalisation-diagnosis/
+- 2026-10-13 — #60 PMax placement exclusions & display/video spend (Performance Max, P2): canon Strong; review PASS; status Done; folder skills/60-pmax-placement-exclusions/
+- 2026-10-13 — #61 URL expansion off + final URL control (Performance Max, P2): canon Adequate; review PASS; status Done; folder skills/61-pmax-url-expansion/
+- 2026-10-13 — #62 PMax campaign-level negatives (Performance Max, P1): canon Strong; review PASS; status Done; folder skills/62-pmax-campaign-negatives/
+- 2026-10-13 — #63 New customer acquisition goal — definition problem (Performance Max, P3): canon Adequate; review PASS; status Done; folder skills/63-pmax-new-customer-acquisition/
+- 2026-10-13 — #64 Custom labels by margin / stock / seasonality (Shopping & feeds, P1): canon Strong; review PASS; status Done; folder skills/64-custom-labels-margin-stock-season/
+- 2026-10-13 — #65 Feed rules & supplemental feeds (Shopping & feeds, P2): canon Adequate; review PASS; status Done; folder skills/65-feed-rules-supplemental-feeds/
+- 2026-10-13 — #66 Title structure research — what moves CTR (Shopping & feeds, P2): canon Adequate; review PASS; status Done; folder skills/66-title-structure-research/
+- 2026-10-13 — #67 Merchant Center diagnostics & disapproval patterns (Shopping & feeds, P2): canon Adequate; review PASS; status Done; folder skills/67-merchant-center-diagnostics/
+- 2026-10-13 — #68 Shopping query sculpting via priority + negatives (Shopping & feeds, P2): canon Strong; review PASS; status Done; folder skills/68-shopping-query-sculpting/
+- 2026-10-13 — #69 PMax insights script (Scripts & automation, P1): canon Strong; review PASS; status Done; folder skills/69-pmax-insights-script/
+- 2026-10-13 — #70 N-gram script (Scripts & automation, P1): canon Strong; review PASS; status Done; folder skills/70-n-gram-script/
+- 2026-10-13 — #71 Budget pacing script (Scripts & automation, P2): canon Adequate; review PASS; status Done; folder skills/71-budget-pacing-script/
+- 2026-10-13 — #72 Anomaly detector script (Scripts & automation, P2): canon Adequate; review PASS; status Done; folder skills/72-anomaly-detector-script/
+- 2026-10-13 — #73 404 / broken URL checker (Scripts & automation, P2): canon Adequate; review PASS; status Done; folder skills/73-broken-url-checker-script/
+- 2026-10-13 — #74 Negative keyword conflict script (Scripts & automation, P2): canon Adequate; review PASS; status Done; folder skills/74-negative-keyword-conflict-script/
+- 2026-10-13 — #75 Ad disapproval alert script (Scripts & automation, P3): canon Adequate; review PASS; status Done; folder skills/75-ad-disapproval-alert-script/
+- 2026-10-13 — #76 Search term wasted-spend script (Scripts & automation, P2): canon Strong; review PASS; status Done; folder skills/76-search-term-wasted-spend-script/
+- 2026-10-13 — #77 Automated rules vs. scripts — when each (Scripts & automation, P3): canon Strong; review PASS; status Done; folder skills/77-automated-rules-vs-scripts/
+- 2026-10-13 — #78 Recommendations tab — auto-apply opt-out & dismiss list (Scripts & automation, P1): canon Strong; review PASS; status Done; folder skills/78-recommendations-auto-apply-opt-out/
+- 2026-10-13 — #79 Custom experiments — split, duration, valid win (Testing & measurement, P1): canon Adequate; review PASS; status Done; folder skills/79-custom-experiments/
+- 2026-10-13 — #80 Geo experiments / conversion lift (Testing & measurement, P2): canon Adequate; review PASS; status Done; folder skills/80-geo-experiments-conversion-lift/
+- 2026-10-13 — #81 Brand incrementality test (Testing & measurement, P2): canon Adequate; review PASS; status Done; folder skills/81-brand-incrementality-test/
+- 2026-10-13 — #82 Statistical significance for ad tests (Testing & measurement, P2): canon Strong; review PASS; status Done; folder skills/82-statistical-significance-ad-tests/
+- 2026-10-13 — #83 Auction insights trend reading (Testing & measurement, P2): canon Adequate; review PASS; status Done; folder skills/83-auction-insights-trend-reading/
+- 2026-10-13 — #84 Impression share decomposition decision rule (Testing & measurement, P1): canon Strong; review PASS; status Done; folder skills/84-impression-share-decomposition/
+- 2026-10-13 — #85 Hour-of-day / day-of-week heatmap analysis (Testing & measurement, P3): canon Adequate; review PASS; status Done; folder skills/85-hour-day-heatmap-analysis/
+- 2026-10-13 — #86 Attribution model comparison (DDA vs last click) (Testing & measurement, P2): canon Adequate; review PASS; status Done; folder skills/86-attribution-model-comparison/
+- 2026-10-13 — #87 Location options: presence vs. presence-or-interest (Defaults to override, P1): canon Adequate; review PASS; status Done; folder skills/87-location-options-presence/
+- 2026-10-13 — #88 Standard off-list (partners, display expansion, URL expansion, auto-apply) (Defaults to override, P1): canon Strong; review PASS; status Done; folder skills/88-standard-off-list/
+- 2026-10-13 — #89 Ad rotation settings under Smart Bidding (Defaults to override, P3): canon Adequate; review PASS; status Done; folder skills/89-ad-rotation-smart-bidding/
+- 2026-10-13 — #90 Account-level negatives & brand restrictions (Defaults to override, P1): canon Adequate; review PASS; status Done; folder skills/90-account-level-negatives-brand-restrictions/

@@ -28,6 +28,8 @@ Read `google-ads-budget-management` (pacing formula, run-rate projection) and `g
 - Optmyzr's thresholds are vendor examples; used as the projection bands because nothing else in the canon gives projection bands, and flagged as such.
 - The bug noted in Rooijmans's monthly script is reported so the operator verifies totals rather than trusting one run.
 
+- Review fix: the claim that pause/enable cycles disrupt Smart Bidding learning had no source and was cut; the failure mode is now an Epiminds operating rule grounded in Rooijmans (2022) describing the script's intended audience and re-enable need.
+
 ## Canon strength: Adequate
 Rooijmans is the only Tier 1 practitioner with published pacing scripts; Optmyzr supplies thresholds without evidence and one cross-account datum.
 

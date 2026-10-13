@@ -27,6 +27,8 @@ Read `google-ads-keywords` (one line: "close variants can still match unintended
 - Two numeric flags exist: Geddes' "within 10% CPA" tolerance (2018) and Rooijmans' 40% share/40% gap highlight (2018, maintained 2025). Epiminds uses both: 40% as the screen (which keywords to look at), 10% as the tolerance (when to act), with a minimum-spend floor so tiny keywords don't trigger work (Geddes 2018: weigh against share of spend).
 - Google's newer "misspellings handled automatically" for negatives is recorded but not relied on; the audit still checks misspelled variants explicitly.
 
+- Review fix (2026-10-13): the low-volume failure mode now uses the Inputs action floor (one target CPA of close-variant spend per keyword per month, Epiminds threshold on Geddes' 2018 principle) instead of an unsourced click count; Hopkins 2019 added to 'Where it comes from'.
+
 ## Canon strength: Strong
 Three Geddes posts with account-level data on close-variant CVR/CPA, Rooijmans' published script with thresholds, Hopkins on structure implications.
 

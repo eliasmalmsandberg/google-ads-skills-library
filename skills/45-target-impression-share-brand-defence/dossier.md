@@ -38,6 +38,7 @@ Read `google-ads-bidding` ("Brand Search: Manual CPC or Target IS — protect br
 - Took the position: defend with tIS only with a cap, target set to historical IS not 100%, and only after auction insights shows a real competitor; otherwise manual CPC at a low bid to collect the reserve-priced clicks cheaply; run a geo holdout once a year to test incrementality.
 - Treated Williams' single experiment as the best available evidence, with its non-significance stated.
 - Google's tIS help page failed to fetch; platform behaviour is attributed through practitioner descriptions and flagged.
+- Post-review: the >10% auction-insights overlap cut-off in Method step 1 is an Epiminds operating threshold with no canon source, now labelled as such alongside the ~15%-of-spend rule.
 
 ## Canon strength: Strong
 Four Tier 1 pieces from Williams (one controlled experiment), Hopkins' cross-account data, Vallaeys.

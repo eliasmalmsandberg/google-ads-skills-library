@@ -34,6 +34,7 @@ Read `google-ads-audit-ecommerce` (no URL expansion content) and `google-ads-key
 - Position: off for lead gen and for any product-restricted or feed-only campaign; on with exclusions and a page feed only for multi-category e-commerce with a clean URL structure. Grounded in Williams (2023), PPC.io (2026), and Google's own "expansion off = feed and asset-group URLs only".
 - PPC.io's 50% figure is Tier 2 and own-account; used as a prevalence indicator only.
 - Weekly landing-page review in month one; monthly after.
+- Review fix: the "loses generated assets when switched off" failure mode was cut (no source); the thin-page-feed failure mode is now stated only as Google's documented "off = feed and asset-group URLs only" behaviour, and the 24–48h lag replaces the cut item.
 
 ## Canon strength: Adequate
 

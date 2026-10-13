@@ -38,6 +38,7 @@ Read `google-ads-account-audit` (mentions "Search and Display not combined in th
 - Final URL expansion has the thinnest practitioner evidence: no Tier 1 source gives a direct test. The rule is built from Google's own description (replaces your URL, generates headlines), Vallaeys' overlap study (keywordless PMax reach is where Search overlap comes from), and Ryan/smec's DSA analogy. Flagged in the skill as the weakest rule.
 - Seer added as Tier 2 for Display Expansion only.
 - Menachem Ani excluded from claims (no evidence); used only to note that the "keep optimized ad rotation on" position exists.
+- Post-review: the ≥ 30 conversions/30 days earn-back gate, the 90-day re-check cadence and the < $500/month tiny-account cut-off are Epiminds operating rules with no canon source (Rooijmans 2026 says "mature" without a number; the $500 floor is borrowed from Hopkins 2024's study inclusion criterion). The two PMax/Display-Expansion platform-change claims are attributed to PPC News Feed (2025-06-19, citing Jyll Saskin Gales; 2026-04-30, citing Dekker/Spin/Schwartz) — industry reporting, not Google docs, and labelled as such.
 
 ## Canon strength: Strong
 Geddes (2023, numbers), Hopkins (2024, 17,380 accounts), Vallaeys (2023 anecdote; 2025 503-account study), Rooijmans ×3 (method, script), Seer (test with numbers).

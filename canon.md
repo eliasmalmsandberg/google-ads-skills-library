@@ -47,8 +47,20 @@ Cite for the named topics, not generally. Tier 2 never overrides Tier 1 unless i
 | Frederick Boutin and the Google Ads Scripts community (Google Ads Scripts forum, GitHub script repos) | Script variants and maintenance for API/version changes |
 | Dossier-added, per topic | Add here when a dossier surfaces a source that passes the inclusion rule for that topic (name, topic, date added). Drop any that fail on inspection. |
 
-Dossier-added Tier 2 (grows during the build):
-- (none yet)
+Dossier-added Tier 2 (grows during the build; topic-scoped only — added 2026-10-13 unless noted):
+- Wesley Parker (Clicteq) — QS tracker script design only (skill 37)
+- Stewart Dunlop / PPC.io — PMax audit statistics from their own account sample (skills 55, 59, 56)
+- Manuel Baudisch / smec — PMax brand and channel tooling (skill 55); Einwagner / smec — custom labels (skill 64)
+- Mike Ryan / Smarter Ecommerce — Smart Bidding behaviour data incl. the Aug 2026 bid-suppression removal (skills 40, 84)
+- Harrison Carroll / KlientBoost — portfolio bid caps, uncontrolled account data (skill 40)
+- Megan Mullarky / Metric Theory; Jarrett Fleagle and Will Gray / WebMechanix — proxy and lead-stage value-based bidding (skills 42, 43)
+- Mark Meyerson (54-experiment series) and Ryan Bowman (6-account series) — custom experiments (skill 79)
+- Haus — geo/incrementality method and data; vendor, cite for method only (skills 80, 81)
+- Blake, Nosko & Tadelis — the eBay brand-search field experiment, academic evidence (skill 81)
+- Roger Cooney / PPC Hero — auto-apply recommendations, this topic only (skill 78)
+- Seer Interactive — Display Expansion test with numbers, this topic only (skill 88)
+- CommerceHub / Harlow (2016) — the one controlled Shopping title test (skill 66)
+- Rejected on inspection: DataFeedWatch, Feedonomics and Magnify title-CTR studies (vendor, no method); PPC Hero DSA and DKI pieces (2007–2016, no evidence); Kristoffersen one-RSA piece (opinion); PPC.io QS script (not canon).
 
 ## 4. Reference only
 

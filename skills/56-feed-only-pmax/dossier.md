@@ -35,6 +35,7 @@ Read `google-ads-audit-ecommerce` (PMax asset-group checklist assumes full asset
 - Entry threshold: no canon number; skill uses "no usable video/brand-safe assets" or "non-feed channels carrying >15% of spend with ROAS below the Search channel" — the 15% comes from Pooler's placement flag in Optmyzr's guide, repurposed and labelled as such.
 - Exit rule: Williams' 1–2 months without a clear winner → revert.
 - Secondhand smec 90% figure is quoted as secondhand only.
+- Verification: 14 days from Google's 1–2 week stabilisation note (channel report doc); 5% non-feed trigger is an Epiminds rule set at ~3× Williams' observed 1.7% floor. "Feed-only = Standard Shopping with less control" for small catalogues is labelled as Epiminds' view.
 
 ## Canon strength: Adequate
 

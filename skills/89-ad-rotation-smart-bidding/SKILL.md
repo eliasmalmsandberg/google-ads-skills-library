@@ -30,7 +30,7 @@ Use on every new Search campaign build and on takeover audits where ad testing i
    - Run at most two enabled RSAs per ad group during a test and one outside it; with four or five or more ads Geddes found serving looked random rather than performance-driven (Geddes/Adalysis, 2018). The two-ad cap is Epiminds' operating rule built on that finding.
    - Make the two RSAs differ in one pinned element (headline 1 or the description) so the variable is fixed rather than shuffled; in 5,900+ accounts pinned ads traded CTR for higher conversion rate and higher conversions per 1,000 impressions, with the caveat that heavily pinned ads were also the most actively tested (Geddes/Adalysis, 2026).
    - Judge on conversions per impression, not CTR, because CTR is what the serving already optimises for (Geddes/Adalysis, 2018).
-   - Use Ad variations experiments for copy changes that span many ad groups; the experiment split is the only serving control Google still honours on Smart Bidding.
+   - Use Ad variations experiments for copy changes that span many ad groups. Epiminds operating rule — no canon source; reason: with rotation overridden on Smart Bidding (Google Help; Geddes/Adalysis, 2018), an experiment's traffic split is the remaining serving control available to the advertiser, but no dossier source tests how well it is honoured.
 5. **Turn off the "optimized ad rotation" auto-apply item** with the rest of AAR (see skill 88); otherwise step 2's setting is silently reverted (Google Help lists it as an AAR item).
 6. **Takeover audit.** Any Manual/ECPC campaign on Optimize with more than two enabled RSAs per ad group and an open test is a broken test; reset to "Do not optimize", prune to the two contenders, restart the clock.
 
@@ -40,9 +40,9 @@ Output: per campaign, `rotation: n/a (Smart Bidding)` or `Do not optimize — te
 Google does not recommend "Do not optimize" for most advertisers, says ad quality will make serving uneven anyway, and offers optimized rotation as an auto-apply recommendation (Google Help). The uneven-serving warning is true and irrelevant to a test: the test needs *comparable* exposure, not equal exposure, and Optimize removes comparability by picking the click winner (Geddes/Adalysis, 2018). On Smart Bidding the recommendation is moot because Google already overrides the setting (Google Help; Geddes/Adalysis, 2018).
 
 ## Failure modes
-- **Low-traffic ad groups** (under a few hundred impressions a week): "Do not optimize" cannot reach significance either; Geddes flagged a non-significant CTR gap even in his examples (2018). Consolidate ad groups before testing.
+- **Low-traffic ad groups** (under a few hundred impressions a week — Epiminds operating approximation, no canon threshold): "Do not optimize" cannot reach significance either; Geddes flagged a non-significant CTR gap even in his examples (2018). Consolidate ad groups before testing.
 - **Brand campaigns**: CTR and conversion winners usually coincide; Optimize is fine and the pinned-variant method adds nothing.
-- **Accounts on Manual CPC solely for rotation control**: do not keep a campaign off Smart Bidding to preserve "Do not optimize"; the bidding loss outweighs the testing gain.
+- **Accounts on Manual CPC solely for rotation control**: do not keep a campaign off Smart Bidding to preserve "Do not optimize". Epiminds judgment — no canon source compares the two; Geddes (2018) only notes advertisers who dropped Smart Bidding because Optimize worsened results.
 - **Single-RSA ad groups** with Ad Strength pressure: the two-RSA rule conflicts with reps pushing one "Excellent" RSA; hold the two-ad structure only during a dated test.
 - **Shopping and Display**: the setting exists but the substitute instruments (pins, Ad variations) do not apply.
 

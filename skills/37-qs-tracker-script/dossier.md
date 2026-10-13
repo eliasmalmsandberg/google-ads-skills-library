@@ -36,6 +36,8 @@ Read `google-ads-scripts` (its QS tracker example) and `google-ads-quality-score
 - The row's premise ("QS history, which Google doesn't keep") is corrected in the skill: Google keeps keyword-level end-of-day history; the script's value is aggregate, weighted, chartable, and bug-detectable history.
 - No canon script was fetchable in full (Brainlabs site unreachable), so the skill specifies the design, not code.
 
+- Post-review: the alert multiples (0.5 / 1.0 wQS), the 3-consecutive-days / 30-day-mean rule, the label rule (QS ≤ 4, ≥ 100 impressions / 7 days) and the ~100-keyword small-account line are Epiminds operating thresholds with no canon source; only the ±0.2 band is Vallaeys's. All now labelled in the skill.
+
 ## Canon strength: Strong
 Brainlabs (script), Optmyzr (tooling method, two help pages + two Vallaeys posts), Rooijmans (review and cadence), Parker (Tier 2 script).
 

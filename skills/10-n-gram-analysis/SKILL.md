@@ -13,7 +13,7 @@ Aggregate every search term into its 1-, 2- and 3-word fragments and read perfor
 Brad Geddes' n-gram posts (Adalysis, 2016, 2017, 2021, 2025) supply the thresholds and the decision rules; the Brainlabs Search Query Mining script as republished by Nils Rooijmans (2022, maintained 2025) supplies the free implementation and its defaults; Rooijmans' Negative Keyword Suggestions script (2024) supplies the term-level review thresholds; Navah Hopkins (SEJ, 2022) supplies the negative match-type rule; Optmyzr (2026) supplies the warning about the cost of a wrong negative.
 
 ## When to use it / when not to
-Use monthly on any Search account whose search terms report is too long to read, and always before adding root-word negatives (Geddes/Adalysis, 2017: adding root words without checking n-grams first is a leading cause of keyword conflicts). Use it as step one of broad match management (Geddes/Adalysis, 2024). Do not use it on accounts with under roughly 1,000 search terms a month — term-level review is faster and the aggregation adds nothing. Do not run it over a window that mixes pre- and post-restructure data.
+Use monthly on any Search account whose search terms report is too long to read, and always before adding root-word negatives (Geddes/Adalysis, 2017: adding root words without checking n-grams first is a leading cause of keyword conflicts). Use it as step one of broad match management (Geddes/Adalysis, 2024). Do not use it on accounts with under roughly 1,000 search terms a month (Epiminds operating threshold — no canon source; reason: below that volume almost no n-gram clears Geddes' 150-click block rule, so term-level review is faster and the aggregation adds nothing). Do not run it over a window that mixes pre- and post-restructure data.
 
 ## Inputs
 - Search terms report, last 90 days (Rooijmans, 2024 default), enabled campaigns and ad groups only (Rooijmans/Brainlabs script default, 2022).
@@ -41,12 +41,12 @@ Use monthly on any Search account whose search terms report is too long to read,
 Google's search terms insights fold low-volume queries into themes and "other queries", and the search terms report drops queries without "enough query activity" (Google docs, 2026). That is the data n-gram analysis is designed to recover: the long tail of 10-click terms that together cost real money (Geddes/Adalysis, 2016). Google's negative keyword page also says negatives won't match close variants and that "too many" negatives reduce reach (Google docs, 2026). We treat a root negative chosen from n-gram data as the opposite of over-blocking: one negative replacing 99 term negatives (Geddes/Adalysis, 2017) reduces list size and conflict risk.
 
 ## Failure modes
-- **Small accounts.** Under ~1,000 terms a month, n-grams rarely clear 150 clicks; the method produces nothing and term-level review is the right tool.
+- **Small accounts.** Under ~1,000 terms a month (Epiminds operating threshold, see above), n-grams rarely clear the 150-click rule (Geddes/Adalysis, 2025); the method produces nothing and term-level review is the right tool.
 - **DDA / fractional conversions.** Any low-spend n-gram will show absurd CPA; rule 4's spend floor is mandatory (Geddes/Adalysis, 2025).
 - **Multi-service accounts on shared landing pages.** A word that fails in one service line can be the core of another; campaign-level tables prevent the "negative whacking" where an ad-group negative just moves the query to a worse ad group (Geddes/Adalysis, 2017).
 - **Function words and location words.** "In" and city names aggregate to large zero-conversion rows; the fix is usually localisation of ads and pages, not a negative (Geddes/Adalysis, 2016).
 - **Spam-inflated conversions.** A fake-conversion burst can make a junk n-gram look like a winner, and negating it later does not un-train Smart Bidding (Optmyzr, 2026).
-- **Lead-gen with long cycles.** 90 days of click data may contain conversions that haven't landed yet; use conversion lag before trusting conversions = 0.
+- **Lead-gen with long cycles.** Epiminds practice — no canon source: 90 days of click data may contain conversions that haven't landed yet, so check the account's conversion lag before trusting conversions = 0 on recent n-grams.
 
 ## What to measure
 - Count of search terms covered per negative added (target: many-to-one).

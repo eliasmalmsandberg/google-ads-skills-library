@@ -33,6 +33,7 @@ Read `google-ads-attribution` (Time Lag report: "if 20% of conversions happen af
 ## Judgment calls
 - Canon strength is Adequate: three Tier 1 authors with explicit rules (exclude the delay window; widen by lag share; 1–2 cycles) but no published maturity-curve method. The curve construction in the skill is Epiminds' own, built on Google's by-conversion-time reporting, and is labelled as such.
 - Position: never issue a performance verdict on the last p90-lag days; report two numbers (matured and expected) for the open window; monthly cadence re-derives the curve.
+- Post-review: the ≥20% expected-vs-matured trigger and the p90 > 30-day split-reporting cut-off are Epiminds operating thresholds with no canon source, labelled as such in the skill (the 20% is double Hopkins' ±10% tolerance).
 
 ## Canon strength: Adequate
 Three Tier 1 sources with rules, Google docs for primitives; no cross-account evidence on lag modelling specifically.

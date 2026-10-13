@@ -26,6 +26,8 @@ Read `google-ads-scripts` (regex-pattern negatives, no n-grams) and `google-ads-
 - Combined the three Rooijmans items into one practitioner position on thresholds; the 60-click bar is borrowed from his single-term script and explicitly labelled as such.
 - Row says Search; the skill adds the PMax use because the Rhodes code exists and the row's "Use when" (automated n-gram output for search terms) is the same job.
 
+- Review fix: the step-4 build thresholds (CVR above campaign average, at least the campaign median conversions per ad group) and the monthly cadence for the Rhodes PMax script are labelled Epiminds operating rules; Brainlabs supports only "consider creating new ad groups", Rhodes's code supports only the 30-day window.
+
 ## Canon strength: Strong
 Brainlabs (method), Rooijmans (maintained script + thresholds), Rhodes (PMax variant) — three Tier 1 with published code.
 

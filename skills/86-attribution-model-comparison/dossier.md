@@ -34,6 +34,8 @@ Read `google-ads-attribution` (baseline): it explains every model, gives a "300 
 - Re-scoped the skill from "which model to pick" (default knowledge, and Google now defaults DDA) to "how to explain and reconcile the delta between Google Ads and the client's analytics/CRM, and when attribution is the wrong tool" — that is what the canon actually supports and what the row's "Use when" asks for.
 - Did not cite the attribution-model sunset dates because the page could not be fetched.
 
+- Review fix (2026-10-13): the ~10% residual stop, ≥20% assist line, ~4-week feed age and 10-point residual alert are labelled Epiminds operating thresholds; no canon source. Geddes 2017/2018 and the pre-canon baseline skill are now named in "Where it comes from".
+
 ## Canon strength: Adequate
 Four Tier 1 sources with method (Geddes, Vallaeys ×2, Williams); no cross-account evidence on model deltas.
 

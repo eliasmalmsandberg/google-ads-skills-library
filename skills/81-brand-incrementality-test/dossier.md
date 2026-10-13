@@ -32,6 +32,8 @@ Read `google-ads-attribution` (brand/last-click trap) and `google-ads-experiment
 - Haus admitted with the vendor caveat, as in dossier 80.
 - The competitor-presence rule (step 2) is our synthesis of the eBay/Haus disagreement, labelled as such in the skill.
 
+- Review fix (2026-10-13): the 5% spend gate, 20% brand-share line, 10% overlap line, 0.3/0.7 factor bands and 20–30%/30-day reduction are labelled Epiminds operating thresholds with reasons; no canon source. Haus to be added to canon.md Dossier-added Tier 2 as in dossier 80.
+
 ## Canon strength: Adequate
 Two Tier 1 (Rooijmans ×2, method only; Vallaeys, method), two added Tier 2 with evidence (Haus; Blake/Nosko/Tadelis).
 

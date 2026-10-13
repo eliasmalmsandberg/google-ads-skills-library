@@ -23,6 +23,7 @@ Read `google-ads-ad-copy` (character-count table notes "dynamic insertion adds c
 
 ## Judgment calls
 - Practitioner canon on the *method* of keyword-level customizers is thin; the canon is adequate on the *effect*. The skill therefore spends its rules on gating (when 1:1 copy earns its cost) and on the test design, and labels the mechanics as Google docs.
+- Review fix (rubric 4): replaced the unsourced "≥20 keywords" gate with the sourced data-budget condition plus a labelled Epiminds operating threshold; the "≤12 characters" template cap is now shown as arithmetic (20-character finding minus a 6–8-character price value).
 - Chose to treat customized headlines as a hypothesis under skill 22 rule 6 with Geddes' price-pattern test as the template.
 
 ## Canon strength: Adequate

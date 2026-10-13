@@ -30,6 +30,7 @@ Read `google-ads-bidding` (tROAS section: "50+ conv/mo, meaningful variation in 
 - Mullarky (Metric Theory) and Fleagle (WebMechanix) added as topic-scoped Tier 2: both publish method and account numbers; both contradict Google's "use real revenue" line. Flagged as single-account, uncontrolled.
 - Hopkins' lead-gen ROAS finding is treated as evidence that MCV *behaves* differently, not that it makes more money — ROAS on proxy values is circular.
 - Took the position: ratio-based ladder anchored at close value, no target for the first 4 weeks, then tROAS from observed value/spend. That reconciles Mullarky's method with Hopkins' no-target finding.
+- Post-review: the 3–5 rung limit and the quarterly ratio re-check are Epiminds operating rules with no canon source, labelled as such in the skill; the ~2× group-difference trigger is derived from Vallaeys' 20%-vs-10% example.
 
 ## Canon strength: Strong
 Two Tier 1 (Vallaeys method; Hopkins cross-account data), two added Tier 2 with account results, one Tier 2 column recording the dissent.

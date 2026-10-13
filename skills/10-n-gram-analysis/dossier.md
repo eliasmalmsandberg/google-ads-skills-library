@@ -30,6 +30,8 @@ Read `google-ads-search-term-mining` and `google-ads-negative-keywords`. Baselin
 - Optmyzr help centre is tool documentation; cited only for scope (n up to 6) and the "review before negating" rule, not for thresholds.
 - Brainlabs original post unreachable; attributed as "Brainlabs script via Rooijmans".
 
+- Review fix (2026-10-13): the ~1,000 search terms/month floor is an Epiminds operating threshold (derived from Geddes' 150-click block rule), and the long-cycle lead-gen conversion-lag caution is Epiminds practice; both now labelled as unsourced in SKILL.md.
+
 ## Canon strength: Strong
 Four Geddes posts with account data, two Rooijmans scripts with defaults, Hopkins on negative match type, Optmyzr on the cost of wrong negatives.
 

@@ -31,6 +31,7 @@ Read `google-ads-bidding` (troubleshooting table: "Low volume → target too agg
 ## Judgment calls
 - Position: the simulator is read only on campaigns that were not budget-limited in the last 7 days and have ≥50 conversions/30 days; otherwise it's unavailable or noise. The diagnosis runs on bid-strategy-report data instead.
 - Treated Smart Bidding Exploration as Google's product answer to "too tight"; Epiminds prefers an explicit, logged target move because Exploration's effect can't be isolated from the target.
+- Post-review: the ≥20%/2-week/1-week "Limited" triggers and the 10%-for-<5% simulator knee rule are Epiminds operating thresholds with no canon source, labelled as such; both are derived from Hopkins' ±10% tolerance and 2–3 week settle window.
 
 ## Canon strength: Strong
 Five Tier 1 sources (Vallaeys, Rooijmans, Williams, Geddes, Hopkins) plus the Ryan data.

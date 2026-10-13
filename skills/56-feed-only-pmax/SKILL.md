@@ -30,7 +30,7 @@ Use when an e-commerce account has no usable or brand-safe creative, when assets
    - Audience signals: add after publishing, not during setup (saving failed for Williams when added during creation).
    - Bidding: Maximise conversion value with a tROAS — Max Conversions ran at 400–441% ROAS vs 735–765% for Max Conversion Value in PMax across Optmyzr's 2025 peak data (Optmyzr, 2026).
 3. **Structure listing groups by what you want to control**, not by everything: start with proven sellers (McNair/PPC Mastery, 2026); segment by product type when buyer groups differ, or by historical performance buckets (Williams/ZATO, 2023).
-4. **Verify after 14 days** in the channel report: share of cost on "ads using product data" should be near 100%; non-feed share above ~5% means an opt-out was missed or Google is generating assets — check the Assets view for auto-generated video (Williams/ZATO, 2025) [Google docs]. Note that "Shop cost" in Rhodes' script, and feed-based cost in the channel report, include feed ads on Display and YouTube, not just Google Shopping (Williams/ZATO, 2025).
+4. **Verify after 14 days** — Google's "allow 1–2 weeks for stabilization" after PMax changes [Google docs] — in the channel report: share of cost on "ads using product data" should be near 100%; non-feed share above ~5% (Epiminds/dossier rule derived from Williams' observed 1.7% floor in a correctly built feed-only campaign — reason: roughly three times the floor marks a build error rather than auto-generation noise — Williams/ZATO, 2025) means an opt-out was missed or Google is generating assets — check the Assets view for auto-generated video (Williams/ZATO, 2025) [Google docs]. Note that "Shop cost" in Rhodes' script, and feed-based cost in the channel report, include feed ads on Display and YouTube, not just Google Shopping (Williams/ZATO, 2025).
 5. **Compare against Standard Shopping on the same products** for 1–2 months. Optmyzr's mixed-account December data had PMax 680% vs Standard Shopping 666% ROAS at identical $0.64 CPCs — the two are close, so the comparison must be on your own products (Optmyzr, 2026). If there is no clear winner after 1–2 months, revert to Standard Shopping; every further switch loses learning (Williams/ZATO, 2023).
 6. **Exit to full assets** only when you have a video or image set that fits the products in the asset group, and then as a separate asset group or campaign so the feed-only read survives (Williams/ZATO, 2023).
 
@@ -39,7 +39,7 @@ Google recommends keeping text customization on "for better performance" and tre
 
 ## Failure modes
 - **Catalogues with strong video creative and proven YouTube incrementality**: you remove the channel that was driving new demand (Williams in Optmyzr guide, 2026).
-- **Small catalogues or single-product stores**: a feed-only PMax is a Standard Shopping campaign with less control; run Standard Shopping.
+- **Small catalogues or single-product stores**: Epiminds' view is that a feed-only PMax here is a Standard Shopping campaign with less control; run Standard Shopping.
 - **Accounts that opted into auto-generated logos/video**: the campaign quietly becomes full-asset; verify in step 4 (Williams/ZATO, 2025).
 - **Expecting Shopping-only placements**: feed ads still serve on Display and YouTube as dynamic product ads (Williams/ZATO, 2025).
 - **Switching every month**: data loss on each flip; hold the 1–2 month window (Williams/ZATO, 2023).

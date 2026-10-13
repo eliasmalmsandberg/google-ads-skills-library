@@ -38,6 +38,8 @@ Read `google-ads-experiments` (baseline). It gives generic MDE/sample-size maths
 - Added Meyerson and Bowman as dossier Tier 2 for this topic only; both publish method and numbers and both contradict Google (bid stabilisation; significance labels). Stemen is cited only for operational pitfalls.
 - Canon lacks a Tier 1 page devoted to experiment design; the skill therefore leans on Rooijmans' duration rule and Optmyzr's pollution point as the Tier 1 spine.
 
+- Review fix (2026-10-13): the ≥20% directional-apply line and the 10-point control-IS drop are labelled Epiminds operating thresholds in the skill; neither has a canon source (derived from Bowman's smallest acted-on delta and Google's IS-noise note).
+
 ## Canon strength: Adequate
 Three Tier 1 sources (method, no cross-account data) plus two added Tier 2 sources with account numbers.
 

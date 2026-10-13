@@ -28,6 +28,8 @@ Read `google-ads-keyword-cannibalization` and `google-ads-negative-keywords`. Ba
 - Campaign-level routing (which campaign owns a query) and ad-group-level routing (which ad group serves a term) are treated as one skill because the fix is the same tool at two levels; the hierarchy order is Epiminds' synthesis of Geddes (2024) and Hopkins (2020).
 - The "most restricted campaign wins" serving rule is a Geddes observation (2024), not Google-documented; the skill labels it as such.
 
+- Review fix (2026-10-13): the 2–4-week verification window is an Epiminds operating cadence (no canon source); the 10,000 clicks/90 days routing floor is an Epiminds adaptation of Geddes' 2022 'enough for a machine to learn' figure and is labelled as such.
+
 ## Canon strength: Strong
 Five Geddes posts (two with account data, one with a 3,300-campaign study), two Hopkins posts, one Rooijmans method.
 

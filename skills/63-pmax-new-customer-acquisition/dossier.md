@@ -30,6 +30,7 @@ Read `google-ads-audit-ecommerce` (retargeting funnel, past purchasers cross-sel
 ## Judgment calls
 - Canon strength is borderline: Williams is the only Tier 1 source with mechanism-level detail; PPC Mastery and Optmyzr supply the LTV/value-integrity frame. Rated Adequate because the mechanism claims are verifiable against Google docs and three Tier 1 sources touch the decision.
 - Position: never use the value premium as a reporting number; use New Customer Only or an unchecked bidding box with separate campaigns/targets; define "new" via Customer Match + tag, not auto-detection alone.
+- Unknown > one-fifth of purchases as the "fix the tag first" trigger is an Epiminds rule: Google names the tag parameter as the remedy for Unknown gaps; the 20% level is where the New/Returning split stops supporting a CAC read. No canon number exists.
 
 ## Canon strength: Adequate
 

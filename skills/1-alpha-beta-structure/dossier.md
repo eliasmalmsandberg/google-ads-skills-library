@@ -14,7 +14,9 @@
 
 6. **Source**: Fred Vallaeys with Shawn Walker, Optmyzr PPC Town Hall — https://www.optmyzr.com/ppctownhall/practical-advice-on-how-to-actually-make-smart-bidding-work-for-you · **Tier**: 1 · **Date**: 2025-01-29 · **Claim**: Create a separate campaign only for its own budget, targeting not settable at ad-group level, or materially different performance; otherwise themes go in ad groups. ≥30 conversions per campaign per 30 days. · **Evidence or opinion**: Opinion.
 
-7. **Source**: Ed Leake (Tier 2 for alpha/beta per canon) — edleake.com · **Tier**: 2 · **Date**: n/a · **Claim**: Could not be fetched (blog index and alpha/beta page returned errors on 2026-10-13); the site now fronts a Smart Bidding scaling flowchart. Not cited in the skill. Brainlabs' original alpha/beta library page also failed to fetch.
+7. **Source**: Navah Hopkins, Optmyzr, "The impact of PPC bidding strategies" — https://www.optmyzr.com/blog/impact-of-ppc-bidding-strategies/ (reported by Anu Adegbola, Search Engine Land, 2024-09-24, https://searchengineland.com/google-ads-bidding-strategy-analysis-446899) · **Tier**: 1 · **Date**: 2024-09-24 · **Claim**: 14,584-account study; inclusion required ≥90 days of data; Smart Bidding needs 2–3 weeks to stabilise after budget changes; 50+ conversions/30 days is where strategies become predictable. · **Evidence or opinion**: Cross-account study (used here only for the 90-day and 2–3-week windows).
+
+8. **Source**: Ed Leake (Tier 2 for alpha/beta per canon) — edleake.com · **Tier**: 2 · **Date**: n/a · **Claim**: Could not be fetched (blog index and alpha/beta page returned errors on 2026-10-13); the site now fronts a Smart Bidding scaling flowchart. Not cited in the skill. Brainlabs' original alpha/beta library page also failed to fetch.
 
 ## Dissenting view
 Vallaeys's "no bad keyword, only a bad bid" and Lolk's negative-deletion anecdote (both 2025) argue against routing by negatives at all under Smart Bidding: let the bidder price the query. Hagakure/Google's position (keep all match types in one ad group; duplicating keywords across match types fragments data) argues against the split itself. The disagreement is about whether Smart Bidding needs structural help to price exact-intent queries differently from exploratory ones — the Optmyzr 2,637-account study says exact still wins on CPA/ROAS in ~71–73% of accounts, which is the evidence for keeping an exact tier.
@@ -32,6 +34,8 @@ Read `google-ads-keyword-cannibalization` (routing hierarchy, cross-campaign neg
 - The alpha/beta name comes from Brainlabs/Ed Leake; neither page could be fetched. The skill is written on Geddes's identical "discovery/managed" model, which is Tier 1 and fetched.
 - Promotion threshold: Lolk's 50–100 clicks is the only recent number; Nils's rebuild uses "best-converting search terms". The skill sets conversion-based promotion first and click-based second.
 - Volume floor per tier uses Vallaeys/Walker's 30 conversions/campaign; where the alpha campaign cannot reach it, the skill says to run alpha and beta as ad groups in one campaign or a portfolio, per Geddes's "separate only for budget or bid method".
+
+- Post-review: the promotion cadence (weekly through the 2–3-week stabilisation window, then fortnightly) and the "100 clicks, zero conversions → phrase negative" rule are Epiminds derived rules labelled as such in the skill; the 2–3-week stabilisation figure is Hopkins/Optmyzr (2024) as reported by SEL (https://searchengineland.com/google-ads-bidding-strategy-analysis-446899); the 90-day revisit derives from the study's inclusion requirement.
 
 ## Canon strength: Adequate
 Geddes (method), Hopkins/Optmyzr (cross-account evidence), Nils (single-account evidence), Vallaeys/Walker and Bacchini (opinion). Ed Leake/Brainlabs not retrievable.

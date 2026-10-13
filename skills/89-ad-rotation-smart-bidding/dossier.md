@@ -32,6 +32,7 @@ Read `google-ads-account-audit` (no mention of ad rotation) and `google-ads-ad-c
 - Position: the rotation setting is irrelevant on Smart Bidding campaigns (Google Help plus Geddes 2018); set "Do not optimize" only on Manual/Enhanced CPC campaigns that are actively testing. On Smart Bidding, ad testing moves to pinned-variant RSAs, Ad variations experiments and asset-level reporting — the pinning path leans on Geddes 2026, which is observational.
 - The "two RSAs per ad group during a test, one otherwise" rule is Epiminds' operating rule, consistent with Geddes 2018's "4–5+ ads looks random" finding; flagged as such. The Optmyzr RSA-count study would have been the proper source and could not be fetched.
 - Ani (SEJ) excluded from claims; cited as the opposing position only.
+- Post-review: the Ad variations claim ("only serving control Google still honours") had no source and is relabelled an Epiminds operating rule; the "bidding loss outweighs testing gain" comparison is labelled Epiminds judgment (Geddes 2018 mentions advertisers dropping Smart Bidding over Optimize, but no comparison exists); the "few hundred impressions a week" low-traffic line is labelled an operating approximation.
 
 ## Canon strength: Adequate
 Three Adalysis sources, one with cross-account data (2026), one with small-sample data (2018), one opinion (2019) — all one practitioner. No second Tier 1 voice on rotation specifically was reachable.

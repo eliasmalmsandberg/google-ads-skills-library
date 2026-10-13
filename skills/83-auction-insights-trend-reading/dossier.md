@@ -32,6 +32,8 @@ Read `google-ads-account-audit` (Layer 4 IS benchmarks; auction insights mention
 - All practitioner sources are Geddes; labelled Adequate rather than Strong despite the count, because one voice with illustrative numbers is not three.
 - The month-end budget-cycle signal is a pattern claim without published data; the skill flags it as "to confirm on your data".
 
+- Review fix (2026-10-13): the 15% month-on-month trigger, 10% overlap floor, 13-week window, 20%-for-4-weeks new-entrant rule and 1-point QS move are labelled Epiminds operating thresholds; no canon source.
+
 ## Canon strength: Adequate
 Five Tier 1 posts, one author, method with illustrative examples; no cross-account evidence.
 

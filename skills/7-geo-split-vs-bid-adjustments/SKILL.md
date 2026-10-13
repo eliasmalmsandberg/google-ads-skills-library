@@ -35,7 +35,7 @@ Do not use when: the geo difference is only a CPA gap that the bidder can see �
 5. **Volume test.** The split campaign must project ≥30 conversions/30 days (Vallaeys/Walker, 2025), with 50 as the level where results become predictable (Hopkins/Optmyzr, 2024). Below 30: keep it in the shared campaign, or split it but put both in a portfolio strategy so the data pools (Bacchini, 2025 — see skill 9).
 6. **Tier the budgets.** Top regions in high-budget campaigns, secondary regions in lower-budget ones; use shared budgets across campaigns that should flex together (Geddes, 2020).
 7. **Target explicitly.** For the surviving campaigns, target the known high-performing locations and exclude the known poor ones rather than running broad and observing — Vallaeys/Walker's explicit position against Google's "let the algorithm find customers" (2025).
-8. **Review quarterly**: a geo that has grown past 50 conversions/30 days and needs its own target moves to its own campaign; a split campaign that has fallen under 30 merges back (Hopkins/Optmyzr, 2024; Vallaeys/Walker, 2025).
+8. **Review every 90 days** (the minimum data history the Optmyzr study required before judging a strategy; Hopkins/Optmyzr, 2024): a geo that has grown past 50 conversions/30 days and needs its own target moves to its own campaign; a split campaign that has fallen under 30 merges back (Hopkins/Optmyzr, 2024; Vallaeys/Walker, 2025).
 9. **Output**: a geo table with conversions/30 days, bid strategy, which of 4a–c applies, and the decision (shared / shared+adjustment / split / split+portfolio); the location option set per campaign.
 
 ## What Google will tell you instead, and why we don't
