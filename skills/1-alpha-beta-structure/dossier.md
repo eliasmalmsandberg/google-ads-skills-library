@@ -1,0 +1,40 @@
+# Dossier — 1 Alpha/Beta campaign structure
+
+## Sources
+
+1. **Source**: Brad Geddes (Adalysis), "Google Ads Account Organization" workshop slides — https://presentations.boussiasevents.gr/files/_boussias_conferences_content/presentations/google_marketing_conference/2020/day2/workshop_brad_geddes_googleMKT_20.pdf · **Tier**: 1 · **Date**: 2020 · **Claim**: The "discovery / managed" model: modified broad (today: broad) runs in a discovery campaign; converting queries move into managed campaigns as exact or phrase and are added as exact negatives in discovery. Campaign-level match-type approach: brand and exact take the maximum budget, phrase carries exact-match negatives, broad is used to manipulate budget towards targets. Across campaigns Google tries to serve the "most restrictive" keyword but rotates among matches over time, producing duplicate search terms across campaigns — so the negative is the control, not Google's preference. Under automated bidding, separate match types into their own campaigns only for budget or a different bid method. · **Evidence or opinion**: Method; cross-campaign behaviour from observation.
+
+2. **Source**: Navah Hopkins, Optmyzr, "Optmyzr study: broad match & bidding" — https://optmyzr.com/blog/optmyzr-study-broad-match-bidding · **Tier**: 1 · **Date**: 2023-09-27 · **Claim**: Across 2,637 accounts (Q1 2023 base, ≥90 days spend, <$5M/month), exact beat broad within the same account in most accounts: CPA better in 70.79% of accounts (median gap 100.71%), ROAS better in 72.52% (median 113.47%), CTR 85.65%, CPC 56.55%, CVR 56.73%; broad only edged impressions (52.89%) and cost share. Expected broad to get discounted clicks — "this ended up being incorrect"; "you can't use Broad Match for discounted clicks anymore". Recommends treating broad as a data-gathering tool for negatives and investment decisions, never pausing keywords that already perform, and adding broad variants alongside rather than replacing ("if you remove a keyword, you can't get it back"). Does not test phrase. · **Evidence or opinion**: Cross-account study with stated method; vendor sample skews advanced.
+
+3. **Source**: Nicola Agius, Search Engine Land, report on the Optmyzr study — https://searchengineland.com/optmyzr-reevaluate-match-type-bidding-strategy-432601 · **Tier**: 1 (Optmyzr findings as reported; Hopkins quoted) · **Date**: 2023-09-28 · **Claim**: If testing broad, keep safety nets and set aside budget for data collection; be more aggressive with negatives and exclusions. · **Evidence or opinion**: Reporting of study plus Hopkins's recommendations.
+
+4. **Source**: Julie Friedman Bacchini and Andrew Lolk with Fred Vallaeys, Optmyzr PPC Town Hall, "PPC in 2025" — https://www.optmyzr.com/ppctownhall/ppc-in-2025-what-to-stop-start-double-down-on · **Tier**: 2 (Bacchini); Lolk not canon, cited for numbers with label · **Date**: early 2025 · **Claim**: Lolk's threshold for promoting a search term from DSA into a standard Search campaign rose from ~5 clicks/month to 50–100 clicks/month; SKAG-style precision is "nearly impossible" because phrase and close variants match loosely (Lolk); SKAGs' time "has come and gone" (Bacchini). Vallaeys: "there's no such thing as a bad keyword, only a bad bid" (dissent on negative-heavy routing). Lolk: deleting all negatives in one account raised CPC but revenue ~5.5–6×. · **Evidence or opinion**: Opinion with account anecdotes.
+
+5. **Source**: Nils Rooijmans, "Nail it before you scale it" — https://nilsrooijmans.com/daily/nail-it-before-you-scale-it · **Tier**: 1 · **Date**: 2026-05-25 · **Claim**: Rebuilt a lead-gen account by moving spend from PMax into standard Search with exact-match keywords on the best-converting search terms, weeding junk terms over two weeks, on tCPA with bid limits; scale gate = 30 SQLs in two weeks, then remove the lower bid limit and set the upper limit at 50% of tCPA; result 17 new clients below target CPA two weeks later. · **Evidence or opinion**: Single-account result with numbers.
+
+6. **Source**: Fred Vallaeys with Shawn Walker, Optmyzr PPC Town Hall — https://www.optmyzr.com/ppctownhall/practical-advice-on-how-to-actually-make-smart-bidding-work-for-you · **Tier**: 1 · **Date**: 2025-01-29 · **Claim**: Create a separate campaign only for its own budget, targeting not settable at ad-group level, or materially different performance; otherwise themes go in ad groups. ≥30 conversions per campaign per 30 days. · **Evidence or opinion**: Opinion.
+
+7. **Source**: Ed Leake (Tier 2 for alpha/beta per canon) — edleake.com · **Tier**: 2 · **Date**: n/a · **Claim**: Could not be fetched (blog index and alpha/beta page returned errors on 2026-10-13); the site now fronts a Smart Bidding scaling flowchart. Not cited in the skill. Brainlabs' original alpha/beta library page also failed to fetch.
+
+## Dissenting view
+Vallaeys's "no bad keyword, only a bad bid" and Lolk's negative-deletion anecdote (both 2025) argue against routing by negatives at all under Smart Bidding: let the bidder price the query. Hagakure/Google's position (keep all match types in one ad group; duplicating keywords across match types fragments data) argues against the split itself. The disagreement is about whether Smart Bidding needs structural help to price exact-intent queries differently from exploratory ones — the Optmyzr 2,637-account study says exact still wins on CPA/ROAS in ~71–73% of accounts, which is the evidence for keeping an exact tier.
+
+## What the platform currently does [Google docs]
+- Exact match includes close variants (same meaning/intent) since 2018–2019; phrase absorbed BMM in 2021 and BMM was retired — so "alpha = exact" no longer means literal query control (Lolk, 2025, observation; Google docs 2019/2021). [Google docs]
+- Google's keyword prioritisation page (answer 9586770) could not be fetched on 2026-10-13; from the Optmyzr/Geddes material: within a campaign Google serves the most exact match; across campaigns it prefers the most restrictive but rotates (Geddes, 2020, observation).
+- Google's structure guidance says duplicating a keyword across match types fragments Smart Bidding data and recommends consolidating to broad (Google Ads Help, answer 14752782). [Google docs]
+- Google's CPC floor rose ~5–10% around 2023, closing the broad/exact CPC gap (as cited by Hopkins, 2023).
+
+## Baseline check
+Read `google-ads-keyword-cannibalization` (routing hierarchy, cross-campaign negatives), `google-ads-negative-keywords` (Source 4 overlap analysis) and `google-ads-search-term-mining` headings. Baseline describes "add winners as exact keywords and negatives in the broad campaign" generically. This skill adds: the study-backed reason an exact tier still earns its keep under Smart Bidding (Optmyzr 2023 numbers), the promotion thresholds (50–100 clicks or ≥1 conversion with a CPC filter), the split-only-if-budget/bid-method rule (Geddes; Vallaeys/Walker), the rotation behaviour that makes negatives mandatory, and the explicit volume floor per tier.
+
+## Judgment calls
+- The alpha/beta name comes from Brainlabs/Ed Leake; neither page could be fetched. The skill is written on Geddes's identical "discovery/managed" model, which is Tier 1 and fetched.
+- Promotion threshold: Lolk's 50–100 clicks is the only recent number; Nils's rebuild uses "best-converting search terms". The skill sets conversion-based promotion first and click-based second.
+- Volume floor per tier uses Vallaeys/Walker's 30 conversions/campaign; where the alpha campaign cannot reach it, the skill says to run alpha and beta as ad groups in one campaign or a portfolio, per Geddes's "separate only for budget or bid method".
+
+## Canon strength: Adequate
+Geddes (method), Hopkins/Optmyzr (cross-account evidence), Nils (single-account evidence), Vallaeys/Walker and Bacchini (opinion). Ed Leake/Brainlabs not retrievable.
+
+## Invalidated by
+Further loosening of exact match (or its removal under AI Max), removal of campaign-level negatives, or Google giving exact keywords strict cross-campaign priority — any of these change whether an exact tier can be isolated.

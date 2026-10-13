@@ -1,0 +1,37 @@
+# Dossier — 78 Recommendations tab — auto-apply opt-out & dismiss list
+
+## Sources
+
+1. **Source**: Nils Rooijmans, "[AMA] What's the one Google Ads setting beginners almost always get wrong…" — https://nilsrooijmans.com/daily/ama-whats-the-one-google-ads-setting-beginners-almost-always-get-wrong-and-waste-the-most-money-on (fetched) · **Tier** 1 · **Date** 2026-03-25 · **Claim**: Auto-applied recommendations (AARs) are the single most expensive beginner setting. Four named harms: broad keyword targeting (irrelevant clicks, lower value), bidding-strategy switches (higher CPCs for equal or worse value), new ad creatives (clickbait-style copy that lifts CTR and lowers CVR), budget increases (more demand at worse CPA). Action: turn AARs off; read what each recommendation claims to optimize; do those optimizations manually; ask whose objective it serves. · **Evidence**: 80+ audits and strategy calls; no figures.
+
+2. **Source**: Nils Rooijmans, "Questioning recommendations" Parts 1 and 2 — https://nilsrooijmans.com/daily/questioning-recommendations, https://nilsrooijmans.com/daily/questioning-recommendations-part-2 (fetched) · **Tier** 1 · **Date** 2023-03-28 / 2023-03-29 · **Claim**: Rep-recommended switch of an exact-match manual-CPC brand campaign to broad match + Target Impression Share with no bid cap: brand spend tripled, cost per lead +80%, total account spend +~10%, CRM leads unchanged; new costly queries included "powerdeals crm demo" at avg CPC 12.62 vs 1.03 for "login". Rule: question every recommendation from a rep or the algorithm; Always Be Testing. · **Evidence**: Single-account case with numbers.
+
+3. **Source**: Nils Rooijmans, "Turned off 'search partners' but the option is toggling back on by itself?" — https://nilsrooijmans.com/daily/turned-off-search-partners-but-the-option-is-toggling-back-on-by-itself-heres-what-to-do (fetched) · **Tier** 1 · **Date** 2023-07-04 · **Claim**: An auto-apply setting re-enabled Search Partners the day after it was switched off and burned budget on low-value leads; fix is the Recommendations tab and the auto-apply settings; monitor partner vs Google Search CPA/ROAS by script. · **Evidence**: Reader case.
+
+4. **Source**: Nils Rooijmans, "[WARNING] Low activity system bulk changes…" and "Monitor Google's automatically-applied changes" — https://nilsrooijmans.com/daily/warning-low-activity-system-bulk-changes-are-coming-to-your-account, https://nilsrooijmans.com/daily/monitor-googles-automatically-applied-changes (fetched) · **Tier** 1 · **Date** 2024-08-26 / 2024-05-02 · **Claim**: From 2024-06-10 Google automatically pauses positive Search keywords created 13+ months ago with zero impressions in 13 months, and low-activity ad groups, "even when you've opted out of all the auto-applies". His Change History Alerts script flags changes by users not on an approved list (including "Internal Tool" system changes) and caught it. · **Evidence**: Own accounts.
+
+5. **Source**: Nils Rooijmans, "The best agencies don't wear a Google badge" — https://nilsrooijmans.com/daily/the-best-agencies-dont-wear-a-google-badge (fetched) · **Tier** 1 · **Date** 2023-01-13 (upd 2023-12-22) · **Claim**: Partner badge required a 70% optimization score, which pushed agencies to apply recommendations; Google later allowed dismissing recommendations while keeping the score. · **Evidence**: Opinion plus the policy fact.
+
+6. **Source**: Roger Cooney, PPC Hero, "12 ways Google Ads uses Dark Patterns…" — https://ppchero.com/12-ways-google-ads-uses-dark-patterns-to-manipulate-your-decision-making-for-their-benefit-not-yours/ (fetched) · **Tier** added-Tier-2 (passes inclusion for this topic: shows screenshots/examples, names defaults and the opt-out path, contradicts Google) · **Date** 2024-09-30 · **Claim**: Budget recommendations only ever raise budgets (example: campaign at $27.07 CPA vs $25 target told to triple budget, implied CPA >$50); bid recommendations only raise bids and are styled red like policy violations; AARs are hard to spot and can be enabled by any user with access or by a rep; he has seen them add poor ads and irrelevant keywords; path Recommendations > Auto-Apply Recommendations; defaults to override: Search Partners, Display Network, PMax final URL expansion and text assets, "presence or interest" location, broad match default on new campaigns, account-level automated assets, optimized targeting on Display. · **Evidence**: Screenshots and account examples.
+
+7. **Source**: Nils Rooijmans, "Change History Alerts" script — https://nilsrooijmans.com/google-ads-script-change-history-alerts/ (fetched) · **Tier** 1 · **Date** 2023-04-11 (mod 2025-05-27), v1.2 · **Claim**: `change_event` query for YESTERDAY, user email not in IGNORE_USERS, 9,999-row cap; add "Bulk Actions" to the ignore list to skip Automated Rules; example alerts include "accidental application of a Google recommendation". Run daily. · **Evidence**: Published script.
+
+## Dissenting view
+Rooijmans (2023 badge post) notes Google itself relaxed the pressure: dismissing a recommendation no longer costs optimization score, so the badge is not a reason to apply. Cooney (2024) argues the UI still nudges through styling and defaults. Neither canon source defends any AAR. The only live disagreement is whether to also dismiss recommendations (Cooney: review regularly; Rooijmans: ignore them and test your own ideas) — the disagreement is about whether the Recommendations tab has any reading value at all.
+
+## What the platform currently does [Google docs]
+Google docs unreachable from this environment on 2026-10-13 (proxy denial). From prior knowledge, labelled unverified: [Google docs, unverified] Auto-apply is set per account at Recommendations > Auto-apply, split into "Maintain your ads" and "Grow your business" groups; manager accounts can set auto-apply across sub-accounts; dismissed recommendations stop counting against optimization score (confirmed by Rooijmans 2023); the Partner badge requires a 70% optimization score across the manager (Rooijmans 2023); low-activity keyword auto-pausing began June 2024 (Rooijmans 2024, from Google's announcement); the Google Ads API exposes `recommendation` and `recommendation_subscription` resources that can read and set auto-apply status.
+
+## Baseline check
+Read `google-ads-account-audit` and `google-ads-scripts`. The baseline mentions recommendations only as a checklist item; it does not state that opting out does not stop system bulk changes, does not give the change-history monitoring rule, and does not list the defaults that auto-apply re-enables. This skill does.
+
+## Judgment calls
+- PPC Hero (Cooney) added as Tier 2 for this topic only; it is the one fetched source listing the full default set with evidence.
+- Treated the row's "Setting" type literally: the skill is an opt-out procedure plus a standing dismiss list plus the monitoring script that proves the opt-out held.
+- No Google Help page could be fetched; the UI path is from Cooney (2024).
+
+## Canon strength: Strong
+Rooijmans (five posts incl. one case with numbers and one published script) plus an evidence-bearing added Tier 2.
+
+## Invalidated by
+Google removing auto-apply as a per-account setting (e.g., folding it into AI Max/agentic features with no opt-out); Google extending system bulk changes beyond low-activity keywords/ad groups; changes to `change_event` retention or the 10k cap that break the monitoring script.
