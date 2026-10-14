@@ -115,3 +115,7 @@
 - Coverage pass: 23 methods treated as core by Tier 1 sources or exposed on PPC OS's public structure have no skill; added as rows 91–113 with Status "Proposed", not written. Report: coverage-report.md.
 - Judgment call: the Status dropdown was extended with "Proposed" (Phase 2) and "Re-check" (Phase 3) so the GOAL's statuses validate; the Summary tab's COUNTIF ranges and all dropdown ranges were extended from row 91 to row 114 so the new rows count. No other column or tab touched.
 - Thin-canon report written: thin-canon-report.md (5 stubs + secondary gaps + unreachable sources).
+
+## Phase 3 — keep it current (2026-10-14)
+- Quarterly scheduled task created: "Google Ads skills library — quarterly refresh", runs 1 Jan / 1 Apr / 1 Jul / 1 Oct at 07:52 Stockholm on Elias's Mac (it needs the folder). It reads canon.md's watch list, re-checks each Done/NEEDS ELIAS row's sources and the platform changelogs since Last verified, sets Status "Re-check" with the reason in Notes, writes refresh-<date>.md, commits, and sends the flagged list. It never edits skills. Runs were given automatic approval by the server; first run 2027-01-01.
+- Judgment call: the refresh does not update Last verified — that only moves when a human re-verifies a skill.
